@@ -47,31 +47,6 @@
   gtag('config', 'G-V4S9TY013M');
 </script>
 
-<script>
-    const menuToggle = document.querySelector('.menu-toggle');
-    const navMenu = document.querySelector('.nav-menu');
-
-    menuToggle.addEventListener('click', () => {
-      navMenu.classList.toggle('active');
-    });
-
-    /!Boxes on selected menu tab/
-// Get the current page's filename
-const currentPage = window.location.pathname.split('/').pop() || '../index';
-
-// Get all navigation links
-const navLinks = document.querySelectorAll('.nav-menu a');
-
-// Loop through links and add 'active' class to the matching one
-navLinks.forEach(link => {
-  const href = link.getAttribute('href');
-  if (href === currentPage) {
-    link.classList.add('active');
-  }
-});
-
-  </script>
-
 <meta name="msvalidate.01" content="7236DAE93F84C7D3A523CF07BE4E39F0" />
 
 
@@ -417,6 +392,29 @@ navLinks.forEach(link => {
   </div>
 </footer>
 
+  <script>
+    const menuToggle = document.querySelector('.menu-toggle');
+    const navMenu = document.querySelector('.nav-menu');
 
+    menuToggle.addEventListener('click', () => {
+      navMenu.classList.toggle('active');
+    });
+
+    /!Boxes on selected menu tab/
+// Get the current page's filename
+const currentPage = window.location.pathname.split('/').pop() || '../index';
+
+// Get all navigation links
+const navLinks = document.querySelectorAll('.nav-menu a');
+
+// Loop through links and add 'active' class to the matching one
+navLinks.forEach(link => {
+  const href = link.getAttribute('href');
+  if (href === currentPage) {
+    link.classList.add('active');
+  }
+});
+
+  </script>
 </body>
 </html>
