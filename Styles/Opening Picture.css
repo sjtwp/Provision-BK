@@ -4,7 +4,7 @@
 body {
   margin: 0;
   font-family: Arial, sans-serif;
-  padding: 0 0 0 0!important;
+  padding: 0 !important;
 }
 
 /* Parallax Section */
@@ -25,10 +25,10 @@ body {
   position: absolute;
   top: 0;
   left: 0;
-  width: 100vw !important;
+  width: 100vw !important;  /* 👈 FIXED: Always 100vw */
   height: 100vh;
   object-fit: cover;
-  object-position: bottom;  /* Desktop: bottom */
+  object-position: bottom;
   will-change: transform;
   margin: 0 !important;
   padding: 0 !important;
@@ -59,8 +59,26 @@ body {
   margin-top: 20px;
 }
 
-/* MOBILE: Show LEFT side + No Zoom */
+/* 👇 FIXED MOBILE STYLES */
 @media (max-width: 768px) {
-  .overlay h1 { font-size: 2rem; }
-  .overlay p { font-size: 1rem; }
+  .parallax {
+    padding: 0 !important;
+    margin: 0 !important;
+    width: 100vw;  /* 👈 Same as desktop */
+  }
+
+  .parallax-image {
+    width: 100vw !important;  /* 👈 FIXED: NOT 250vw */
+    height: 100vh;
+    object-fit: cover;
+    object-position: bottom;
+  }
+
+  .overlay h1 {
+    font-size: 2rem;  /* 👈 Consistent */
+  }
+
+  .overlay p {
+    font-size: 1rem;
+  }
 }

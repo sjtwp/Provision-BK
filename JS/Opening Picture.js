@@ -7,7 +7,7 @@ window.addEventListener("DOMContentLoaded", () => {
 
   // Set image source based on device
   image.src = isMobile 
-    ? "../Images/minh-pham-IisDPFNUS4k-unsplash 4.JPG" // New photo for mobile
+    ? "../Images/minh-pham-IisDPFNUS4k-unsplash 3.JPG" // New photo for mobile
     : "../Images/minh-pham-IisDPFNUS4k-unsplash 3.JPG"; // Original for desktop
   image.classList.add("parallax-image");
   parallaxContainer.appendChild(image);
@@ -26,7 +26,7 @@ window.addEventListener("DOMContentLoaded", () => {
     if (newIsMobile !== isMobile) {
       // Reload image if device type changes
       image.src = newIsMobile 
-        ? "Images/minh-pham-IisDPFNUS4k-unsplash 4.jpg"
+        ? "Images/minh-pham-IisDPFNUS4k-unsplash 3.jpg"
         : "Images/minh-pham-IisDPFNUS4k-unsplash 3.JPG";
     }
     window.dispatchEvent(new Event('scroll'));
