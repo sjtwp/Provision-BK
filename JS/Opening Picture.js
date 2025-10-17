@@ -3,32 +3,28 @@ window.addEventListener("DOMContentLoaded", () => {
 
   // Create an image element
   const image = new Image();
-  const isMobile = window.innerWidth <= 768; // Check mobile at load
+  let isMobile = window.innerWidth <= 768; // detect at load
 
-  // Set image source based on device
-  image.src = isMobile 
-    ? "../Images/minh-pham-IisDPFNUS4k-unsplash 3.JPG" // New photo for mobile
-    : "../Images/minh-pham-IisDPFNUS4k-unsplash 3.JPG"; // Original for desktop
+  // Use same image for both
+  image.src = "../Images/minh-pham-IisDPFNUS4k-unsplash 3.JPG";
   image.classList.add("parallax-image");
   parallaxContainer.appendChild(image);
 
-  window.addEventListener("scroll", () => {
+  // Parallax scroll effect (only moves, no scale)
+  const handleScroll = () => {
     const scrollY = window.scrollY;
-    const speed = isMobile ? 0.5 : 0.5; // 0.5 = slow on mobile, 0.5 = normal on desktop
-    
-    // Adjust the image's position for parallax effect
-    image.style.transform = `translateY(${scrollY * speed}px)`;
-  });
+    const speed = isMobile ? 0.25 : 0.5; // slower movement on mobile
+    image.style.transform = `translate3d(0, ${scrollY * speed}px, 0)`; // ✅ No scale, no zoom
+  };
 
-  // Update on resize (e.g., orientation change)
+  window.addEventListener("scroll", handleScroll);
+
+  // Update on resize (orientation changes)
   window.addEventListener("resize", () => {
     const newIsMobile = window.innerWidth <= 768;
     if (newIsMobile !== isMobile) {
-      // Reload image if device type changes
-      image.src = newIsMobile 
-        ? "Images/minh-pham-IisDPFNUS4k-unsplash 3.jpg"
-        : "Images/minh-pham-IisDPFNUS4k-unsplash 3.JPG";
+      isMobile = newIsMobile;
+      handleScroll();
     }
-    window.dispatchEvent(new Event('scroll'));
   });
 });
