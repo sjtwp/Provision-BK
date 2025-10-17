@@ -21,18 +21,17 @@ body {
 }
 
 .parallax-image {
-  display: block;
   position: absolute;
   top: 0;
   left: 0;
-  width: 100vw !important;  /* 👈 FIXED: Always 100vw */
-  height: 100vh;
+  width: 100%;
+  height: 100%;
   object-fit: cover;
-  object-position: bottom;
+  transform-origin: center center;
+  transition: none; /* ✅ prevents zoom animations */
   will-change: transform;
-  margin: 0 !important;
-  padding: 0 !important;
 }
+
 
 .overlay {
   position: relative;
@@ -67,12 +66,14 @@ body {
     width: 100vw;  /* 👈 Same as desktop */
   }
 
+
   .parallax-image {
-    width: 100vw !important;  /* 👈 FIXED: NOT 250vw */
+    width: 100%;
     height: 100vh;
     object-fit: cover;
-    object-position: bottom;
   }
+
+
 
   .overlay h1 {
     font-size: 2rem;  /* 👈 Consistent */
