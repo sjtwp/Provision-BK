@@ -1,0 +1,158 @@
+/* Header Box */
+.Blog-main {
+  background-color: #ffffff; /* Matches page background */
+  padding: 120px 30px 50px 0; /* Default padding for desktop */
+  text-align: center;
+}
+
+.Blog-title {
+  font-family: 'Montserrat', sans-serif;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  border: 4px solid #00a9d2;
+  font-weight: 800;
+  border-radius: 15px;
+  color: #00a9d2;
+  width: clamp(50px, 100%, 1000px); /* Fluid width with min & max */
+  margin: 50px auto 40px auto; /* Default margins */
+  transition: transform 0.3s ease;
+  font-size: clamp(0.5rem, 3vw, 1.5rem);
+  background-color: #e6e6e6;
+  padding: 40px 5px;
+}
+
+.Blog-title:hover {
+  transform: scale(1.02); /* Slight scale on hover */
+}
+
+/* Header box-end */
+.blog-container {
+  color: #00a9d2;
+}
+
+/* Article Styles */
+.blog-container {
+  max-width: 1200px; /* Increased to accommodate two columns */
+  margin: 0 auto;
+  padding: 20px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr); /* Two equal columns */
+  gap: 20px; /* Space between columns */
+}
+
+.blog-article {
+  text-align: center;
+  margin-bottom: 40px;
+  color: #00446f; /* Updated text color for articles */
+}
+
+.blog-article h2 {
+  font-size: 2em; /* Slightly smaller for better fit */
+  margin: 0 0 10px;
+  color: #00446f; /* Updated text color */
+  text-decoration: underline;
+  text-decoration-color: #00446f;
+}
+
+.blog-article .meta {
+  color: #00446f; /* Updated text color */
+  font-family: "Google Sans Code", monospace;
+  margin-bottom: 10px;
+}
+
+.blog-article .meta .highlight {
+  color: #00446f; /* Updated to match text color */
+}
+
+.blog-article img {
+  max-width: 80%; /* Reduced image size */
+  border-radius: 12px;
+  height: auto;
+  margin: 20px 0;
+}
+
+
+
+
+
+
+@media (max-width: 768px) {
+  .Blog-main {
+  background-color: #ffffff; /* Matches page background */
+padding: 25% 10px 50px 10px;
+  text-align: center;
+}
+  
+.Blog-title {
+  font-family: 'Montserrat', sans-serif;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  border: 4px solid #00a9d2;
+  font-weight: 800;
+  border-radius: 15px;
+  color: #00a9d2;
+  width: clamp(50px, 100%, 1000px); /* Fluid width with min & max */
+  margin: 50px auto 40px auto; /* Default margins */
+  transition: transform 0.3s ease;
+  font-size: clamp(0.5rem, 3vw, 2.5rem);
+  background-color: #e6e6e6;
+  padding: 40px 5px;
+}
+
+.Blog-title:hover {
+  transform: scale(1.02); /* Slight scale on hover */
+}
+
+  /* Article Styles */
+  .blog-container {
+    max-width: 100%; /* Increased to accommodate two columns */
+    margin: 0 auto;
+    padding: 0 0 0 0px;
+  display:inline-block
+
+
+
+  }
+
+  .blog-article {
+    text-align: center;
+    margin-bottom: 40px;
+    color: #00446f; /* Updated text color for articles */
+  }
+
+  .blog-article h2 {
+    font-size: 2em; /* Slightly smaller for better fit */
+    margin: 0 0 0 0px;
+    display: block;
+    color: #00446f; /* Updated text color */
+    white-space: normal;
+    overflow-wrap: break-word;
+    word-wrap: break-word;
+    word-break: normal;
+    text-decoration: underline;
+    text-decoration-color: #00446f;
+  }
+
+  .blog-article .meta {
+    color: #00446f; /* Updated text color */
+    font-family: "Google Sans Code", monospace;
+    margin-bottom: 10px;
+  }
+
+  .blog-article .meta .highlight {
+    color: #00446f; /* Updated to match text color */
+  }
+
+  .blog-article img {
+    max-width: 100%; /* Reduced image size */
+    border-radius: 12px;
+    height: auto;
+    margin: 20px 0;
+  }
+}

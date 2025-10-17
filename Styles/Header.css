@@ -1,0 +1,152 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400&display=swap');
+
+/* Hide scrollbar, still allows scrolling */
+html {
+  scrollbar-width: none; /* For Firefox */
+}
+html::-webkit-scrollbar {
+  display: none; /* For Chrome, Safari, Edge */
+}
+
+header {
+  background-color: #ffffff;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  position: fixed;
+  width: 100vw;
+  top: 0;
+  z-index: 1000;
+  margin: 0;
+  padding: 0;
+  left: 0;
+  right: 0;
+}
+
+.header-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 25px 20px;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+}
+
+.logo img {
+  width: 40px;
+  height: 40px;
+  margin-right: 10px;
+}
+
+.logo span {
+  font-size: 24px;
+  font-weight: bold;
+  color: #00446f;
+}
+
+.nav-menu {
+  display: flex;
+  gap: 20px;
+}
+
+.nav-menu a {
+  color: #00446f; /* Default text color */
+  text-decoration: none;
+  font-size: 16px;
+  position: relative;
+  text-transform: uppercase;
+}
+
+.nav-menu a:hover {
+  color: #00446f; /* Keep text color dark blue on hover */
+}
+
+.nav-menu a:hover::after {
+  content: '';
+  position: absolute;
+  width: calc(100% + 10px);
+  height: calc(100% + 10px);
+  left: -5px;
+  top: -5px;
+  background-color: #ffe68c; /* Yellow background on hover */
+  border-radius: 3px;
+  z-index: -1;
+  clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+}
+
+.menu-toggle {
+  display: none;
+  font-size: 24px;
+  background: none;
+  border: none;
+  cursor: pointer;
+  color: #00446f;
+  
+}
+
+.nav-menu a.active {
+  color: #00446f; /* Ensure active state keeps dark blue text */
+  position: relative;
+  font-weight: bold;
+  border-bottom: 2px solid #00446f; /* Thicker underline using border */
+}
+
+.nav-menu a.active::after {
+  content: '';
+  position: absolute;
+  width: calc(100% + 10px);
+  height: calc(100% + 10px);
+  left: -5px;
+  top: -5px;
+  font-weight: bold;
+  text-decoration: underline;
+  border-radius: 2px;
+  z-index: -1;
+  clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+}
+
+
+
+@media (max-width: 768px) {
+  .nav-menu {
+    display: none;
+    position: absolute;
+    top: 80px;
+    left: 0;
+    width: 100%;
+    background-color: #ffffff;
+    flex-direction: column;
+    padding: 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+
+  .nav-menu.active {
+    display: flex;
+  }
+
+  .menu-toggle {
+    display: block;
+  font-size: 24px;
+  }
+
+  .header-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  line-height: 1;
+  justify-content: space-between;  
+  align-items: center;
+  padding: 25px 0px 10px 6px;
+  font-size: 10rem;
+  text-align: left;   /* ensures text aligns left */
+  text-transform: capitalize;
+  margin: 0;          /* removes extra space */
+  color: #00446f;     /* matches your theme */
+
+  }
+
+}

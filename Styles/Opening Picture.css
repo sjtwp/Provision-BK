@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400&display=swap');
+
+/* General Styles */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  padding: 0 !important; /* Override any body padding to remove blue spacing */
+}
+
+/* Parallax Section */
+.parallax {
+  position: relative;
+  height: 100vh;
+  overflow: hidden;
+  margin: 0 !important;
+  padding: 0 !important;
+  width: 100vw;
+  left: 0;
+  right: 0;
+  background: none !important;
+}
+
+.parallax-image {
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100vw !important;
+  height: 100vh; /* slightly taller for parallax effect */
+  object-fit: cover;
+  object-position: bottom; /* 👈 This is the key */
+  will-change: transform;
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
+.overlay {
+  position: relative;
+  z-index: 1;
+  text-align: center;
+  color: #00446f;
+  padding: 40vh 20px 0;
+}
+
+.overlay h1 {
+  font-size: 2.5rem;
+}
+
+.overlay p {
+  font-size: 1.25rem;
+}
+
+.price {
+  text-decoration: underline;
+}
+
+.scroll-down {
+  font-size: 2rem;
+  margin-top: 20px;
+}
+
+/* Responsive styles for smaller screens */
+@media (max-width: 768px) {
+  .parallax {
+    padding: 0 !important;
+    margin: 0 !important;
+    width: 100vw;
+  }
+
+  @media (max-width: 768px) {
+    .overlay h1 {
+      font-size: 1.2rem; /* or whatever smaller size you prefer */
+      line-height: 1.1;
+    }
+  }
+  
+
+  .parallax-image {
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 250vw !important;
+    height: 100vh; /* slightly taller for parallax effect */
+    object-fit: cover;
+    object-position: bottom; /* 👈 This is the key */
+    will-change: transform;
+    margin: 0 !important;
+    padding: 0 !important;
+  }
+
+  .overlay h1 {
+    font-size: 2rem;
+  }
+
+  .overlay p {
+    font-size: 1rem;
+  }
+}
+
+
+
+
+
+

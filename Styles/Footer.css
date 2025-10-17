@@ -1,0 +1,158 @@
+footer {
+    background-color: #f8f8f8;
+    color: #333;
+    padding: 20px;
+    text-align: center;
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    border-top: 2px solid #ddd;
+  }
+  
+  footer div {
+    margin: 10px 0;
+  }
+  
+  .contact-info {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 15px;
+  }
+  
+  .contact-item {
+    display: inline-block;
+  }
+  
+.footer_icons {
+  display: inline-flex; 
+  align-items: center; 
+  padding: 10px 0 0 0;
+  gap: 60px;
+  
+}
+  .footer_icons img{
+  height: 2em;
+  width: auto;
+
+ } 
+
+  footer a {
+    color: #0077cc;
+    text-decoration: none;
+  }
+  
+  footer a:hover {
+    text-decoration: underline;
+  }
+  
+  .privacy-link,
+  .terms-link {
+    display: inline-block;
+    margin: 0 10px;
+  }
+
+
+  /* Responsive design for smaller screens */
+@media (max-width: 768px) {
+  .Blog-main {
+    padding: 160px 0px; /* Further reduced padding for mobile */
+    box-sizing: border-box; /* Ensure padding doesn't cause overflow */
+  }
+
+  .contact-info {
+      flex-direction: column;
+      align-items: center;
+    }
+    .privacy-link,
+    .terms-link {
+      display: block;
+      margin: 5px 0;
+    }
+
+.footer_icons {
+  display: inline-flex;
+  align-items: center;
+  gap: 20px; /* 👈 smaller number = tighter spacing */
+  padding: 10px 0 0 0;
+}
+
+.footer_icons img {
+  height: 2em;
+  width: auto;
+}
+
+  .Blog-title {
+    width: calc(100% - 20px); /* Full width minus smaller margins */
+    margin: 40px 10px; /* Reduced margins for mobile */
+    padding: 15px 10px; /* Tighter padding for better fit */
+    font-size: clamp(0.5rem, 4.5vw, 1.5rem); /* Smaller, more proportional font size */
+    box-sizing: border-box; /* Prevent overflow */
+  }
+
+  .blog-container {
+    grid-template-columns: 1fr; /* Single column on small screens */
+    padding: 10px; /* Minimal padding */
+    gap: 10px; /* Tighter gap between articles */
+    max-width: 100%; /* Ensure container fits viewport */
+  }
+
+  .blog-article {
+    margin-bottom: 20px; /* Reduced margin for compact layout */
+    padding: 0 5px; /* Minimal padding to keep content centered */
+  }
+
+  .blog-article h1 {
+    font-size: 1.3em; /* Smaller heading size for mobile */
+    margin: 0 0 6px; /* Tighter margin */
+    line-height: 1.2; /* Improve readability */
+  }
+
+  .blog-article .meta {
+    font-size: 0.85em; /* Smaller meta text */
+    margin-bottom: 8px;
+  }
+
+  .blog-article img {
+    max-width: 100%; /* Full width for images to fit comfortably */
+    margin: 10px 0; /* Reduced margin for images */
+    border-radius: 8px; /* Slightly smaller border radius */
+  }
+
+  .blog-article p {
+    margin: 8px 10px; /* Tighter, consistent margins */
+    font-size: 0.85em; /* Smaller text for mobile */
+    line-height: 1.4; /* Improve readability */
+  }
+
+  .footer-content {
+    padding: 4px 2px; /* Tighter padding to maximize horizontal space */
+    text-align: center;
+    box-sizing: border-box;
+    font-size: small;
+  }
+
+  .footer-nav {
+    display: flex;
+    flex-direction: column; /* Stack footer links vertically */
+    align-items: center;
+    gap: 8px; /* Tighter spacing between links */
+    margin: 10px 0; /* Reduced margin */
+  }
+
+  .footer-nav a {
+    margin: 0; /* Remove horizontal margins */
+    padding: px 0; /* Smaller padding for touch targets */
+    font-size: 0.9em; /* Slightly smaller font */
+  }
+
+  .cta {
+    margin-top: 10px; /* Reduced margin for call-to-action */
+  }
+
+  .footer-content img[alt="Provision Bookkeeping LLC"] {
+    height: 10px; /* Smaller logo for mobile */
+  }
+
+
+
+  }

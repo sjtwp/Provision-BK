@@ -1,0 +1,160 @@
+/* Styles/Welcome.css */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400&display=swap');
+
+
+main {caret-color: transparent
+}
+
+.welcome-section {
+  background-color: #ffffff; /* White background to contrast with blue section above */
+  margin: 0;
+  padding: 40px 20px;
+  width: 100vw;
+}
+
+.welcome-overlay {
+  max-width: 1200px;
+  margin: 0 auto;
+  text-align: center;
+  color: #00446f;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.welcome-overlay  {
+  font-size: 1.2rem;
+  line-height: 1.6;
+}
+
+/*Header Box*/
+
+.Welcome-main {
+  background-color: #ffffff; /* Matches page background */
+  padding: 0px 30px; /* Increased padding for vertical space */
+  text-align: center;
+}
+
+.Welcome-title {
+
+    font-family: 'Montserrat', sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border: 4px solid #156E0B; /* changed here */
+    font-weight: 800;
+    border-radius: 15px;
+    color: #156E0B;
+    width: clamp(50px, 100%, 1000px);  /* fluid width with min & max */
+    margin: 100px auto 0px auto;
+    transition: transform 0.3s ease;
+    font-size: clamp(.5rem, 3vw, 1.5rem);
+    background-color: #e6e6e6;
+    padding: 40px 5px;
+}
+
+.Welcome-title:hover {
+  transform: scale(1.02); /* Slight scale on hover */
+}
+
+/*Header box-end*/
+
+
+.welcome-image {
+  display: flex;
+  justify-content: center; /* Center the images horizontally */
+  align-items: center;     /* Optional: align vertically */
+  gap: 20px;               /* Reduced gap for smaller screens */
+  padding: 20px 0;
+}
+
+.welcome-image .QB {
+  width: 100%;
+  max-width: clamp(50px, 40vw, 5000px);          /* Smaller default size (20% of viewport width) */
+  height: auto;
+  border-radius: 15px;
+  transition: transform 0.3s ease;
+}
+
+.welcome-image .Proadvisor {
+  width: 100%;
+  max-width: clamp(50px, 50vw, 500px);        /* Smaller default size (20% of viewport width) */
+  height: auto;
+  border-radius: 15px;
+  transition: transform 0.3s ease;
+}
+
+.welcome-image .QB:hover {
+  transform: scale(1.05);
+}
+
+.welcome-image .Proadvisor:hover {
+  transform: scale(1.05);
+}
+
+
+
+
+
+
+@media (max-width: 768px) {
+  .welcome-section {
+    padding: 20px 10px;
+  }
+
+  .welcome-overlay p {
+    font-size: 1rem;
+  }
+}
+
+/* Mobile view */
+@media (max-width: 768px) {
+    .welcome-overlay {
+      position: relative;
+      max-width: 90%;           /* Keep it narrower */
+      margin: 0 auto;
+      padding: 30px 15px;       /* Add top/bottom padding for space */
+    }
+  
+    .welcome-overlay::before,
+    .welcome-overlay::after {
+      content: '';
+      position: absolute;
+      top: 15%;                  /* Vertical offset from top */
+      bottom: 15%;               /* Vertical offset from bottom */
+      width: 2px;
+      background-color: #156E0B;
+    }
+  
+    .welcome-overlay::before {
+      left: 0;
+    }
+  
+    .welcome-overlay::after {
+      right: 0;
+    }
+  }
+  
+  
+  
+/* Desktop view */
+@media (min-width: 769px) {
+    .welcome-overlay {
+      position: relative;
+      padding: 30px 0;
+    }
+  
+    .welcome-overlay::before,
+    .welcome-overlay::after {
+      content: '';
+      display: block;
+      height: 4px;           /* Line thickness */
+      background-color: #156E0B;
+      max-width: 70%;        /* Very long line (% of screen) */
+      margin: 40px auto;     /* Increased space between lines and text */
+    }
+  }
+  
+  
+  
+  
