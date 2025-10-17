@@ -7,8 +7,8 @@ window.addEventListener("DOMContentLoaded", () => {
 
   // Set image source based on device
   image.src = isMobile 
-    ? "Images/minh-pham-IisDPFNUS4k-unsplash 4.jpg" // New photo for mobile
-    : "Images/minh-pham-IisDPFNUS4k-unsplash 3.JPG"; // Original for desktop
+    ? "../Images/minh-pham-IisDPFNUS4k-unsplash 4.JPG" // New photo for mobile
+    : "../Images/minh-pham-IisDPFNUS4k-unsplash 3.JPG"; // Original for desktop
   image.classList.add("parallax-image");
   parallaxContainer.appendChild(image);
 
