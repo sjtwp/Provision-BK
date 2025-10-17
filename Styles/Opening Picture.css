@@ -4,7 +4,7 @@
 body {
   margin: 0;
   font-family: Arial, sans-serif;
-  padding: 0 !important; /* Override any body padding to remove blue spacing */
+  padding: 0 !important;
 }
 
 /* Parallax Section */
@@ -26,9 +26,9 @@ body {
   top: 0;
   left: 0;
   width: 100vw !important;
-  height: 100vh; /* slightly taller for parallax effect */
+  height: 100vh;
   object-fit: cover;
-  object-position: bottom; /* 👈 This is the key */
+  object-position: bottom;  /* Desktop: bottom */
   will-change: transform;
   margin: 0 !important;
   padding: 0 !important;
@@ -59,7 +59,7 @@ body {
   margin-top: 20px;
 }
 
-/* Responsive styles for smaller screens */
+/* MOBILE: Show LEFT side + No Zoom */
 @media (max-width: 768px) {
   .parallax {
     padding: 0 !important;
@@ -67,25 +67,12 @@ body {
     width: 100vw;
   }
 
-  @media (max-width: 768px) {
-    .overlay h1 {
-      font-size: 1.2rem; /* or whatever smaller size you prefer */
-      line-height: 1.1;
-    }
-  }
-  
-
   .parallax-image {
-    display: block;
-    position:-ms-page;
-    top: 0;
-    left: 0;
-    width: 250vw !important;
-    height: 100vh; /* slightly taller for parallax effect */
+    width: 100vw !important;
+    height: 100vh;
     object-fit: cover;
-    object-position: bottom; /* 👈 This is the key */
-    will-change: transform;
-    padding: 0 0  0 0!important;
+   object-position: -100px -45px;
+  
   }
 
   .overlay h1 {
@@ -96,9 +83,3 @@ body {
     font-size: 1rem;
   }
 }
-
-
-
-
-
-
