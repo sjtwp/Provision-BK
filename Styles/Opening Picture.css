@@ -61,25 +61,6 @@ body {
 
 /* MOBILE: Show LEFT side + No Zoom */
 @media (max-width: 768px) {
-  .parallax {
-    padding: 0 !important;
-    margin: 0 !important;
-    width: 100vw;
-  }
-
-  .parallax-image {
-    width: 100vw !important;
-    height: 100vh;
-    object-fit: cover;
-   object-position: -100px -45px;
-  
-  }
-
-  .overlay h1 {
-    font-size: 2rem;
-  }
-
-  .overlay p {
-    font-size: 1rem;
-  }
+  .overlay h1 { font-size: 2rem; }
+  .overlay p { font-size: 1rem; }
 }
