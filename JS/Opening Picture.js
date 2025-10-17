@@ -14,7 +14,7 @@ window.addEventListener("DOMContentLoaded", () => {
 
   window.addEventListener("scroll", () => {
     const scrollY = window.scrollY;
-    const speed = isMobile() ? 0.25 : 0.5; // 0.25 = half speed on mobile, 0.5 = normal on desktop
+    const speed = isMobile() ? 0.05 : 0.5; // 0.05 = half speed on mobile, 0.5 = normal on desktop
     
     // Adjust the image's position for parallax effect
     image.style.transform = `translateY(${scrollY * speed}px)`;
