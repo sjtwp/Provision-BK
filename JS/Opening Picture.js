@@ -27,4 +27,12 @@ window.addEventListener("DOMContentLoaded", () => {
       handleScroll();
     }
   });
+
+  window.addEventListener("scroll", () => {
+  const scrollY = window.scrollY;
+  const speed = window.innerWidth <= 768 ? 0.25 : 0.5;
+  image.style.transform = `translateY(${scrollY * speed}px)`; // ✅ no scaling
+});
+
+
 });

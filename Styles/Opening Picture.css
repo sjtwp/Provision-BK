@@ -10,14 +10,9 @@ body {
 /* Parallax Section */
 .parallax {
   position: relative;
+  width: 100%;
   height: 100vh;
   overflow: hidden;
-  margin: 0 !important;
-  padding: 0 !important;
-  width: 100vw;
-  left: 0;
-  right: 0;
-  background: none !important;
 }
 
 .parallax-image {
@@ -27,10 +22,12 @@ body {
   width: 100%;
   height: 100%;
   object-fit: cover;
-  transform-origin: center center;
-  transition: none; /* ✅ prevents zoom animations */
+  object-position: center;
+  transform: translate3d(0, 0, 0);
   will-change: transform;
+  transition: none;
 }
+
 
 
 .overlay {
@@ -60,10 +57,20 @@ body {
 
 /* 👇 FIXED MOBILE STYLES */
 @media (max-width: 768px) {
+
+  .overlay {
+  position: relative;
+  z-index: 1;
+  text-align: center;
+  color: #00446f;
+  padding: 25vh 20px 0;
+}
+
   .parallax {
     padding: 0 !important;
     margin: 0 !important;
     width: 100vw;  /* 👈 Same as desktop */
+    height: 100dvh; /* <- instead of 100vh (dvh = dynamic viewport height) */
   }
 
 
@@ -71,6 +78,7 @@ body {
     width: 100%;
     height: 100vh;
     object-fit: cover;
+    height: 100dvh; /* <- instead of 100vh (dvh = dynamic viewport height) */
   }
 
 
