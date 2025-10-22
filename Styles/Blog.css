@@ -155,4 +155,28 @@ padding: 25% 10px 50px 10px;
     height: auto;
     margin: 20px 0;
   }
+
+.pagination {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  margin: 20px 0;
+}
+
+.pagination-link {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #00446f;
+  color: #fad962;
+  text-decoration: none;
+  border-radius: 5px;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 16px;
+}
+
+.pagination-link:hover {
+  background-color: #fad962;
+  color: #00446f;
+}
+
 }
