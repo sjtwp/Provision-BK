@@ -48,5 +48,15 @@
     "mins": "7 min",
     "image": "Articles/Article_Images/contractor_at_work.jpg",
     "safe_title": "Employee_vs._Contractor_Understanding_the_Difference.html"
+  },
+  {
+    "title": "AI-Proofing Your Small Business",
+    "summary": "The rise of artificial intelligence (AI) is reshaping industries, and small businesses must adapt to stay competitive. Rather than resisting AI, businesses can embrace it to enhance efficiency while offering human-centric services that AI cannot replicate.",
+    "author": "Matthew Jacob",
+    "date": "October 22, 2025",
+    "parsed_date": "2025-10-22T00:00:00",
+    "mins": "8 min",
+    "image": "Articles/Article_Images/AI-Proofing Your Small Business.jpg",
+    "safe_title": "AI-Proofing_Your_Small_Business.html"
   }
 ]
