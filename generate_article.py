@@ -70,7 +70,7 @@ def parse_article_metadata(txt_file):
         "parsed_date": parsed_date,
         "mins": mins,
         "image": f"Articles/Article_Images/{image}",
-        "safe_title": title.replace(" ", "_").replace(":", "").replace("/", "_") + ".html"
+        "safe_title": title.replace(" ", "_").replace(":", "").replace("/", "_")  # Removed .html
     }
     print(f"✅ Parsed metadata: {metadata}")
     return metadata
@@ -162,9 +162,9 @@ def generate_article_html(txt_file):
         print(f"❌ Error creating directory {output_folder}: {e}")
         sys.exit(1)
 
-    # Generate safe file name
+    # Generate safe file name (without .html for links, but keep .html for file output)
     safe_title = title.replace(" ", "_").replace(":", "").replace("/", "_")
-    output_file = os.path.join(output_folder, f"{safe_title}.html")
+    output_file = os.path.join(output_folder, f"{safe_title}.html")  # File still needs .html
 
     # HTML template for article
     html = f"""<!DOCTYPE html>
@@ -174,7 +174,7 @@ def generate_article_html(txt_file):
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="{summary}">
     <meta name="keywords" content="bookkeeping, contractor vs employee, business finance, {author}">
-    <link rel="canonical" href="https://provisionbk.com/Articles/Article_HTMLs/{safe_title}.html">
+    <link rel="canonical" href="https://provisionbk.com/Articles/Article_HTMLs/{safe_title}">
     <title>{title}</title>
     <link rel="stylesheet" href="../../Styles/Header.css">
     <link rel="stylesheet" href="../../Styles/Opening Picture.css">
@@ -187,8 +187,9 @@ def generate_article_html(txt_file):
     <link rel="stylesheet" href="../../Styles/Blog.css">
     <link rel="stylesheet" href="../../Styles/Articles.css">
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;800&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Google+Sans+Code:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
-    <link rel="icon" type="image/x-icon" href="/Provision Bookkeeping.ico">
+    <link href="https://fonts.g
+oogleapis.com/css2?family=Google+Sans+Code:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
+    <link rel="icon" type="image/x-icon" href="/Images/Provision Bookkeeping Logo.ico">
     <!-- Google tag (gtag.js) -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-V4S9TY013M"></script>
     <script>
@@ -238,22 +239,22 @@ def generate_article_html(txt_file):
 <body>
     <header>
         <div class="header-container">
-            <a href="/index.html" class="logo">
+            <a href="/index" class="logo">
                 <img src="/Images/Provision Bookkeeping Logo.png" alt="Provision Bookkeeping LLC Logo">
                 <span>PROVISION BOOKKEEPING</span>
             </a>
             <nav class="nav-menu">
-                <a href="/index.html">Home</a>
-                <a href="/about-us.html">About</a>
-                <a href="/blog.html">Blog</a>
-                <a href="/contact-us.html">Contact</a>
+                <a href="/index">Home</a>
+                <a href="/about-us">About</a>
+                <a href="/blog">Blog</a>
+                <a href="/contact-us">Contact</a>
             </nav>
             <button class="menu-toggle" aria-label="Toggle navigation">☰</button>
         </div>
     </header>
     <main>
         <section class="previous_page1">
-            <a href="/blog.html"><p>Back</p></a>
+            <a href="/blog"><p>Back</p></a>
         </section>
         <section class="article-main">
             <div class="article-title">
@@ -286,7 +287,7 @@ def generate_article_html(txt_file):
             </section>
         </article>
         <section class="previous_page2">
-            <a href="/blog.html"><p>Back</p></a>
+            <a href="/blog"><p>Back</p></a>
         </section>
     </main>
     <footer role="contentinfo">
@@ -305,13 +306,13 @@ def generate_article_html(txt_file):
                 <a href="https://www.instagram.com/provision_bookkeeping/?igsh=MXhvcnBrdTI3OGF5cA%3D%3D&utm_source=qr" aria-label="Instagram"><img src="/Images/instagram_logo.png" alt="Instagram"></a>
             </div>
             <nav class="footer-nav">
-                <a href="/index.html" style="flex: 1; margin: 0 10px; padding: 0px 0px;">Home</a>
-                <a href="/about-us.html" style="flex: 1; margin: 0 10px; padding: 0px 0px;">About Us</a>
-                <a href="/blog.html" style="flex: 1; margin: 0 10px; padding: 0px 0px;">Blog</a>
-                <a href="/contact-us.html" style="flex: 1; margin: 0 10px; padding: 0px 0px;">Contact</a>
-                <a href="/sitemap.html" style="flex: 1; margin: 0 10px; padding: 0px 0px;">Sitemap</a>
-                <a href="/privacy-policy.html" style="flex: 1; margin: 0 10px; padding: 0px 0px;">Privacy Policy</a>
-                <a href="/terms-of-service.html" style="flex: 1; margin: 0 10px; padding: 0px 0px;">Terms of Service</a>
+                <a href="/index" style="flex: 1; margin: 0 10px; padding: 0px 0px;">Home</a>
+                <a href="/about-us" style="flex: 1; margin: 0 10px; padding: 0px 0px;">About Us</a>
+                <a href="/blog" style="flex: 1; margin: 0 10px; padding: 0px 0px;">Blog</a>
+                <a href="/contact-us" style="flex: 1; margin: 0 10px; padding: 0px 0px;">Contact</a>
+                <a href="/sitemap" style="flex: 1; margin: 0 10px; padding: 0px 0px;">Sitemap</a>
+                <a href="/privacy-policy" style="flex: 1; margin: 0 10px; padding: 0px 0px;">Privacy Policy</a>
+                <a href="/terms-of-service" style="flex: 1; margin: 0 10px; padding: 0px 0px;">Terms of Service</a>
             </nav>
             <div class="cta">
                 <a href="" onclick="Calendly.initPopupWidget({{url: 'https://calendly.com/provisionbk/30min?hide_event_type_details=1&hide_gdpr_banner=1&text_color=00446f&primary_color=00446f'}});return false;">Schedule a FREE Meeting</a>
@@ -325,7 +326,7 @@ def generate_article_html(txt_file):
         menuToggle.addEventListener('click', () => {{
             navMenu.classList.toggle('active');
         }});
-        const currentPage = window.location.pathname.split('/').pop() || 'index.html';
+        const currentPage = window.location.pathname.split('/').pop() || 'index';
         const navLinks = document.querySelectorAll('.nav-menu a');
         navLinks.forEach(link => {{
             if (link.getAttribute('href') === currentPage) {{
@@ -354,7 +355,7 @@ def generate_article_html(txt_file):
         "date": date,
         "mins": mins,
         "image": image,
-        "safe_title": safe_title
+        "safe_title": safe_title  # Without .html
     }
 
 def initialize_articles_metadata(articles_dir):
@@ -375,7 +376,7 @@ def initialize_articles_metadata(articles_dir):
             "parsed_date": datetime.strptime("October 3, 2025", "%B %d, %Y").isoformat(),
             "mins": "5 min",
             "image": "Images/5 Qualities Bookkeepers Must Have.avif",
-            "safe_title": "5_Things_To_Look_For_In_A_Bookkeeper.html"
+            "safe_title": "5_Things_To_Look_For_In_A_Bookkeeper"  # Without .html
         },
         {
             "title": "Save Money. Be Frugal!",
@@ -385,7 +386,7 @@ def initialize_articles_metadata(articles_dir):
             "parsed_date": datetime.strptime("September 26, 2025", "%B %d, %Y").isoformat(),
             "mins": "",
             "image": "Images/Save_Money.jpg",
-            "safe_title": "Save_Money._Be_Frugal.html"
+            "safe_title": "Save_Money._Be_Frugal"  # Without .html
         },
         {
             "title": "Understanding Financial Statements",
@@ -395,7 +396,7 @@ def initialize_articles_metadata(articles_dir):
             "parsed_date": datetime.strptime("September 19, 2025", "%B %d, %Y").isoformat(),
             "mins": "",
             "image": "Images/financial_statements.png",
-            "safe_title": "Financial_Statements_guide.html"
+            "safe_title": "Financial_Statements_guide"  # Without .html
         },
         {
             "title": "CPA vs. Bookkeeper: Understanding the Difference",
@@ -405,7 +406,7 @@ def initialize_articles_metadata(articles_dir):
             "parsed_date": datetime.strptime("September 12, 2025", "%B %d, %Y").isoformat(),
             "mins": "",
             "image": "Images/CPA_v_BK.jpg",
-            "safe_title": "cpa_vs_bookkeeper.html"
+            "safe_title": "cpa_vs_bookkeeper"  # Without .html
         }
     ]
 
@@ -547,15 +548,15 @@ def generate_blog_html(articles, output_dir):
 <body>
   <header>
     <div class="header-container">
-      <a href="/index.html" class="logo">
+      <a href="/index" class="logo">
         <img src="/Images/Provision Bookkeeping Logo.png" alt="Provision Bookkeeping LLC Logo">
         <span>PROVISION BOOKKEEPING</span>
       </a>
       <nav class="nav-menu">
-        <a href="/index.html">Home</a>
-        <a href="/about-us.html">About</a>
-        <a href="/blog.html">Blog</a>
-        <a href="/contact-us.html">Contact</a>
+        <a href="/index">Home</a>
+        <a href="/about-us">About</a>
+        <a href="/blog">Blog</a>
+        <a href="/contact-us">Contact</a>
       </nav>
       <button class="menu-toggle" aria-label="Toggle navigation">☰</button>
     </div>
@@ -599,12 +600,12 @@ def generate_blog_html(articles, output_dir):
     <div class="pagination">
 """
         if page > 1:
-            prev_page = "blog.html" if page == 2 else f"blog_page_{page-1}.html"
+            prev_page = "blog" if page == 2 else f"blog_page_{page-1}"
             blog_html += f"""
       <a href="/{prev_page}" class="pagination-link">Previous</a>
 """
         if page < total_pages:
-            next_page = f"blog_page_{page+1}.html"
+            next_page = f"blog_page_{page+1}"
             blog_html += f"""
       <a href="/{next_page}" class="pagination-link">Next</a>
 """
@@ -637,13 +638,13 @@ def generate_blog_html(articles, output_dir):
         </a>
       </div>
       <nav class="footer-nav">
-        <a href="/index.html" style="flex: 1; margin: 0 10px; padding: 0px 0px;">Home</a>
-        <a href="/about-us.html" style="flex: 1; margin: 0 10px; padding: 0px 0px;">About Us</a>
-        <a href="/blog.html" style="flex: 1; margin: 0 10px; padding: 0px 0px;">Blog</a>
-        <a href="/contact-us.html" style="flex: 1; margin: 0 10px; padding: 0px 0px;">Contact</a>
-        <a href="/sitemap.html" style="flex: 1; margin: 0 10px; padding: 0px 0px;">Sitemap</a>
-        <a href="/privacy-policy.html" style="flex: 1; margin: 0 10px; padding: 0px 0px;">Privacy Policy</a>
-        <a href="/terms-of-service.html" style="flex: 1; margin: 0 10px; padding: 0px 0px;">Terms of Service</a>
+        <a href="/index" style="flex: 1; margin: 0 10px; padding: 0px 0px;">Home</a>
+        <a href="/about-us" style="flex: 1; margin: 0 10px; padding: 0px 0px;">About Us</a>
+        <a href="/blog" style="flex: 1; margin: 0 10px; padding: 0px 0px;">Blog</a>
+        <a href="/contact-us" style="flex: 1; margin: 0 10px; padding: 0px 0px;">Contact</a>
+        <a href="/sitemap" style="flex: 1; margin: 0 10px; padding: 0px 0px;">Sitemap</a>
+        <a href="/privacy-policy" style="flex: 1; margin: 0 10px; padding: 0px 0px;">Privacy Policy</a>
+        <a href="/terms-of-service" style="flex: 1; margin: 0 10px; padding: 0px 0px;">Terms of Service</a>
       </nav>
       <div class="cta">
         <a href="" onclick="Calendly.initPopupWidget({url: 'https://calendly.com/provisionbk/30min?hide_event_type_details=1&hide_gdpr_banner=1&text_color=00446f&primary_color=00446f'});return false;">Schedule a FREE Meeting</a>
@@ -657,7 +658,7 @@ def generate_blog_html(articles, output_dir):
     menuToggle.addEventListener('click', () => {
       navMenu.classList.toggle('active');
     });
-    const currentPage = window.location.pathname.split('/').pop() || 'index.html';
+    const currentPage = window.location.pathname.split('/').pop() || 'index';
     const navLinks = document.querySelectorAll('.nav-menu a');
     navLinks.forEach(link => {
       if (link.getAttribute('href') === currentPage) {
@@ -706,7 +707,7 @@ def generate_article_from_txt(txt_file):
     output_dir = os.path.dirname(articles_dir)
     generate_blog_html(articles, output_dir)
 
-    print(f"✅ Article HTML generated at: {os.path.join(articles_dir, 'Article_HTMLs', article_metadata['safe_title'])}")
+    print(f"✅ Article HTML generated at: {os.path.join(articles_dir, 'Article_HTMLs', article_metadata['safe_title'] + '.html')}")
     print(f"✅ Process completed for: {txt_file}")
 
 if __name__ == "__main__":
