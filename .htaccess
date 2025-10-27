@@ -1,0 +1,9 @@
+# .htaccess
+RewriteEngine On
+
+# Serve sitemap.xml from /public/sitemap.xml
+RewriteRule ^sitemap\.xml$ public/sitemap.xml [L]
+
+# Optional: Force HTTPS
+RewriteCond %{HTTPS} off
+RewriteRule ^ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
