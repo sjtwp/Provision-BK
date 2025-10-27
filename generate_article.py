@@ -1,3 +1,5 @@
+#python generate_article.py "Articles/new_article.txt"
+
 import os
 import sys
 import json
