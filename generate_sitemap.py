@@ -9,7 +9,7 @@ import urllib.request
 # ----------------------------------------------------------------------
 BASE_URL         = "https://provisionbk.com"
 PROJECT_ROOT     = os.getcwd()
-OUTPUT_PATH      = os.path.join(PROJECT_ROOT, "public", "sitemap.xml")
+OUTPUT_PATH      = os.path.join(PROJECT_ROOT, "sitemap.xml")
 META_PATH        = os.path.join(PROJECT_ROOT, "Articles", "articles_metadata.json")
 HTML_DIR         = os.path.join(PROJECT_ROOT, "Articles", "Article_HTMLs")
 
