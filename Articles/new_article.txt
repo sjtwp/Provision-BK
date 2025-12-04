@@ -1,70 +1,42 @@
-Title: What I Need to Do Before the End of the Tax Year
+Title: Commercial Real Estate Owners with Multiple LLCs, One QuickBooks Account or Many
 Author: Matthew Jacob
-Date: October 27, 2025
-ReadTime: 9 min
-Image: tax_prep_calendar.png
+Date: December 4, 2025
+ReadTime: 7 min
+Image: multi_property_quickbooks.jpg
+
 
 Summary:
-With only two months left in 2025, now is the time to finalize your financial records, maximize deductions, and avoid last-minute stress. This article provides a step-by-step checklist and deadline calendar to help freelancers, small business owners, and individuals close out the tax year cleanly—ensuring compliance, minimizing taxes, and setting up 2026 for success.
+You own several commercial buildings, each in its own LLC, and everyone keeps telling you that you need a separate QuickBooks file for every property. You don’t. Here’s the professional standard used by most $10M–$150M portfolios, plus the exact step-by-step checklist to set it up correctly in a single QuickBooks file—cleanly, legally, and ready for taxes, lenders, or sale.
 
-Section:1. Gather & Organize All Financial Records
-• Collect every document: Bank statements, credit card statements, receipts, invoices, mileage logs, and prior-year tax returns.
-• Digitize everything: Scan paper receipts and store them in a cloud folder (e.g., Google Drive, Dropbox) labeled by category—Meals & Entertainment, Home Office, Travel, etc.
-• Reconcile accounts: Match every transaction in your bank/credit card feeds to your bookkeeping software (QuickBooks, Xero, Wave, or even Excel).
-• Flag missing items: Chase down any uncategorized expenses now—vendors are more responsive in November than March.
-• Gather loan documents early: If you financed a vehicle, equipment, or took out a small business loan in 2025, let your lender know you need year-end statements now. Include interest paid (Form 1098), loan origination docs, and payment history—these are deductible and must be in your books before year-end close.
+Section:The Myth That’s Costing You Time and Money
+“Every LLC needs its own QuickBooks company” This is false for 95 % of private commercial owners. The IRS, your bank, and your CPA only care that you can produce accurate, separate financials per property/LLC. QuickBooks gives you exactly that with one built-in tool: Classes.
 
-Section:2. Catch Up on Bookkeeping (Yes, All of It)
-• Enter every transaction from January 1 to now: No skipping “I’ll do it later.”
-• Categorize correctly for tax purposes: 
-  o Business vs. personal
-  o Deductible (e.g., advertising, software, loan interest) vs. non-deductible (e.g., personal groceries)
-• Reconcile payroll: Ensure W-2 employees and 1099 contractors are **accurately tracked**.
-• Run a Profit & Loss (P&L) and Balance Sheet: This is your reality check—how much did you actually make?
+• Rule of thumb used by most successful owners:
+– 1–12 properties → One QuickBooks file + Classes
+– 12–30 properties → Still usually one file (or separate files + consolidation tool)
+– 30+ or syndicated funds → Separate files or enterprise software (Yardi, MRI)
 
-Section:3. Estimate Your 2025 Tax Liability
-• Use last year’s return as a baseline, then adjust for: 
-  o Higher/lower income
-  o New deductions (e.g., home office, EV purchase, SEP-IRA contributions, business loan interest)
-  o Life events (marriage, kids, new business)
-• Plug numbers into a tax estimator (TurboTax, TaxAct, or IRS withholding calculator).
-• Set aside owed taxes in a separate savings account—treat it like a bill, not “extra” cash.
+Section:Step-by-Step: How to Correctly Run Dozens of LLCs in ONE QuickBooks File
+1. Create a single QuickBooks Online company (Plus or Advanced plan)
+2. Turn on Class Tracking & Create one Class for each property/LLC
+3. Open separate bank accounts, credit cards, and mortgage accounts for every LLC
+4. Tag EVERY transaction with the correct Class. Rent checks, repair invoices, mortgage payments, insurance, property taxes, owner draws — all get the proper Class.
+5. Run Profit & Loss AND Balance Sheet Statements by Class
 
-Section:4. Issue 1099s Early (Avoid Audit Red Flags)
-• Identify payees: Anyone (non-corporation) you paid $600+ for services in 2025.
-• Collect W-9s now: Send them this week—chase down missing info before the holidays.
-• File by January 31, 2026: 
-  o 1099-NEC (nonemployee compensation)
-  o 1099-MISC (rents, prizes, etc.)
-• E-file with IRS via FIRE system or use services like Tax1099.com—paper filing is dead.
+Section:When You Will Actually Outgrow This Setup (It’s Not About Accounting)
+• You want an online tenant portal (rent pay, maintenance requests, lease docs)
+• You need automated late fees, 3-day notices, and text reminders
+• You’re tracking large cap-ex projects with budgets and lien waivers
+• You have 100+ tenants and need true batch processing
 
+Popular upgrades at that stage: Buildium (20–150 units), AppFolio (50–1,000 units), Yardi Breeze or Voyager (500+ units or large commercial)
 
-Section:5. Prep for a Smooth 2026 Start
-• Set up 2026 bookkeeping folders now.
-• Schedule Q1 2026 estimated taxes (due April 15).
-• Book your tax preparer—top CPAs are booked solid by February.
-• Automate where possible: Connect bank feeds, receipt apps (Expensify, Receipt Bank), and payroll (Gusto).
-• Evaluate systems before year-end: 
-  o Banking: If your current bank has high fees, poor business tools, or no API integration, research alternatives and open a new account by mid-December.
-  o Payroll: Switching from ADP, Gusto, or manual? Test the new system with a dummy run in December—avoid January payroll chaos.
-  o Bookkeeping software: Upgrading from Excel or outdated QuickBooks? Migrate data in December while 2025 is still open.
+Section:The Only Times You Truly Need Separate QuickBooks Files
+• Outside investors who must NEVER see the other properties (true syndication)
+• One property has extremely complex operations (e.g., regional mall with percentage rent and food-court allocations)
+• Separate EINs that run payroll through QuickBooks (rare in passive CRE)
 
-Section:Upcoming Tax Deadlines: From Now Through 2026
-Allocate at least 1 week for a professional bookkeeper to complete 2025 transaction catch-up (aim to finish by December 24 for review). If you're handling it yourself as the owner, give yourself at least 3 weeks (target completion by December 10) to avoid burnout during the holidays. This ensures your records are audit-ready well before filing season.
-Everyone remembers April 15—the date that stresses most taxpayers out—but there is so much more to do before that. This article aims to demystify the bookkeeping process and ensure you hit all real deadlines (and other potential ones) without surprises.
-Here’s a comprehensive list of key deadlines for the 2025 tax year:
-Deadline	What’s Due	Who It Applies To	Notes & Tips
-December 31, 2025	Final day for 2025 deductions/actions (e.g., retirement contributions, prepay expenses, charitable gifts, equipment buys, loan interest accrual)	Individuals, businesses	Lock in deductions now—can't retroact into 2025 after midnight.
-February 2, 2026	Furnish 1099-NEC/MISC/W-2 to recipients; file W-2 with SSA	Businesses with contractors/employees	E-file encouraged; collect W-9s ASAP to avoid delays. Penalties start at $60/form if late.
-March 16, 2026	File partnership/S-corp returns (Form 1065/1120-S) or extensions (Form 7004)	Partnerships, S-corps, multi-member LLCs	Issue K-1s to owners by this date if no extension.
-April 15, 2026	File individual/Schedule C returns (Form 1040); C-corp returns (1120); pay any owed taxes; Q1 2026 estimated payment; IRA/HSA contributions for 2025	Individuals, sole props, C-corps	Tax Day—file extension (Form 4868/7004) by this date for 6 months more, but pay estimates to avoid penalties.
-September 15, 2026	Extended partnership/S-corp returns; Q3 2026 estimated payment	Partnerships, S-corps (with extension), self-employed (with extension)	Final extension deadline for many businesses.
-October 15, 2026	Extended individual/C-corp returns	Individuals, C-corps (with extension)	Last chance—pay any remaining balance to minimize interest.
-
-Final: Final Summary: Start 2026 Stress-Free
-By December 31, you’ll have:
-• Clean, audit-ready books (with loan interest, payroll, and expenses fully recorded)
-• All 1099s ready to file
-• Deductions locked in
-• A head start on 2026—with better banking, payroll, and systems in place
-Everyone fixates on April 15, but the real deadlines start in December. This article breaks it all down so you’re not scrambling in March.
+Final: Final Summary: Stop Overcomplicating Your Books
+One QuickBooks file + proper Class tracking + separate bank accounts per LLC is the method used by the majority of successful commercial owners with 2–20 properties.
+You’ll save thousands in bookkeeping fees, cut your CPA prep time in half, and have sale-ready or refinance-ready financials at the click of a button.
+Set it up correctly once, and your bookkeeping will run itself for the next decade—no matter how many buildings you add.

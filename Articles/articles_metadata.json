@@ -78,5 +78,15 @@
     "mins": "9 min",
     "image": "Articles/Article_Images/tax_prep_calendar.png",
     "safe_title": "What_I_Need_to_Do_Before_the_End_of_the_Tax_Year"
+  },
+  {
+    "title": "Commercial Real Estate Owners with Multiple LLCs, One QuickBooks Account or Many",
+    "summary": "You own several commercial buildings, each in its own LLC, and everyone keeps telling you that you need a separate QuickBooks file for every property. You don\u2019t.",
+    "author": "Matthew Jacob",
+    "date": "December 4, 2025",
+    "parsed_date": "2025-12-04T00:00:00",
+    "mins": "7 min",
+    "image": "Articles/Article_Images/multi_property_quickbooks.jpg",
+    "safe_title": "Commercial_Real_Estate_Owners_with_Multiple_LLCs,_One_QuickBooks_Account_or_Many"
   }
 ]
