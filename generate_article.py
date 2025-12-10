@@ -201,11 +201,10 @@ oogleapis.com/css2?family=Google+Sans+Code:ital,wght@0,300..800;1,300..800&displ
       gtag('config', 'G-V4S9TY013M');
     </script>
 
-    <!-- Calendly badge widget begin -->
+
 <link href="https://assets.calendly.com/assets/external/widget.css" rel="stylesheet">
 <script src="https://assets.calendly.com/assets/external/widget.js" type="text/javascript" async></script>
-<script type="text/javascript">window.onload = function() { Calendly.initBadgeWidget({ url: 'https://calendly.com/provisionbk/15min', text: 'Schedule a Call', color: '#fad962', textColor: '#00446f', branding: false }); }</script>
-<!-- Calendly badge widget end -->
+<script type="text/javascript">window.download = function() {{ Calendar.initBadgeWidget({{ url: 'https://calendly.com/provisionbk/15min', text: 'Schedule a Call', color: '#fa0062', textColor: '#00446f', branding: false }}); }}</script>
 
     <!-- JSON-LD Schema -->
     <script type="application/ld+json">
@@ -520,11 +519,7 @@ def generate_blog_html(articles, output_dir):
       gtag('config', 'G-V4S9TY013M');
     </script>
    
-       <!-- Calendly badge widget begin -->
-<link href="https://assets.calendly.com/assets/external/widget.css" rel="stylesheet">
-<script src="https://assets.calendly.com/assets/external/widget.js" type="text/javascript" async></script>
-<script type="text/javascript">window.onload = function() { Calendly.initBadgeWidget({ url: 'https://calendly.com/provisionbk/15min', text: 'Schedule a Call', color: '#fad962', textColor: '#00446f', branding: false }); }</script>
-<!-- Calendly badge widget end -->    <meta charset="UTF-8">
+
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="About Provision Bookkeeping LLC in AZ. Trusted bookkeeping experts for family-owned businesses. Learn more!">
     <meta name="keywords" content="about bookkeeping, Chandler AZ bookkeeping, bookkeeping near me, family business financial services">

@@ -1,42 +1,70 @@
-Title: Commercial Real Estate Owners with Multiple LLCs, One QuickBooks Account or Many
+Title: Commercial Real Estate Tax Strategy - Stop Expensing Your Construction Projects.
 Author: Matthew Jacob
-Date: December 4, 2025
-ReadTime: 7 min
-Image: multi_property_quickbooks.jpg
+Date: December 10, 2025
+ReadTime: 10 min
+Image: cip_quickbooks.jpg
 
 
 Summary:
-You own several commercial buildings, each in its own LLC, and everyone keeps telling you that you need a separate QuickBooks file for every property. You don’t. Here’s the professional standard used by most $10M–$150M portfolios, plus the exact step-by-step checklist to set it up correctly in a single QuickBooks file—cleanly, legally, and ready for taxes, lenders, or sale.
+You’re developing or doing heavy value-add on commercial properties and your QuickBooks Online file looks like this during construction:
+$120k to the General contractor → “Job Expenses: Construction Costs”
+$18k loan interest → “Interest Expense”
+$9k architect → “Professional Fees”
+$6k permits → “Licenses & Permits”
+❌ALL UPFRONT EXPENSE ❌
 
-Section:The Myth That’s Costing You Time and Money
-“Every LLC needs its own QuickBooks company” This is false for 95 % of private commercial owners. The IRS, your bank, and your CPA only care that you can produce accurate, separate financials per property/LLC. QuickBooks gives you exactly that with one built-in tool: Classes.
+How to correctly capitalize interest, soft costs, and construction costs in QBO — and why doing it wrong is silently killing your tax deferral and refinance ability (hint: depreciation is key). 
 
-• Rule of thumb used by most successful owners:
-– 1–12 properties → One QuickBooks file + Classes
-– 12–30 properties → Still usually one file (or separate files + consolidation tool)
-– 30+ or syndicated funds → Separate files or enterprise software (Yardi, MRI)
+✅It’s 100% fixable in under 15 minutes inside QBO ✅
+Here’s exactly why you must switch to a Construction in Progress (CIP) workflow in QuickBooks Online, plus the dead-simple setup:
 
-Section:Step-by-Step: How to Correctly Run Dozens of LLCs in ONE QuickBooks File
-1. Create a single QuickBooks Online company (Plus or Advanced plan)
-2. Turn on Class Tracking & Create one Class for each property/LLC
-3. Open separate bank accounts, credit cards, and mortgage accounts for every LLC
-4. Tag EVERY transaction with the correct Class. Rent checks, repair invoices, mortgage payments, insurance, property taxes, owner draws — all get the proper Class.
-5. Run Profit & Loss AND Balance Sheet Statements by Class
+Section:Why Expensing As You Go Is Costing You a Fortune
+1.  You’re voluntarily paying tax early (hundreds of thousands on big projects)
+2.  You’re destroying your debt service coverage ratio during construction
+3.  You’re shrinking the basis for bonus depreciation and cost segregation
+4.  You’re creating a nightmare when you eventually refinance or sell
+5.  You’re technically out of IRS compliance (IRC §263A)
+The IRS says almost everything during the “production period” must be capitalized — not expensed.
 
-Section:When You Will Actually Outgrow This Setup (It’s Not About Accounting)
-• You want an online tenant portal (rent pay, maintenance requests, lease docs)
-• You need automated late fees, 3-day notices, and text reminders
-• You’re tracking large cap-ex projects with budgets and lien waivers
-• You have 100+ tenants and need true batch processing
 
-Popular upgrades at that stage: Buildium (20–150 units), AppFolio (50–1,000 units), Yardi Breeze or Voyager (500+ units or large commercial)
+Section:The Correct QBO Way: One Balance Sheet Account Changes Everything
+Step-by-step setup (takes 10–15 minutes once per company file):
+1.  Create the parent CIP account
+Chart of Accounts → New → Asset → Other Assets → Construction in Progress
+Name it: “1500 - Construction in Progress” (or “1550 - CIP - [Property Name]” if you track by class)
+2.  Create sub-accounts (optional but recommended)
+	•  1501 - CIP: Hard Costs
+	•  1502 - CIP: Capitalized Interest
+	•  1503 - CIP: Capitalized Property Taxes
 
-Section:The Only Times You Truly Need Separate QuickBooks Files
-• Outside investors who must NEVER see the other properties (true syndication)
-• One property has extremely complex operations (e.g., regional mall with percentage rent and food-court allocations)
-• Separate EINs that run payroll through QuickBooks (rare in passive CRE)
+3.  Change your bills and expenses during construction
+Instead of expensing to “Job Expenses” or “Repairs,” code EVERYTHING to the proper CIP sub-account.
 
-Final: Final Summary: Stop Overcomplicating Your Books
-One QuickBooks file + proper Class tracking + separate bank accounts per LLC is the method used by the majority of successful commercial owners with 2–20 properties.
-You’ll save thousands in bookkeeping fees, cut your CPA prep time in half, and have sale-ready or refinance-ready financials at the click of a button.
-Set it up correctly once, and your bookkeeping will run itself for the next decade—no matter how many buildings you add.
+Example:
+Move general contractor bill from Expense TO 1501 - CIP: Hard Costs
+Or: uh
+Move Monthly loan interest from Expense TO 1502 - CIP: Capitalized Interest. 
+4.  When the project is placed in service:
+Journal Entry:
+Debit: 1600 - Buildings
+Debit: 1620 - Land Improvements
+Credit: 1500 - Construction in Progress (entire balance)
+
+5. Depreciate (at year-end or month-end):
+Journal Entry:
+Debit: Depreciation Expense (straight line or accelerated depreciation- ask your bookkeeper)
+Credit: Accumulated Depreciation (Contra account below the Fixed Asset)
+
+As the fixed asset depreciates, it will look like this:
+Fixed asset acquisition: $100,000
+Accumulated depreciation: ($10,000)
+Net book value: $90,000
+
+
+Section:Bonus QBO Pro Tips
+•  Turn on Class Tracking and create a class for each project/property
+•  Use the CIP sub-account + Class to see exactly how much is invested in each deal in real time
+•  Create a saved report: Balance Sheet → filter to only CIP accounts → run monthly for investors
+
+Final: Final Summary: Do this once in QuickBooks Online and you will maximize on tax savings.
+Need an exact Chart of Accounts for every CRE development in QBO? Comment below or contact directly and I’ll send mine to you for FREE.
