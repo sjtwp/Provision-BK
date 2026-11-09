@@ -89,7 +89,6 @@
     "image": "Articles/Article_Images/multi_property_quickbooks.jpg",
     "safe_title": "Commercial_Real_Estate_Owners_with_Multiple_LLCs,_One_QuickBooks_Account_or_Many"
   },
-
   {
     "title": "Commercial Real Estate Tax Strategy - Stop Expensing Your Construction Projects.",
     "summary": "You\u2019re developing or doing heavy value-add on commercial properties and your QuickBooks Online file looks like this during construction: $120k to the General contractor \u2192 \u201cJob Expenses: Construction Costs\u201d $18k loan interest \u2192 \u201cInterest Expense\u201d $9k architect \u2192 \u201cProfessional Fees\u201d $6k permits \u2192 \u201cLicenses & Permits\u201d \u274cALL UPFRONT EXPENSE \u274c How to correctly capitalize interest, soft costs, and construction costs in QBO \u2014 and why doing it wrong is silently killing your tax deferral and refinance ability (hint: depreciation is key). \u2705It\u2019s 100% fixable in under 15 minutes inside QBO \u2705 Here\u2019s exactly why you must switch to a Construction in Progress (CIP) workflow in QuickBooks Online, plus the dead-simple setup: Section:Why Expensing As You Go Is Costing You a Fortune 1.",
@@ -99,5 +98,15 @@
     "mins": "10 min",
     "image": "Articles/Article_Images/cip_quickbooks.jpg",
     "safe_title": "Commercial_Real_Estate_Tax_Strategy_-_Stop_Expensing_Your_Construction_Projects."
+  },
+  {
+    "title": "Why Smart Business Owners Reinvest in Their Business and Hire Out the Rest",
+    "summary": "Most successful small business owners put their extra cash back into their business before the stock market. The smartest ones also reinvest in their own time, handing off work like bookkeeping so they can focus on what they do best.",
+    "author": "Matthew Jacob",
+    "date": "November 9, 2026",
+    "parsed_date": "2026-11-09T00:00:00",
+    "mins": "6 min",
+    "image": "Articles/Article_Images/reinvest_in_your_business.jpg",
+    "safe_title": "Why_Smart_Business_Owners_Reinvest_in_Their_Business_and_Hire_Out_the_Rest"
   }
 ]
