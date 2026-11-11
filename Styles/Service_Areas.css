@@ -49,3 +49,25 @@
 .cta-box h2 {
   margin-top: 20px;
 }
+
+/* Home page "Areas We Serve" section */
+.areas-main {
+  background-color: #ffffff;
+  padding: 120px 30px 20px 30px;
+  text-align: center;
+}
+
+.areas-intro {
+  font-family: 'Montserrat', sans-serif;
+  color: #00446f;
+  font-size: 18px;
+  margin: 24px auto 20px auto;
+  max-width: 800px;
+}
+
+.areas-links {
+  justify-content: center;
+  max-width: 900px;
+  margin: 0 auto;
+  font-family: 'Montserrat', sans-serif;
+}
