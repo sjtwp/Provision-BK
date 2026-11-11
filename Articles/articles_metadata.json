@@ -108,5 +108,15 @@
     "mins": "6 min",
     "image": "Articles/Article_Images/reinvest_in_your_business.jpg",
     "safe_title": "Why_Smart_Business_Owners_Reinvest_in_Their_Business_and_Hire_Out_the_Rest"
+  },
+  {
+    "title": "How to Set Up QuickBooks Online for Your Business",
+    "summary": "Doing your own books in QuickBooks Online (QBO) is very doable if you set it up in the right order. The one rule to remember: build the setup first, and categorize transactions last.",
+    "author": "Matthew Jacob",
+    "date": "November 11, 2026",
+    "parsed_date": "2026-11-11T00:00:00",
+    "mins": "5 min",
+    "image": "Articles/Article_Images/qbo_setup.png",
+    "safe_title": "How_to_Set_Up_QuickBooks_Online_for_Your_Business"
   }
 ]

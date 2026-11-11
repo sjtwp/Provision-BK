@@ -191,7 +191,7 @@ def generate_article_html(txt_file):
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;800&display=swap" rel="stylesheet">
     <link href="https://fonts.g
 oogleapis.com/css2?family=Google+Sans+Code:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
-    <link rel="icon" type="image/x-icon" href="/Images/Provision Bookkeeping Logo.ico">
+    <link rel="icon" type="image/x-icon" href="/Provision Bookkeeping.ico">
     <!-- Google tag (gtag.js) -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-V4S9TY013M"></script>
     <script>
@@ -241,6 +241,7 @@ oogleapis.com/css2?family=Google+Sans+Code:ital,wght@0,300..800;1,300..800&displ
                 <a href="/index">Home</a>
                 <a href="/about-us">About</a>
                 <a href="/blog">Blog</a>
+                <a href="/free-resources">Free Resources</a>
                 <a href="/contact-us">Contact</a>
             </nav>
             <button class="menu-toggle" aria-label="Toggle navigation">☰</button>
@@ -303,6 +304,7 @@ oogleapis.com/css2?family=Google+Sans+Code:ital,wght@0,300..800;1,300..800&displ
                 <a href="/index" style="flex: 1; margin: 0 10px; padding: 0px 0px;">Home</a>
                 <a href="/about-us" style="flex: 1; margin: 0 10px; padding: 0px 0px;">About Us</a>
                 <a href="/blog" style="flex: 1; margin: 0 10px; padding: 0px 0px;">Blog</a>
+                <a href="/free-resources" style="flex: 1; margin: 0 10px; padding: 0px 0px;">Free Resources</a>
                 <a href="/contact-us" style="flex: 1; margin: 0 10px; padding: 0px 0px;">Contact</a>
                 <a href="/sitemap" style="flex: 1; margin: 0 10px; padding: 0px 0px;">Sitemap</a>
                 <a href="/privacy-policy" style="flex: 1; margin: 0 10px; padding: 0px 0px;">Privacy Policy</a>
@@ -525,7 +527,7 @@ def generate_blog_html(articles, output_dir):
     <meta name="keywords" content="about bookkeeping, Chandler AZ bookkeeping, bookkeeping near me, family business financial services">
     <title>Blog{' - Page ' + str(page) if page > 1 else ''}</title>
     <link rel="stylesheet" href="/Styles/Header.css">
-    <link rel="icon" type="image/x-icon" href="/Images/Provision Bookkeeping Logo.ico">
+    <link rel="icon" type="image/x-icon" href="/Provision Bookkeeping.ico">
     <link rel="stylesheet" href="/Styles/Opening Picture.css">
     <link rel="stylesheet" href="/Styles/How_We_Differ.css">
     <link rel="stylesheet" href="/Styles/Welcome.css">
@@ -548,6 +550,7 @@ def generate_blog_html(articles, output_dir):
         <a href="/index">Home</a>
         <a href="/about-us">About</a>
         <a href="/blog">Blog</a>
+        <a href="/free-resources">Free Resources</a>
         <a href="/contact-us">Contact</a>
       </nav>
       <button class="menu-toggle" aria-label="Toggle navigation">☰</button>
@@ -633,6 +636,7 @@ def generate_blog_html(articles, output_dir):
         <a href="/index" style="flex: 1; margin: 0 10px; padding: 0px 0px;">Home</a>
         <a href="/about-us" style="flex: 1; margin: 0 10px; padding: 0px 0px;">About Us</a>
         <a href="/blog" style="flex: 1; margin: 0 10px; padding: 0px 0px;">Blog</a>
+        <a href="/free-resources" style="flex: 1; margin: 0 10px; padding: 0px 0px;">Free Resources</a>
         <a href="/contact-us" style="flex: 1; margin: 0 10px; padding: 0px 0px;">Contact</a>
         <a href="/sitemap" style="flex: 1; margin: 0 10px; padding: 0px 0px;">Sitemap</a>
         <a href="/privacy-policy" style="flex: 1; margin: 0 10px; padding: 0px 0px;">Privacy Policy</a>

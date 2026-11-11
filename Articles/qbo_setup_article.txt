@@ -1,0 +1,37 @@
+Title: How to Set Up QuickBooks Online for Your Business
+Author: Matthew Jacob
+Date: November 11, 2026
+ReadTime: 5 min
+Image: qbo_setup.png
+
+
+Summary:
+Doing your own books in QuickBooks Online (QBO) is very doable if you set it up in the right order. The one rule to remember: build the setup first, and categorize transactions last. If you categorize before your payroll and payment apps are connected, the same money gets recorded twice.
+
+Section:Part 1: Set Up the File
+Follow along with the free <a href="/free-resources#setup-checklist"><strong>QBO Setup &amp; Catch-Up Checklist</strong></a>. It has every step below on one page.
+<strong>1. Coming from QuickBooks Desktop? (optional)</strong> Start a brand-new QBO company and export your Desktop file into it within 60 days of creating it. Don't turn on QBO payroll before you do this. The detail won't come over perfectly, but your balances will land in the right accounts. Then correct the balances for the latest tax year you need to finish.
+<strong>2. Set up your company settings and chart of accounts.</strong> Enter your business info and tax form, and choose cash or accrual. Then build your list of accounts before you connect any bank, since everything else points to them. Base it on your last tax return, or start from our free <a href="/free-resources#templates"><strong>Chart of Accounts templates</strong></a>. If it applies to you, also set up sales tax and your customer, vendor and 1099 lists.
+<strong>3. Connect your bank and credit card accounts.</strong> Link every account the business uses, including savings, loans and PayPal. If you came from Desktop, connect each feed to the account that already came over instead of creating a new one.
+<strong>4. Check your beginning balances.</strong> Each account's starting balance should match your bank statement from the day before your start date. Also enter fixed assets, depreciation and loan balances from your last tax return. Fix these now, or every later reconciliation will be off.
+<strong>5. Bring in past transactions.</strong> Load everything from your start date to today, using the bank feed or statement uploads. Check each month's total against the statement so there are no gaps or duplicates. Don't categorize anything yet.
+
+Section:Part 2: Connect Your Apps
+<strong>6. Connect payroll and other apps.</strong> Connect your payroll company (Gusto, ADP, QuickBooks Payroll), your payment processors (Stripe, Square, PayPal) and any bill-pay or invoicing apps. Each one then posts its own entries into QBO. Set each app's sync start date so it doesn't post anything that's already in QBO.
+<strong>7. Check that payroll posts correctly.</strong> Payroll usually runs every two weeks. Compare the first two payroll entries to your payroll report: gross pay, taxes and net pay should all match. After that, spot-check monthly, and compare totals to your quarterly payroll tax reports. If an entry is wrong, fix the setting in the payroll app, not just the entry.
+Don't move on to Part 3 until every app is connected and posting correctly.
+
+Section:Part 3: Clean Up and Close
+<strong>8. Match first.</strong> In your bank transactions, match before you categorize: payroll withdrawals, payment processor deposits, transfers between your own accounts and credit card payments. Matching links the bank line to an entry that already exists. Categorizing those lines instead would count the money twice. Credit card payments and transfers are never expenses.
+<strong>9. Categorize everything else.</strong> Work one account and one month at a time. Add the payee and pick the right account. Put personal spending in Owner's Draw, not in an expense. Set up bank rules for vendors that repeat. Put anything you can't identify in an "Ask My Accountant" account so it doesn't get lost.
+<strong>10. Review your P&amp;L and Balance Sheet.</strong> Run the Profit and Loss by month and look for missing months, spikes, or amounts in the wrong account. On the Balance Sheet, check that loan and payroll balances look right and that holding accounts such as Ask My Accountant are at zero. Fix any problems at the transaction.
+<strong>11. Reconcile.</strong> Reconcile each bank and credit card account to its statement, one month at a time, until the difference is $0.00. Then lock those months with a close-books date in Settings.
+<strong>12. Close the year.</strong> QBO moves your net income into Retained Earnings automatically each new year. Once your tax preparer's adjustments are in, close your owner's draws and contributions into equity, check that the balances match your tax return, and lock the year.
+
+Section:After Setup: Every Month
+Repeat Steps 8 to 11 each month: check that your apps synced, match, categorize, review your reports and reconcile. The free <a href="/free-resources#monthly-checklist"><strong>Monthly Bookkeeping Close Checklist</strong></a> walks you through it step by step.
+More free templates and forms are on our <a href="/free-resources"><strong>Free Resources</strong></a> page.
+
+Final: Final Thoughts
+If a balance won't match your statement, payroll entries look wrong, or the year-end close feels unclear, stop and get help before you go further. Mistakes are much cheaper to fix early than at tax time.
+<a href="/contact-us"><strong>Contact Provision Bookkeeping</strong></a> and we'll help you get your books set up right.
