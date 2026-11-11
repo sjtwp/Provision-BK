@@ -262,3 +262,13 @@
   background: #fad962;
   border-color: #fad962;
 }
+
+.name-row {
+  display: flex;
+  gap: 12px;
+}
+
+.name-row > div {
+  flex: 1;
+  min-width: 0;
+}

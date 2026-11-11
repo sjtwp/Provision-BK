@@ -191,8 +191,16 @@
       <h3 id="gate-title">Get your free download</h3>
       <p id="gate-sub">Enter your info and your download will start right away.</p>
       <form id="gate-form" action="https://formspree.io/f/xnnpzbgq" method="POST">
-        <label for="gate-name">Name</label>
-        <input type="text" id="gate-name" name="name" autocomplete="name" required>
+        <div class="name-row">
+          <div>
+            <label for="gate-fname">First Name</label>
+            <input type="text" id="gate-fname" name="first_name" autocomplete="given-name" required>
+          </div>
+          <div>
+            <label for="gate-lname">Last Name</label>
+            <input type="text" id="gate-lname" name="last_name" autocomplete="family-name" required>
+          </div>
+        </div>
         <label for="gate-email">Email</label>
         <input type="email" id="gate-email" name="email" autocomplete="email" required>
         <label for="gate-phone">Phone (optional)</label>
@@ -239,7 +247,7 @@
           msg.textContent = '';
           msg.className = 'gate-msg';
           overlay.classList.add('open');
-          document.getElementById('gate-name').focus();
+          document.getElementById('gate-fname').focus();
         });
       });
 
