@@ -71,3 +71,13 @@
   margin: 0 auto;
   font-family: 'Montserrat', sans-serif;
 }
+
+/* Service area pages keep the purple title box */
+.resources-title {
+  border-color: #4B2A7B;
+  color: #4B2A7B;
+}
+
+.resources-wrap .reviews-main {
+  padding: 50px 0 10px 0;
+}

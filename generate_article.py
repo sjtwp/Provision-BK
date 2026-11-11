@@ -179,6 +179,7 @@ def generate_article_html(txt_file):
     <link rel="canonical" href="https://provisionbk.com/Articles/Article_HTMLs/{safe_title}">
     <title>{title}</title>
     <link rel="stylesheet" href="../../Styles/Header.css">
+    <link rel="stylesheet" href="/Styles/Nav_Dropdown.css">
     <link rel="stylesheet" href="../../Styles/Opening Picture.css">
     <link rel="stylesheet" href="../../Styles/How_We_Differ.css">
     <link rel="stylesheet" href="../../Styles/Welcome.css">
@@ -237,14 +238,9 @@ oogleapis.com/css2?family=Google+Sans+Code:ital,wght@0,300..800;1,300..800&displ
                 <img src="/Images/Provision Bookkeeping Logo.png" alt="Provision Bookkeeping LLC Logo">
                 <span>PROVISION BOOKKEEPING</span>
             </a>
-            <nav class="nav-menu">
-                <a href="/index">Home</a>
-                <a href="/about-us">About</a>
-                <a href="/blog">Blog</a>
-                <a href="/free-resources">Free Resources</a>
-                <a href="/service-areas">Service Areas</a>
-                <a href="/contact-us">Contact</a>
-            </nav>
+            <!-- NAV START -->
+      <nav class="nav-menu"></nav>
+      <!-- NAV END -->
             <button class="menu-toggle" aria-label="Toggle navigation">☰</button>
         </div>
     </header>
@@ -529,6 +525,7 @@ def generate_blog_html(articles, output_dir):
     <meta name="keywords" content="about bookkeeping, Chandler AZ bookkeeping, bookkeeping near me, family business financial services">
     <title>Blog{' - Page ' + str(page) if page > 1 else ''}</title>
     <link rel="stylesheet" href="/Styles/Header.css">
+    <link rel="stylesheet" href="/Styles/Nav_Dropdown.css">
     <link rel="icon" type="image/x-icon" href="/Provision Bookkeeping.ico">
     <link rel="stylesheet" href="/Styles/Opening Picture.css">
     <link rel="stylesheet" href="/Styles/How_We_Differ.css">
@@ -548,14 +545,9 @@ def generate_blog_html(articles, output_dir):
         <img src="/Images/Provision Bookkeeping Logo.png" alt="Provision Bookkeeping LLC Logo">
         <span>PROVISION BOOKKEEPING</span>
       </a>
-      <nav class="nav-menu">
-        <a href="/index">Home</a>
-        <a href="/about-us">About</a>
-        <a href="/blog">Blog</a>
-        <a href="/free-resources">Free Resources</a>
-        <a href="/service-areas">Service Areas</a>
-        <a href="/contact-us">Contact</a>
-      </nav>
+      <!-- NAV START -->
+      <nav class="nav-menu"></nav>
+      <!-- NAV END -->
       <button class="menu-toggle" aria-label="Toggle navigation">☰</button>
     </div>
   </header>
@@ -708,6 +700,13 @@ def generate_article_from_txt(txt_file):
     generate_blog_html(articles, output_dir)
 
     print(f"✅ Article HTML generated at: {os.path.join(articles_dir, 'Article_HTMLs', article_metadata['safe_title'] + '.html')}")
+    # Rebuild the top menu on every page (keeps the Blog dropdown's recent articles current)
+    try:
+        import update_nav
+        update_nav.main()
+    except Exception as e:
+        print(f"⚠️ Could not update the menu: {e}")
+
     print(f"✅ Process completed for: {txt_file}")
 
 if __name__ == "__main__":

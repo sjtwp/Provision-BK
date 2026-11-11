@@ -1,0 +1,156 @@
+/* Top menu dropdowns (built by update_nav.py) */
+.nav-menu {
+  align-items: center;
+}
+
+.nav-item {
+  position: relative;
+  display: inline-flex;
+  align-items: center;
+}
+
+.dd-toggle {
+  background: none;
+  border: none;
+  color: #00446f;
+  font-size: 12px;
+  cursor: pointer;
+  padding: 0 0 0 4px;
+  line-height: 1;
+}
+
+.dropdown {
+  display: none;
+  position: absolute;
+  top: 100%;
+  left: -12px;
+  min-width: 240px;
+  max-height: 70vh;
+  overflow-y: auto;
+  background: #ffffff;
+  border-radius: 10px;
+  box-shadow: 0 8px 24px rgba(0, 68, 111, 0.18);
+  padding: 8px 0;
+  margin-top: 10px;
+  z-index: 1100;
+  text-align: left;
+}
+
+/* keep the last menu's dropdown on screen */
+.nav-menu > .has-dropdown:last-of-type > .dropdown {
+  left: auto;
+  right: -12px;
+}
+
+/* cities in two columns on desktop */
+#dd-areas {
+  left: auto;
+  right: -12px;
+  min-width: 340px;
+  column-count: 2;
+  column-gap: 0;
+}
+
+#dd-areas a.dd-all {
+  column-span: all;
+}
+
+/* invisible bridge so the menu doesn't close while moving the mouse down */
+.dropdown::before {
+  content: '';
+  position: absolute;
+  top: -12px;
+  left: 0;
+  right: 0;
+  height: 12px;
+}
+
+.has-dropdown:hover > .dropdown,
+.has-dropdown:focus-within > .dropdown,
+.has-dropdown.open > .dropdown {
+  display: block;
+}
+
+.nav-menu .dropdown a {
+  display: block;
+  padding: 9px 18px;
+  text-transform: none;
+  font-size: 15px;
+  white-space: nowrap;
+  color: #00446f;
+  line-height: 1.3;
+  text-align: left;
+}
+
+.nav-menu .dropdown a:hover {
+  background-color: #ffe68c;
+}
+
+.nav-menu .dropdown a::after,
+.nav-menu .dropdown a:hover::after {
+  display: none;
+}
+
+.nav-menu .dropdown a.dd-all {
+  font-weight: bold;
+  border-top: 1px solid #e2e8ee;
+  margin-top: 4px;
+}
+
+#dd-blog a {
+  white-space: normal;
+  min-width: 300px;
+  line-height: 1.35;
+}
+
+@media (max-width: 768px) {
+  .nav-menu {
+    align-items: flex-start;
+    max-height: 80vh;
+    overflow-y: auto;
+  }
+
+  .nav-item {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+  }
+
+  .dd-toggle {
+    font-size: 18px;
+    padding: 0 12px;
+  }
+
+  .has-dropdown:hover > .dropdown {
+    display: none;
+  }
+
+  .dropdown {
+    position: static;
+    box-shadow: none;
+    margin: 6px 0 0 0;
+    padding: 0 0 0 12px;
+    width: 100%;
+    max-height: none;
+    border-left: 3px solid #fad962;
+    border-radius: 0;
+  }
+
+  .has-dropdown.open > .dropdown {
+    display: block;
+  }
+
+  .dropdown::before {
+    display: none;
+  }
+
+  #dd-areas {
+    column-count: 1;
+    min-width: 0;
+    right: auto;
+  }
+
+  .nav-menu > .has-dropdown:last-of-type > .dropdown {
+    right: auto;
+  }
+}

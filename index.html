@@ -131,6 +131,7 @@
   <title>Bookkeeping Services in Arizona | Provision Bookkeeping, Gilbert AZ</title>
   <link rel="icon" type="image/x-icon" href="/Provision Bookkeeping.ico">
   <link rel="stylesheet" href="Styles/Header.css" />
+    <link rel="stylesheet" href="/Styles/Nav_Dropdown.css">
   <link rel="stylesheet" href="Styles/Opening Picture.css" />
   <link rel="stylesheet" href="Styles/How_We_Differ.css" />
   <link rel="stylesheet" href="Styles/Welcome.css" />
@@ -173,15 +174,73 @@
         <img src="../Provision Bookkeeping Logo.ico.png" alt="Provision Bookkeeping LLC Logo">
         <span>PROVISION BOOKKEEPING</span>
       </a>
+      <!-- NAV START -->
       <nav class="nav-menu">
-        <a href="../">Home</a>
-        <a href="../about-us">About</a>
-        <!--a href="/services">Services</a>-->
-        <a href="../blog">Blog</a>
-        <a href="../free-resources">Free Resources</a>
-        <a href="../service-areas">Service Areas</a>
-        <a href="../contact-us">Contact</a>
+        <a href="/">Home</a>
+        <a href="/about-us">About</a>
+        <div class="nav-item has-dropdown">
+          <a href="/blog">Blog</a><button class="dd-toggle" type="button" aria-label="Show Blog menu" aria-expanded="false">&#9662;</button>
+          <div class="dropdown" id="dd-blog">
+          <a href="/Articles/Article_HTMLs/How_to_Set_Up_QuickBooks_Online_for_Your_Business">How to Set Up QuickBooks Online for Your Business</a>
+          <a href="/Articles/Article_HTMLs/Why_Smart_Business_Owners_Reinvest_in_Their_Business_and_Hire_Out_the_Rest">Why Smart Business Owners Reinvest in Their Business and Hire Out the Rest</a>
+          <a href="/Articles/Article_HTMLs/Commercial_Real_Estate_Tax_Strategy_-_Stop_Expensing_Your_Construction_Projects">Commercial Real Estate Tax Strategy - Stop Expensing Your Construction Projects</a>
+          <a href="/Articles/Article_HTMLs/Commercial_Real_Estate_Owners_with_Multiple_LLCs,_One_QuickBooks_Account_or_Many">Commercial Real Estate Owners with Multiple LLCs, One QuickBooks Account or Many</a>
+          <a href="/Articles/Article_HTMLs/What_I_Need_to_Do_Before_the_End_of_the_Tax_Year">What I Need to Do Before the End of the Tax Year</a>
+          <a href="/blog" class="dd-all">All articles &rarr;</a>
+          </div>
+        </div>
+        <div class="nav-item has-dropdown">
+          <a href="/free-resources">Free Resources</a><button class="dd-toggle" type="button" aria-label="Show Free Resources menu" aria-expanded="false">&#9662;</button>
+          <div class="dropdown" id="dd-resources">
+          <a href="/free-resources#guides">Guides</a>
+          <a href="/free-resources#checklists">Checklists</a>
+          <a href="/free-resources#templates">Templates &amp; Calculators</a>
+          <a href="/free-resources#forms">New Hire &amp; Vendor Forms</a>
+          </div>
+        </div>
+        <div class="nav-item has-dropdown">
+          <a href="/service-areas">Service Areas</a><button class="dd-toggle" type="button" aria-label="Show Service Areas menu" aria-expanded="false">&#9662;</button>
+          <div class="dropdown" id="dd-areas">
+          <a href="/gilbert-az-bookkeeping">Gilbert</a>
+          <a href="/mesa-az-bookkeeping">Mesa</a>
+          <a href="/chandler-az-bookkeeping">Chandler</a>
+          <a href="/queen-creek-az-bookkeeping">Queen Creek</a>
+          <a href="/tempe-az-bookkeeping">Tempe</a>
+          <a href="/phoenix-az-bookkeeping">Phoenix</a>
+          <a href="/scottsdale-az-bookkeeping">Scottsdale</a>
+          <a href="/glendale-az-bookkeeping">Glendale</a>
+          <a href="/peoria-az-bookkeeping">Peoria</a>
+          <a href="/surprise-az-bookkeeping">Surprise</a>
+          <a href="/goodyear-az-bookkeeping">Goodyear</a>
+          <a href="/tucson-az-bookkeeping">Tucson</a>
+          <a href="/yuma-az-bookkeeping">Yuma</a>
+          <a href="/flagstaff-az-bookkeeping">Flagstaff</a>
+          <a href="/prescott-az-bookkeeping">Prescott</a>
+          <a href="/service-areas" class="dd-all">All of Arizona &rarr;</a>
+          </div>
+        </div>
+        <div class="nav-item has-dropdown">
+          <a href="/contact-us">Contact</a><button class="dd-toggle" type="button" aria-label="Show Contact menu" aria-expanded="false">&#9662;</button>
+          <div class="dropdown" id="dd-contact">
+          <a href="https://calendly.com/provisionbk/30min?hide_event_type_details=1&hide_gdpr_banner=1&text_color=00446f&primary_color=00446f" target="_blank" rel="noopener" onclick="if(window.Calendly){Calendly.initPopupWidget({url:'https://calendly.com/provisionbk/30min?hide_event_type_details=1&hide_gdpr_banner=1&text_color=00446f&primary_color=00446f'});return false;}">Schedule a Meeting</a>
+          <a href="tel:+16027673829">Call (602) 767-3829</a>
+          <a href="mailto:contact@provisionbk.com">Email contact@provisionbk.com</a>
+          <a href="/contact-us">Contact Form</a>
+          </div>
+        </div>
       </nav>
+      <script>
+        document.querySelectorAll(".dd-toggle").forEach(function (b) {
+          b.addEventListener("click", function (e) {
+            e.stopPropagation();
+            var item = b.parentElement, open = !item.classList.contains("open");
+            document.querySelectorAll(".has-dropdown.open").forEach(function (o) { o.classList.remove("open"); o.querySelector(".dd-toggle").setAttribute("aria-expanded", "false"); });
+            if (open) { item.classList.add("open"); b.setAttribute("aria-expanded", "true"); }
+          });
+        });
+        document.addEventListener("click", function () { document.querySelectorAll(".has-dropdown.open").forEach(function (o) { o.classList.remove("open"); }); });
+      </script>
+      <!-- NAV END -->
       <button class="menu-toggle" aria-label="Toggle navigation">☰</button>
     </div>
   </header>
@@ -234,100 +293,7 @@
     <a class="reviews-link" href="https://g.co/kgs/SA8hz3A" target="_blank" rel="noopener noreferrer">Read all our reviews on Google &rarr;</a>
   </section>
 
-  <script>
-    (function () {
-      // Add new Google reviews here. Only 5-star reviews are shown.
-      const reviews = [
-        {
-          rating: 5,
-          name: "Kristin R.",
-          business: "",
-          text: "I highly recommend Matthew! He is incredibly knowledgeable, efficient, and detail-oriented. He's professional, responsive, and always takes the time to explain things clearly. His expertise has been a tremendous asset to my businesses and I truly appreciate his attention to detail and dedication."
-        },
-        {
-          rating: 5,
-          name: "Kristen P.",
-          business: "Kristen's Skin Studio",
-          text: "Highly recommend Provision Bookkeeping LLC services. I came to Matt with a mess of a situation and he is amazing, very thorough, timely and an absolute pleasure to work with. Always understanding, patient and more than helpful to me to understand the process. I had deadlines that needed to be met and he was calm, and generous with his time. Matt is very professional, attention to detail but also just a very easy, nice, and kind person to work with. I feel lucky that I was referred to Matt and I now feel confident that my bookkeeping is done promptly and correctly and I'm in good hands. Thank you for your exemplary services!"
-        },
-        {
-          rating: 5,
-          name: "Adam D.",
-          business: "",
-          text: "I highly recommend Provision Bookkeeping and especially Matthew for his outstanding service. Matthew's expertise and deep knowledge were evident throughout the entire process. He worked quickly and efficiently while maintaining exceptional attention to detail, ensuring everything was accurate and well-organized. What impressed me most was his responsiveness, professionalism, and ability to handle complex bookkeeping tasks with confidence."
-        },
-        {
-          rating: 5,
-          name: "Adrian D.",
-          business: "Southwest Defense LLC",
-          text: "Matthew does a great job doing Southwest Defense LLC bookkeeping! He is always detail oriented and very timely getting his reports to you. Matthew has been a breath of fresh air compared to previous bookkeepers!"
-        }
-      ].filter(function (r) { return r.rating === 5; });
-
-      const track = document.getElementById('reviews-track');
-      const dotsBox = document.getElementById('reviews-dots');
-      const carousel = track.closest('.reviews-carousel');
-      let index = 0;
-      let timer = null;
-
-      function esc(t) {
-        const d = document.createElement('div');
-        d.textContent = t;
-        return d.innerHTML;
-      }
-
-      reviews.forEach(function (r, i) {
-        const card = document.createElement('div');
-        card.className = 'review-card';
-        card.setAttribute('role', 'group');
-        card.setAttribute('aria-label', 'Review ' + (i + 1) + ' of ' + reviews.length);
-        card.innerHTML =
-          '<div class="stars" aria-label="5 out of 5 stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>' +
-          '<blockquote>&ldquo;' + esc(r.text) + '&rdquo;</blockquote>' +
-          '<div class="reviewer">' + esc(r.name) +
-          (r.business ? ' <span class="reviewer-biz">&middot; ' + esc(r.business) + '</span>' : '') + '</div>' +
-          '<div class="source">Google review</div>';
-        track.appendChild(card);
-
-        const dot = document.createElement('button');
-        dot.type = 'button';
-        dot.setAttribute('aria-label', 'Show review ' + (i + 1));
-        dot.addEventListener('click', function () { go(i); restart(); });
-        dotsBox.appendChild(dot);
-      });
-
-      function go(i) {
-        index = (i + reviews.length) % reviews.length;
-        track.style.transform = 'translateX(-' + (index * 100) + '%)';
-        Array.prototype.forEach.call(dotsBox.children, function (d, j) {
-          d.classList.toggle('active', j === index);
-        });
-      }
-
-      function restart() {
-        clearInterval(timer);
-        timer = setInterval(function () { go(index + 1); }, 8000);
-      }
-
-      carousel.querySelector('.prev').addEventListener('click', function () { go(index - 1); restart(); });
-      carousel.querySelector('.next').addEventListener('click', function () { go(index + 1); restart(); });
-      carousel.addEventListener('mouseenter', function () { clearInterval(timer); });
-      carousel.addEventListener('mouseleave', restart);
-
-      // Swipe on phones
-      let startX = null;
-      track.addEventListener('touchstart', function (e) { startX = e.touches[0].clientX; }, { passive: true });
-      track.addEventListener('touchend', function (e) {
-        if (startX === null) return;
-        const dx = e.changedTouches[0].clientX - startX;
-        if (Math.abs(dx) > 40) { go(dx < 0 ? index + 1 : index - 1); restart(); }
-        startX = null;
-      });
-
-      go(0);
-      restart();
-    })();
-  </script>
+  <script src="/JS/Reviews.js"></script>
 
   <section class="how-it-works">
     <div class="how-it-works-container">
