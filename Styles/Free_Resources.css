@@ -12,10 +12,10 @@
   justify-content: center;
   align-items: center;
   text-align: center;
-  border: 4px solid #6B3FA0;
+  border: 4px solid #4B2A7B;
   font-weight: 800;
   border-radius: 15px;
-  color: #6B3FA0;
+  color: #4B2A7B;
   width: clamp(50px, 100%, 1000px);
   margin: 50px auto 10px auto;
   transition: transform 0.3s ease;
