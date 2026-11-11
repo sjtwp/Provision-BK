@@ -15,16 +15,27 @@ HTML_DIR         = os.path.join(PROJECT_ROOT, "Articles", "Article_HTMLs")
 
 # Static pages
 STATIC_PAGES = [
-    "/", "/about-us", "/services", "/contact-us", "/blog", "/free-resources",
+    "/", "/about-us", "/service-areas", "/contact-us", "/blog", "/free-resources",
     "/privacy-policy", "/terms-of-service", "/sitemap"
 ]
 
 # Service areas
 SERVICE_AREAS = [
-    "gilbert-az-bookkeeping", "phoenix-az-bookkeeping", "scottsdale-az-bookkeeping",
-    "tempe-az-bookkeeping", "tucson-az-bookkeeping", "mesa-az-bookkeeping",
-    "chandler-az-bookkeeping", "glendale-az-bookkeeping", "peoria-az-bookkeeping",
-    "surprise-az-bookkeeping", "yuma-az-bookkeeping"
+    "gilbert-az-bookkeeping",
+    "mesa-az-bookkeeping",
+    "chandler-az-bookkeeping",
+    "queen-creek-az-bookkeeping",
+    "tempe-az-bookkeeping",
+    "phoenix-az-bookkeeping",
+    "scottsdale-az-bookkeeping",
+    "glendale-az-bookkeeping",
+    "peoria-az-bookkeeping",
+    "surprise-az-bookkeeping",
+    "goodyear-az-bookkeeping",
+    "tucson-az-bookkeeping",
+    "yuma-az-bookkeeping",
+    "flagstaff-az-bookkeeping",
+    "prescott-az-bookkeeping"
 ]
 
 # ----------------------------------------------------------------------
@@ -45,7 +56,7 @@ else:
             if not safe_title or not safe_title.lower().endswith(".html"):
                 safe_title = (safe_title or "unknown") + ".html" if not safe_title.lower().endswith(".html") else safe_title
 
-            html_path = os.path.join(HTML_DIR, safe_title)
+            html_path = os.path.join(HTML_DIR, safe_title[:-5].rstrip(".") + ".html" if safe_title.lower().endswith(".html") else safe_title)
 
             # Use file mod time if exists
             if os.path.isfile(html_path):
@@ -62,7 +73,7 @@ else:
                         iso_date = datetime.today().date().isoformat()
                 print(f"  Warning: HTML not found: {html_path} → using JSON date")
 
-            url_path = f"articles/{safe_title}"
+            url_path = "Articles/Article_HTMLs/" + (safe_title[:-5] if safe_title.lower().endswith(".html") else safe_title).rstrip(".")
             blog_entries.append((url_path, iso_date))
 
     except Exception as e:
@@ -87,7 +98,7 @@ with open(OUTPUT_PATH, "w", encoding="utf-8") as f:
     f.write('<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n\n')
 
     for page in STATIC_PAGES:
-        prio = 1.0 if page == "/" else 0.9 if page in ("/services", "/blog") else 0.5
+        prio = 1.0 if page == "/" else 0.9 if page in ("/service-areas", "/blog") else 0.5
         write_url(f, f"{BASE_URL}{page}", today, "weekly", prio)
 
     for area in SERVICE_AREAS:
@@ -115,7 +126,8 @@ def ping_search_engines():
         except:
             print(f"Ping failed: {url}")
 
-ping_search_engines()
+# Google and Bing retired sitemap ping URLs; submit the sitemap in Search Console / Bing Webmaster Tools instead.
+# ping_search_engines()
 
 # ----------------------------------------------------------------------
 # Done

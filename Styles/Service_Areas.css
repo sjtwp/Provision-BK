@@ -1,0 +1,51 @@
+/* City and service area pages (reuse Free_Resources.css layout) */
+.resources-section .lead {
+  font-size: 17px;
+  line-height: 1.7;
+  color: #333;
+}
+
+.why-list {
+  padding-left: 20px;
+  line-height: 1.8;
+  font-size: 16px;
+}
+
+.why-list a,
+.resources-section p a {
+  color: #00446f;
+  font-weight: 800;
+}
+
+.city-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.city-links a {
+  display: inline-block;
+  padding: 8px 14px;
+  border: 2px solid #00446f;
+  border-radius: 20px;
+  color: #00446f;
+  text-decoration: none;
+  font-weight: 800;
+  font-size: 14px;
+}
+
+.city-links a:hover {
+  background: #fad962;
+  border-color: #fad962;
+}
+
+.cta-box {
+  background: #f4f7fa;
+  border-radius: 14px;
+  padding: 10px 24px 24px 24px;
+  margin-top: 40px;
+}
+
+.cta-box h2 {
+  margin-top: 20px;
+}
