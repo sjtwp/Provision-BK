@@ -178,17 +178,17 @@ def generate_article_html(txt_file):
     <meta name="keywords" content="bookkeeping, contractor vs employee, business finance, {author}">
     <link rel="canonical" href="https://provisionbk.com/Articles/Article_HTMLs/{safe_title}">
     <title>{title}</title>
-    <link rel="stylesheet" href="../../Styles/Header.css?v=202611121752">
-    <link rel="stylesheet" href="/Styles/Nav_Dropdown.css?v=202611121752">
-    <link rel="stylesheet" href="../../Styles/Opening Picture.css?v=202611121752">
-    <link rel="stylesheet" href="../../Styles/How_We_Differ.css?v=202611121752">
-    <link rel="stylesheet" href="../../Styles/Welcome.css?v=202611121752">
-    <link rel="stylesheet" href="../../Styles/How_It_Works.css?v=202611121752">
-    <link rel="stylesheet" href="../../Styles/contact-us.css?v=202611121752">
-    <link rel="stylesheet" href="../../Styles/Footer.css?v=202611121752">
-    <link rel="stylesheet" href="../../Styles/About_Us.css?v=202611121752">
-    <link rel="stylesheet" href="../../Styles/Blog.css?v=202611121752">
-    <link rel="stylesheet" href="../../Styles/Articles.css?v=202611121752">
+    <link rel="stylesheet" href="../../Styles/Header.css?v=202611122231">
+    <link rel="stylesheet" href="/Styles/Nav_Dropdown.css?v=202611122231">
+    <link rel="stylesheet" href="../../Styles/Opening Picture.css?v=202611122231">
+    <link rel="stylesheet" href="../../Styles/How_We_Differ.css?v=202611122231">
+    <link rel="stylesheet" href="../../Styles/Welcome.css?v=202611122231">
+    <link rel="stylesheet" href="../../Styles/How_It_Works.css?v=202611122231">
+    <link rel="stylesheet" href="../../Styles/contact-us.css?v=202611122231">
+    <link rel="stylesheet" href="../../Styles/Footer.css?v=202611122231">
+    <link rel="stylesheet" href="../../Styles/About_Us.css?v=202611122231">
+    <link rel="stylesheet" href="../../Styles/Blog.css?v=202611122231">
+    <link rel="stylesheet" href="../../Styles/Articles.css?v=202611122231">
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;800&display=swap" rel="stylesheet">
     <link href="https://fonts.g
 oogleapis.com/css2?family=Google+Sans+Code:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
@@ -301,6 +301,7 @@ oogleapis.com/css2?family=Google+Sans+Code:ital,wght@0,300..800;1,300..800&displ
                 <a href="/index" style="flex: 1; margin: 0 10px; padding: 0px 0px;">Home</a>
                 <a href="/about-us" style="flex: 1; margin: 0 10px; padding: 0px 0px;">About Us</a>
                 <a href="/services" style="flex: 1; margin: 0 10px; padding: 0px 0px;">Services</a>
+                <a href="/industries" style="flex: 1; margin: 0 10px; padding: 0px 0px;">Industries</a>
                 <a href="/blog" style="flex: 1; margin: 0 10px; padding: 0px 0px;">Blog</a>
                 <a href="/free-resources" style="flex: 1; margin: 0 10px; padding: 0px 0px;">Free Resources</a>
                 <a href="/contact-us" style="flex: 1; margin: 0 10px; padding: 0px 0px;">Contact</a>
@@ -531,18 +532,18 @@ def generate_blog_html(articles, output_dir):
     <meta name="description" content="About Provision Bookkeeping LLC in AZ. Trusted bookkeeping experts for family-owned businesses. Learn more!">
     <meta name="keywords" content="about bookkeeping, Chandler AZ bookkeeping, bookkeeping near me, family business financial services">
     <title>Blog{' - Page ' + str(page) if page > 1 else ''}</title>
-    <link rel="stylesheet" href="/Styles/Header.css?v=202611121752">
-    <link rel="stylesheet" href="/Styles/Nav_Dropdown.css?v=202611121752">
+    <link rel="stylesheet" href="/Styles/Header.css?v=202611122231">
+    <link rel="stylesheet" href="/Styles/Nav_Dropdown.css?v=202611122231">
     <link rel="icon" type="image/x-icon" href="/Provision Bookkeeping.ico">
-    <link rel="stylesheet" href="/Styles/Opening Picture.css?v=202611121752">
-    <link rel="stylesheet" href="/Styles/How_We_Differ.css?v=202611121752">
-    <link rel="stylesheet" href="/Styles/Welcome.css?v=202611121752">
-    <link rel="stylesheet" href="/Styles/How_It_Works.css?v=202611121752">
-    <link rel="stylesheet" href="/Styles/contact-us.css?v=202611121752">
-    <link rel="stylesheet" href="/Styles/Footer.css?v=202611121752">
-    <link rel="stylesheet" href="/Styles/About_Us.css?v=202611121752">
-    <link rel="stylesheet" href="/Styles/Blog.css?v=202611121752">
-    <link rel="stylesheet" href="/Styles/Articles.css?v=202611121752">
+    <link rel="stylesheet" href="/Styles/Opening Picture.css?v=202611122231">
+    <link rel="stylesheet" href="/Styles/How_We_Differ.css?v=202611122231">
+    <link rel="stylesheet" href="/Styles/Welcome.css?v=202611122231">
+    <link rel="stylesheet" href="/Styles/How_It_Works.css?v=202611122231">
+    <link rel="stylesheet" href="/Styles/contact-us.css?v=202611122231">
+    <link rel="stylesheet" href="/Styles/Footer.css?v=202611122231">
+    <link rel="stylesheet" href="/Styles/About_Us.css?v=202611122231">
+    <link rel="stylesheet" href="/Styles/Blog.css?v=202611122231">
+    <link rel="stylesheet" href="/Styles/Articles.css?v=202611122231">
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;800&display=swap" rel="stylesheet">
 </head>
 <body>

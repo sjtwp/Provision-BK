@@ -152,3 +152,13 @@ header {
   }
 
 }
+
+/* Keep the 8-item menu on one line on smaller laptops and tablets */
+@media (min-width: 769px) and (max-width: 1366px) {
+  .nav-menu {
+    gap: 12px;
+  }
+  .nav-menu a {
+    font-size: 14px;
+  }
+}

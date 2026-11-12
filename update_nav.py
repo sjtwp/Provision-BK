@@ -27,12 +27,25 @@ SERVICES = [
     ("year-end-tax-ready-books", "Year-End & Tax-Ready Books"),
 ]
 
+INDUSTRIES = [
+    ("bookkeeping-for-contractors", "Contractors & Construction"),
+    ("real-estate-agent-bookkeeping", "Real Estate Agents"),
+    ("rental-property-bookkeeping", "Rental Property Owners"),
+    ("fix-and-flip-bookkeeping", "Fix & Flip Investors"),
+    ("medical-practice-bookkeeping", "Doctors & Medical Practices"),
+    ("dental-practice-bookkeeping", "Dentists & Dental Practices"),
+    ("restaurant-bookkeeping", "Restaurants & Food Service"),
+    ("ecommerce-bookkeeping", "E-commerce & Retail"),
+    ("professional-services-bookkeeping", "Professional Services"),
+    ("salon-spa-bookkeeping", "Salons, Spas & Fitness"),
+]
+
 CALENDLY = "https://calendly.com/provisionbk/30min?hide_event_type_details=1&hide_gdpr_banner=1&text_color=00446f&primary_color=00446f"
 PHONE_DISPLAY, PHONE_TEL = "(602) 767-3829", "+16027673829"
 EMAIL = "contact@provisionbk.com"
 
 START, END = "<!-- NAV START -->", "<!-- NAV END -->"
-CSS_LINK = '<link rel="stylesheet" href="/Styles/Nav_Dropdown.css?v=202611121752">'
+CSS_LINK = '<link rel="stylesheet" href="/Styles/Nav_Dropdown.css?v=202611122231">'
 
 
 def recent_articles(n=5):
@@ -81,6 +94,8 @@ def build_nav():
     ]
     svc_items = [(f"/{s}", n, "", False) for s, n in SERVICES]
     svc_items.append(("/services", "All services &rarr;", ' class="dd-all"', True))
+    ind_items = [(f"/{s}", n, "", False) for s, n in INDUSTRIES]
+    ind_items.append(("/industries", "All industries &rarr;", ' class="dd-all"', True))
     sa_items = [(f"/{s}-az-bookkeeping", n, "", False) for s, n in CITIES]
     sa_items.append(("/service-areas", "All of Arizona &rarr;", ' class="dd-all"', True))
     cal_onclick = ("if(window.Calendly){Calendly.initPopupWidget({url:'" + CALENDLY + "'});return false;}")
@@ -96,6 +111,7 @@ def build_nav():
         '        <a href="/">Home</a>',
         '        <a href="/about-us">About</a>',
         dropdown("Services", "/services", svc_items, "services"),
+        dropdown("Industries", "/industries", ind_items, "industries"),
         dropdown("Blog", "/blog", blog_items, "blog"),
         dropdown("Free Resources", "/free-resources", fr_items, "resources"),
         dropdown("Service Areas", "/service-areas", sa_items, "areas"),
