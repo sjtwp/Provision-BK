@@ -178,17 +178,17 @@ def generate_article_html(txt_file):
     <meta name="keywords" content="bookkeeping, contractor vs employee, business finance, {author}">
     <link rel="canonical" href="https://provisionbk.com/Articles/Article_HTMLs/{safe_title}">
     <title>{title}</title>
-    <link rel="stylesheet" href="../../Styles/Header.css?v=202611120001">
-    <link rel="stylesheet" href="/Styles/Nav_Dropdown.css?v=202611120001">
-    <link rel="stylesheet" href="../../Styles/Opening Picture.css?v=202611120001">
-    <link rel="stylesheet" href="../../Styles/How_We_Differ.css?v=202611120001">
-    <link rel="stylesheet" href="../../Styles/Welcome.css?v=202611120001">
-    <link rel="stylesheet" href="../../Styles/How_It_Works.css?v=202611120001">
-    <link rel="stylesheet" href="../../Styles/contact-us.css?v=202611120001">
-    <link rel="stylesheet" href="../../Styles/Footer.css?v=202611120001">
-    <link rel="stylesheet" href="../../Styles/About_Us.css?v=202611120001">
-    <link rel="stylesheet" href="../../Styles/Blog.css?v=202611120001">
-    <link rel="stylesheet" href="../../Styles/Articles.css?v=202611120001">
+    <link rel="stylesheet" href="../../Styles/Header.css?v=202611121730">
+    <link rel="stylesheet" href="/Styles/Nav_Dropdown.css?v=202611121730">
+    <link rel="stylesheet" href="../../Styles/Opening Picture.css?v=202611121730">
+    <link rel="stylesheet" href="../../Styles/How_We_Differ.css?v=202611121730">
+    <link rel="stylesheet" href="../../Styles/Welcome.css?v=202611121730">
+    <link rel="stylesheet" href="../../Styles/How_It_Works.css?v=202611121730">
+    <link rel="stylesheet" href="../../Styles/contact-us.css?v=202611121730">
+    <link rel="stylesheet" href="../../Styles/Footer.css?v=202611121730">
+    <link rel="stylesheet" href="../../Styles/About_Us.css?v=202611121730">
+    <link rel="stylesheet" href="../../Styles/Blog.css?v=202611121730">
+    <link rel="stylesheet" href="../../Styles/Articles.css?v=202611121730">
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;800&display=swap" rel="stylesheet">
     <link href="https://fonts.g
 oogleapis.com/css2?family=Google+Sans+Code:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
@@ -300,6 +300,7 @@ oogleapis.com/css2?family=Google+Sans+Code:ital,wght@0,300..800;1,300..800&displ
             <nav class="footer-nav">
                 <a href="/index" style="flex: 1; margin: 0 10px; padding: 0px 0px;">Home</a>
                 <a href="/about-us" style="flex: 1; margin: 0 10px; padding: 0px 0px;">About Us</a>
+                <a href="/services" style="flex: 1; margin: 0 10px; padding: 0px 0px;">Services</a>
                 <a href="/blog" style="flex: 1; margin: 0 10px; padding: 0px 0px;">Blog</a>
                 <a href="/free-resources" style="flex: 1; margin: 0 10px; padding: 0px 0px;">Free Resources</a>
                 <a href="/contact-us" style="flex: 1; margin: 0 10px; padding: 0px 0px;">Contact</a>
@@ -311,7 +312,7 @@ oogleapis.com/css2?family=Google+Sans+Code:ital,wght@0,300..800;1,300..800&displ
             <div class="cta">
                 <a href="" onclick="Calendly.initPopupWidget({{url: 'https://calendly.com/provisionbk/30min?hide_event_type_details=1&hide_gdpr_banner=1&text_color=00446f&primary_color=00446f'}});return false;">Schedule a FREE Meeting</a>
             </div>
-            Expert <strong>bookkeeping services</strong>, <strong>small business bookkeeping</strong>, <strong>payroll processing</strong>, and <strong>QuickBooks services</strong> serving <a href="/phoenix-az-bookkeeping"><strong>Phoenix</strong></a>, <a href="/scottsdale-az-bookkeeping"><strong>Scottsdale</strong></a>, <a href="/tempe-az-bookkeeping"><strong>Tempe</strong></a>, <a href="/gilbert-az-bookkeeping"><strong>Gilbert</strong></a>, <a href="/queen-creek-az-bookkeeping"><strong>Queen Creek</strong></a>, <a href="/tucson-az-bookkeeping"><strong>Tucson</strong></a>, <a href="/mesa-az-bookkeeping"><strong>Mesa</strong></a>, <a href="/chandler-az-bookkeeping"><strong>Chandler</strong></a>, <a href="/glendale-az-bookkeeping"><strong>Glendale</strong></a>, <a href="/peoria-az-bookkeeping"><strong>Peoria</strong></a>, <a href="/surprise-az-bookkeeping"><strong>Surprise</strong></a>, <a href="/yuma-az-bookkeeping"><strong>Yuma</strong></a>, and <a href="/service-areas"><strong>all of Arizona</strong></a>.
+            Expert <a href="/services"><strong>bookkeeping services</strong></a>, <strong>small business bookkeeping</strong>, <strong>payroll processing</strong>, and <strong>QuickBooks services</strong> serving <a href="/phoenix-az-bookkeeping"><strong>Phoenix</strong></a>, <a href="/scottsdale-az-bookkeeping"><strong>Scottsdale</strong></a>, <a href="/gilbert-az-bookkeeping"><strong>Gilbert</strong></a>, <a href="/queen-creek-az-bookkeeping"><strong>Queen Creek</strong></a>, <a href="/mesa-az-bookkeeping"><strong>Mesa</strong></a>, <a href="/chandler-az-bookkeeping"><strong>Chandler</strong></a>, and <a href="/service-areas"><strong>all of Arizona</strong></a>.
         </div>
     </footer>
     <script>
@@ -524,18 +525,18 @@ def generate_blog_html(articles, output_dir):
     <meta name="description" content="About Provision Bookkeeping LLC in AZ. Trusted bookkeeping experts for family-owned businesses. Learn more!">
     <meta name="keywords" content="about bookkeeping, Chandler AZ bookkeeping, bookkeeping near me, family business financial services">
     <title>Blog{' - Page ' + str(page) if page > 1 else ''}</title>
-    <link rel="stylesheet" href="/Styles/Header.css?v=202611120001">
-    <link rel="stylesheet" href="/Styles/Nav_Dropdown.css?v=202611120001">
+    <link rel="stylesheet" href="/Styles/Header.css?v=202611121730">
+    <link rel="stylesheet" href="/Styles/Nav_Dropdown.css?v=202611121730">
     <link rel="icon" type="image/x-icon" href="/Provision Bookkeeping.ico">
-    <link rel="stylesheet" href="/Styles/Opening Picture.css?v=202611120001">
-    <link rel="stylesheet" href="/Styles/How_We_Differ.css?v=202611120001">
-    <link rel="stylesheet" href="/Styles/Welcome.css?v=202611120001">
-    <link rel="stylesheet" href="/Styles/How_It_Works.css?v=202611120001">
-    <link rel="stylesheet" href="/Styles/contact-us.css?v=202611120001">
-    <link rel="stylesheet" href="/Styles/Footer.css?v=202611120001">
-    <link rel="stylesheet" href="/Styles/About_Us.css?v=202611120001">
-    <link rel="stylesheet" href="/Styles/Blog.css?v=202611120001">
-    <link rel="stylesheet" href="/Styles/Articles.css?v=202611120001">
+    <link rel="stylesheet" href="/Styles/Opening Picture.css?v=202611121730">
+    <link rel="stylesheet" href="/Styles/How_We_Differ.css?v=202611121730">
+    <link rel="stylesheet" href="/Styles/Welcome.css?v=202611121730">
+    <link rel="stylesheet" href="/Styles/How_It_Works.css?v=202611121730">
+    <link rel="stylesheet" href="/Styles/contact-us.css?v=202611121730">
+    <link rel="stylesheet" href="/Styles/Footer.css?v=202611121730">
+    <link rel="stylesheet" href="/Styles/About_Us.css?v=202611121730">
+    <link rel="stylesheet" href="/Styles/Blog.css?v=202611121730">
+    <link rel="stylesheet" href="/Styles/Articles.css?v=202611121730">
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;800&display=swap" rel="stylesheet">
 </head>
 <body>
@@ -641,7 +642,7 @@ def generate_blog_html(articles, output_dir):
       <div class="cta">
         <a href="" onclick="Calendly.initPopupWidget({url: 'https://calendly.com/provisionbk/30min?hide_event_type_details=1&hide_gdpr_banner=1&text_color=00446f&primary_color=00446f'});return false;">Schedule a FREE Meeting</a>
       </div>
-      Expert <strong>bookkeeping services</strong>, <strong>small business bookkeeping</strong>, <strong>payroll processing</strong>, and <strong>QuickBooks services</strong> serving <a href="/phoenix-az-bookkeeping"><strong>Phoenix</strong></a>, <a href="/scottsdale-az-bookkeeping"><strong>Scottsdale</strong></a>, <a href="/tempe-az-bookkeeping"><strong>Tempe</strong></a>, <a href="/gilbert-az-bookkeeping"><strong>Gilbert</strong></a>, <a href="/queen-creek-az-bookkeeping"><strong>Queen Creek</strong></a>, <a href="/tucson-az-bookkeeping"><strong>Tucson</strong></a>, <a href="/mesa-az-bookkeeping"><strong>Mesa</strong></a>, <a href="/chandler-az-bookkeeping"><strong>Chandler</strong></a>, <a href="/glendale-az-bookkeeping"><strong>Glendale</strong></a>, <a href="/peoria-az-bookkeeping"><strong>Peoria</strong></a>, <a href="/surprise-az-bookkeeping"><strong>Surprise</strong></a>, <a href="/yuma-az-bookkeeping"><strong>Yuma</strong></a>, and <a href="/service-areas"><strong>all of Arizona</strong></a>.
+      Expert <a href="/services"><strong>bookkeeping services</strong></a>, <strong>small business bookkeeping</strong>, <strong>payroll processing</strong>, and <strong>QuickBooks services</strong> serving <a href="/phoenix-az-bookkeeping"><strong>Phoenix</strong></a>, <a href="/scottsdale-az-bookkeeping"><strong>Scottsdale</strong></a>, <a href="/gilbert-az-bookkeeping"><strong>Gilbert</strong></a>, <a href="/queen-creek-az-bookkeeping"><strong>Queen Creek</strong></a>, <a href="/mesa-az-bookkeeping"><strong>Mesa</strong></a>, <a href="/chandler-az-bookkeeping"><strong>Chandler</strong></a>, and <a href="/service-areas"><strong>all of Arizona</strong></a>.
     </div>
   </footer>
   <script>

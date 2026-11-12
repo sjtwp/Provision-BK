@@ -15,7 +15,7 @@ HTML_DIR         = os.path.join(PROJECT_ROOT, "Articles", "Article_HTMLs")
 
 # Static pages
 STATIC_PAGES = [
-    "/", "/about-us", "/service-areas", "/contact-us", "/blog", "/free-resources",
+    "/", "/about-us", "/services", "/service-areas", "/contact-us", "/blog", "/free-resources",
     "/privacy-policy", "/terms-of-service", "/sitemap"
 ]
 
@@ -25,17 +25,8 @@ SERVICE_AREAS = [
     "mesa-az-bookkeeping",
     "chandler-az-bookkeeping",
     "queen-creek-az-bookkeeping",
-    "tempe-az-bookkeeping",
     "phoenix-az-bookkeeping",
-    "scottsdale-az-bookkeeping",
-    "glendale-az-bookkeeping",
-    "peoria-az-bookkeeping",
-    "surprise-az-bookkeeping",
-    "goodyear-az-bookkeeping",
-    "tucson-az-bookkeeping",
-    "yuma-az-bookkeeping",
-    "flagstaff-az-bookkeeping",
-    "prescott-az-bookkeeping"
+    "scottsdale-az-bookkeeping"
 ]
 
 # ----------------------------------------------------------------------

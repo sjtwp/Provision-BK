@@ -15,10 +15,7 @@ META = os.path.join(ROOT, "Articles", "articles_metadata.json")
 
 CITIES = [
     ("gilbert", "Gilbert"), ("mesa", "Mesa"), ("chandler", "Chandler"),
-    ("queen-creek", "Queen Creek"), ("tempe", "Tempe"), ("phoenix", "Phoenix"),
-    ("scottsdale", "Scottsdale"), ("glendale", "Glendale"), ("peoria", "Peoria"),
-    ("surprise", "Surprise"), ("goodyear", "Goodyear"), ("tucson", "Tucson"),
-    ("yuma", "Yuma"), ("flagstaff", "Flagstaff"), ("prescott", "Prescott"),
+    ("queen-creek", "Queen Creek"), ("phoenix", "Phoenix"), ("scottsdale", "Scottsdale"),
 ]
 
 CALENDLY = "https://calendly.com/provisionbk/30min?hide_event_type_details=1&hide_gdpr_banner=1&text_color=00446f&primary_color=00446f"
@@ -26,7 +23,7 @@ PHONE_DISPLAY, PHONE_TEL = "(602) 767-3829", "+16027673829"
 EMAIL = "contact@provisionbk.com"
 
 START, END = "<!-- NAV START -->", "<!-- NAV END -->"
-CSS_LINK = '<link rel="stylesheet" href="/Styles/Nav_Dropdown.css?v=202611120001">'
+CSS_LINK = '<link rel="stylesheet" href="/Styles/Nav_Dropdown.css?v=202611121730">'
 
 
 def recent_articles(n=5):
@@ -87,6 +84,7 @@ def build_nav():
         '      <nav class="nav-menu">',
         '        <a href="/">Home</a>',
         '        <a href="/about-us">About</a>',
+        '        <a href="/services">Services</a>',
         dropdown("Blog", "/blog", blog_items, "blog"),
         dropdown("Free Resources", "/free-resources", fr_items, "resources"),
         dropdown("Service Areas", "/service-areas", sa_items, "areas"),

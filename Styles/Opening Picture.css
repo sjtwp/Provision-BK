@@ -91,3 +91,14 @@ body {
     font-size: 1rem;
   }
 }
+.overlay .hero-tagline {
+  font-size: 1.6rem;
+  font-weight: 800;
+  margin: 0.4em 0;
+}
+
+@media (max-width: 768px) {
+  .overlay .hero-tagline {
+    font-size: 1.2rem;
+  }
+}

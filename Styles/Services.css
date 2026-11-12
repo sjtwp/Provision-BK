@@ -1,0 +1,15 @@
+/* Services page: navy title box and spacing between services */
+.resources-title {
+  border-color: #00446f;
+  color: #00446f;
+}
+
+.service-block {
+  scroll-margin-top: 110px;
+  border-top: 1px solid #e3e8ee;
+  padding-top: 10px;
+}
+
+.service-block h3 {
+  margin-bottom: 4px;
+}
