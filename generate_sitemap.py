@@ -15,7 +15,7 @@ HTML_DIR         = os.path.join(PROJECT_ROOT, "Articles", "Article_HTMLs")
 
 # Static pages
 STATIC_PAGES = [
-    "/", "/about-us", "/services", "/service-areas", "/contact-us", "/blog", "/free-resources",
+    "/", "/about-us", "/services", "/monthly-bookkeeping", "/catch-up-bookkeeping", "/quickbooks-online-setup", "/payroll-services", "/financial-statements", "/year-end-tax-ready-books", "/service-areas", "/contact-us", "/blog", "/free-resources",
     "/privacy-policy", "/terms-of-service", "/sitemap"
 ]
 
