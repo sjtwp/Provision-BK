@@ -26,7 +26,7 @@ PHONE_DISPLAY, PHONE_TEL = "(602) 767-3829", "+16027673829"
 EMAIL = "contact@provisionbk.com"
 
 START, END = "<!-- NAV START -->", "<!-- NAV END -->"
-CSS_LINK = '<link rel="stylesheet" href="/Styles/Nav_Dropdown.css">'
+CSS_LINK = '<link rel="stylesheet" href="/Styles/Nav_Dropdown.css?v=202611120001">'
 
 
 def recent_articles(n=5):
@@ -118,7 +118,7 @@ def apply(path, nav):
     if not NAV_RE.search(body):
         return False
     new = NAV_RE.sub(lambda m: nav, body, count=1)
-    if CSS_LINK not in new:
+    if "Nav_Dropdown.css" not in new:
         new = re.sub(r'(<link rel="stylesheet" href="[^"]*Header\.css"\s*/?>)', lambda m: m.group(1) + "\n    " + CSS_LINK, new, count=1)
     new = new.replace("\n", nl)
     if new != s:
