@@ -189,3 +189,35 @@ header {
     height: 34px;
   }
 }
+
+/* Floating Call Now button (replaces the Calendly 'Schedule a Call' badge) */
+.call-now-btn {
+  position: fixed;
+  right: 20px;
+  bottom: 20px;
+  z-index: 1001;
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 12px 20px;
+  background: #fad962;
+  color: #00446f;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 800;
+  font-size: 16px;
+  text-decoration: none;
+  border-radius: 999px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.25);
+  transition: transform 0.2s ease;
+}
+.call-now-btn:hover {
+  transform: scale(1.05);
+}
+.call-now-btn .cn-num {
+  font-weight: 400;
+}
+@media (max-width: 768px) {
+  .call-now-btn .cn-num {
+    display: none;
+  }
+}

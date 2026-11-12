@@ -178,17 +178,17 @@ def generate_article_html(txt_file):
     <meta name="keywords" content="bookkeeping, contractor vs employee, business finance, {author}">
     <link rel="canonical" href="https://provisionbk.com/Articles/Article_HTMLs/{safe_title}">
     <title>{title}</title>
-    <link rel="stylesheet" href="../../Styles/Header.css?v=202611122311">
-    <link rel="stylesheet" href="/Styles/Nav_Dropdown.css?v=202611122311">
-    <link rel="stylesheet" href="../../Styles/Opening Picture.css?v=202611122311">
-    <link rel="stylesheet" href="../../Styles/How_We_Differ.css?v=202611122311">
-    <link rel="stylesheet" href="../../Styles/Welcome.css?v=202611122311">
-    <link rel="stylesheet" href="../../Styles/How_It_Works.css?v=202611122311">
-    <link rel="stylesheet" href="../../Styles/contact-us.css?v=202611122311">
-    <link rel="stylesheet" href="../../Styles/Footer.css?v=202611122311">
-    <link rel="stylesheet" href="../../Styles/About_Us.css?v=202611122311">
-    <link rel="stylesheet" href="../../Styles/Blog.css?v=202611122311">
-    <link rel="stylesheet" href="../../Styles/Articles.css?v=202611122311">
+    <link rel="stylesheet" href="../../Styles/Header.css?v=202611122323">
+    <link rel="stylesheet" href="/Styles/Nav_Dropdown.css?v=202611122323">
+    <link rel="stylesheet" href="../../Styles/Opening Picture.css?v=202611122323">
+    <link rel="stylesheet" href="../../Styles/How_We_Differ.css?v=202611122323">
+    <link rel="stylesheet" href="../../Styles/Welcome.css?v=202611122323">
+    <link rel="stylesheet" href="../../Styles/How_It_Works.css?v=202611122323">
+    <link rel="stylesheet" href="../../Styles/contact-us.css?v=202611122323">
+    <link rel="stylesheet" href="../../Styles/Footer.css?v=202611122323">
+    <link rel="stylesheet" href="../../Styles/About_Us.css?v=202611122323">
+    <link rel="stylesheet" href="../../Styles/Blog.css?v=202611122323">
+    <link rel="stylesheet" href="../../Styles/Articles.css?v=202611122323">
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;800&display=swap" rel="stylesheet">
     <link href="https://fonts.g
 oogleapis.com/css2?family=Google+Sans+Code:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
@@ -205,7 +205,6 @@ oogleapis.com/css2?family=Google+Sans+Code:ital,wght@0,300..800;1,300..800&displ
 
 <link href="https://assets.calendly.com/assets/external/widget.css" rel="stylesheet">
 <script src="https://assets.calendly.com/assets/external/widget.js" type="text/javascript" async></script>
-<script type="text/javascript">window.download = function() {{ Calendar.initBadgeWidget({{ url: 'https://calendly.com/provisionbk/15min', text: 'Schedule a Call', color: '#fa0062', textColor: '#00446f', branding: false }}); }}</script>
 
     <!-- JSON-LD Schema -->
     <script type="application/ld+json">
@@ -332,6 +331,7 @@ oogleapis.com/css2?family=Google+Sans+Code:ital,wght@0,300..800;1,300..800&displ
             }}
         }});
     </script>
+<a class="call-now-btn" href="tel:+16027673829" aria-label="Call Provision Bookkeeping at 602-767-3829"><svg viewBox="0 0 24 24" width="18" height="18" aria-hidden="true"><path fill="currentColor" d="M6.6 10.8a15.1 15.1 0 0 0 6.6 6.6l2.2-2.2a1 1 0 0 1 1-.25 11.4 11.4 0 0 0 3.6.57 1 1 0 0 1 1 1V20a1 1 0 0 1-1 1A17 17 0 0 1 3 4a1 1 0 0 1 1-1h3.5a1 1 0 0 1 1 1c0 1.25.2 2.45.57 3.57a1 1 0 0 1-.25 1z"/></svg><span>Call Now</span><span class="cn-num">602-767-3829</span></a>
 </body>
 </html>
 """
@@ -532,18 +532,18 @@ def generate_blog_html(articles, output_dir):
     <meta name="description" content="About Provision Bookkeeping LLC in AZ. Trusted bookkeeping experts for family-owned businesses. Learn more!">
     <meta name="keywords" content="about bookkeeping, Chandler AZ bookkeeping, bookkeeping near me, family business financial services">
     <title>Blog{' - Page ' + str(page) if page > 1 else ''}</title>
-    <link rel="stylesheet" href="/Styles/Header.css?v=202611122311">
-    <link rel="stylesheet" href="/Styles/Nav_Dropdown.css?v=202611122311">
+    <link rel="stylesheet" href="/Styles/Header.css?v=202611122323">
+    <link rel="stylesheet" href="/Styles/Nav_Dropdown.css?v=202611122323">
     <link rel="icon" type="image/x-icon" href="/Provision Bookkeeping.ico">
-    <link rel="stylesheet" href="/Styles/Opening Picture.css?v=202611122311">
-    <link rel="stylesheet" href="/Styles/How_We_Differ.css?v=202611122311">
-    <link rel="stylesheet" href="/Styles/Welcome.css?v=202611122311">
-    <link rel="stylesheet" href="/Styles/How_It_Works.css?v=202611122311">
-    <link rel="stylesheet" href="/Styles/contact-us.css?v=202611122311">
-    <link rel="stylesheet" href="/Styles/Footer.css?v=202611122311">
-    <link rel="stylesheet" href="/Styles/About_Us.css?v=202611122311">
-    <link rel="stylesheet" href="/Styles/Blog.css?v=202611122311">
-    <link rel="stylesheet" href="/Styles/Articles.css?v=202611122311">
+    <link rel="stylesheet" href="/Styles/Opening Picture.css?v=202611122323">
+    <link rel="stylesheet" href="/Styles/How_We_Differ.css?v=202611122323">
+    <link rel="stylesheet" href="/Styles/Welcome.css?v=202611122323">
+    <link rel="stylesheet" href="/Styles/How_It_Works.css?v=202611122323">
+    <link rel="stylesheet" href="/Styles/contact-us.css?v=202611122323">
+    <link rel="stylesheet" href="/Styles/Footer.css?v=202611122323">
+    <link rel="stylesheet" href="/Styles/About_Us.css?v=202611122323">
+    <link rel="stylesheet" href="/Styles/Blog.css?v=202611122323">
+    <link rel="stylesheet" href="/Styles/Articles.css?v=202611122323">
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;800&display=swap" rel="stylesheet">
 </head>
 <body>
@@ -670,6 +670,7 @@ def generate_blog_html(articles, output_dir):
       }
     });
   </script>
+<a class="call-now-btn" href="tel:+16027673829" aria-label="Call Provision Bookkeeping at 602-767-3829"><svg viewBox="0 0 24 24" width="18" height="18" aria-hidden="true"><path fill="currentColor" d="M6.6 10.8a15.1 15.1 0 0 0 6.6 6.6l2.2-2.2a1 1 0 0 1 1-.25 11.4 11.4 0 0 0 3.6.57 1 1 0 0 1 1 1V20a1 1 0 0 1-1 1A17 17 0 0 1 3 4a1 1 0 0 1 1-1h3.5a1 1 0 0 1 1 1c0 1.25.2 2.45.57 3.57a1 1 0 0 1-.25 1z"/></svg><span>Call Now</span><span class="cn-num">602-767-3829</span></a>
 </body>
 </html>
 """
