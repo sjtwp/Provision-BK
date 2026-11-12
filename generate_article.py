@@ -638,6 +638,8 @@ def generate_blog_html(articles, output_dir):
       <nav class="footer-nav">
         <a href="/index" style="flex: 1; margin: 0 10px; padding: 0px 0px;">Home</a>
         <a href="/about-us" style="flex: 1; margin: 0 10px; padding: 0px 0px;">About Us</a>
+        <a href="/services" style="flex: 1; margin: 0 10px; padding: 0px 0px;">Services</a>
+        <a href="/industries" style="flex: 1; margin: 0 10px; padding: 0px 0px;">Industries</a>
         <a href="/blog" style="flex: 1; margin: 0 10px; padding: 0px 0px;">Blog</a>
         <a href="/free-resources" style="flex: 1; margin: 0 10px; padding: 0px 0px;">Free Resources</a>
         <a href="/contact-us" style="flex: 1; margin: 0 10px; padding: 0px 0px;">Contact</a>

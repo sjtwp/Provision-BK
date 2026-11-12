@@ -1,0 +1,48 @@
+Title: Arizona Short-Term Rental Sales Tax - Do You Owe TPT on Your Airbnb
+Author: Matthew Jacob
+Date: November 12, 2026
+ReadTime: 7 min
+Image: short_term_rental_tpt.jpg
+
+
+Summary:
+If you rent a home in Arizona for less than 30 days at a time, you owe Arizona's transaction privilege tax (TPT), even after the 2025 change that ended the rental tax on long-term leases. Here is what short-term rental owners in Scottsdale, Phoenix, Gilbert and across Arizona need to know about licenses, what Airbnb and VRBO pay for you, and how to set up your books so nothing falls through the cracks.
+
+Section:The Short Answer: Yes, Short-Term Rentals Are Still Taxable
+Starting January 1, 2025, Arizona stopped allowing cities to charge TPT on long-term residential rentals (stays of 30 days or more). A lot of owners heard "the rental tax went away" and assumed it applied to them.
+It doesn't apply to short-term rentals. Stays of less than 30 days are lodging, and lodging is still subject to TPT at the state, county and city level. Many cities also add a separate transient lodging (bed) tax on top.
+If you have both kinds of rentals, you now need to keep them separate: long-term rents are generally no longer taxable, short-term rents are.
+
+Section:Step 1: Get an Arizona TPT License
+Before you rent a short-term property, you need a TPT license from the Arizona Department of Revenue (ADOR). You can apply, file and pay online at AZTaxes.gov.
+A few rules owners often miss:
+•  Your TPT license number must appear on any advertising for the rental, including your Airbnb or VRBO listing.
+•  Some cities, including Scottsdale, require a TPT license for each rental property.
+•  Every Arizona county requires residential rental properties to be registered with the County Assessor.
+•  You must file a return every period, even a $0 return when the property sat empty.
+
+Section:Step 2: Check Your City's Short-Term Rental Rules
+Arizona law lets cities license short-term rentals, and many now do. Scottsdale, for example, requires a separate city short-term rental license for each property (currently $250 per year), a neighbor notification letter, and at least $500,000 of liability insurance, either your own or through the booking platform.
+Phoenix, Tempe and other Valley cities have their own versions. Check your city's website before your first booking, and set a reminder for annual renewals.
+
+Section:Step 3: Know What Airbnb and VRBO Pay for You (and What They Don't)
+Large booking platforms are "online lodging marketplaces" under Arizona law, and they collect and remit TPT on the bookings made through them. That's a big help, but it doesn't take you off the hook:
+•  You still have to be licensed and file your own TPT return.
+•  Bookings you take directly (repeat guests, your own website, Venmo or Zelle) are your responsibility. You collect and remit the tax on those yourself.
+•  Not every platform is registered as a marketplace. ADOR publishes a notice listing which platforms are.
+•  Keep the platform's certificate (Arizona Form 5018) and its tax reports so you can show what was already paid if your return is ever reviewed.
+
+Section:Step 4: Set Up Your Books So the Numbers Match
+Most of the short-term rental owners who get into trouble don't do anything wrong on purpose. Their books simply don't show the difference between what the platform paid and what they owe. Here's how we set up QuickBooks Online for short-term rental clients:
+1.  Record each payout at gross. Book the full nightly rate, cleaning fee and taxes, then the platform's service fee as a separate expense, so your income matches the platform's year-end tax form.
+2.  Separate tax collected by the platform from tax you collect directly. Two accounts make your TPT return a five-minute job instead of a guessing game.
+3.  Use a class (or a separate file) for each property. You get a profit and loss for every rental, and your Schedule E lines up with your books.
+4.  Track occupancy and average nightly rate. Those two numbers, compared with your costs, tell you whether a property should stay short-term or switch to a long-term lease.
+5.  Reconcile every month. Platform payouts, cleaning fees and refunds add up quickly; a monthly reconciliation catches missing payouts and double-counted income while they're still easy to fix.
+
+Section:Short-Term or Long-Term? Let the Numbers Decide
+Short-term rentals can earn more per month, but they also carry more costs: cleaning, supplies, utilities, platform fees, licenses and more of your time. Since long-term rentals no longer carry city TPT, the gap has narrowed for some owners.
+That's exactly the kind of question we help clients answer. When we keep your books, we look at each property's real return every month and tell you which ones are working, which ones aren't, and what you could change.
+
+Final: Short-term rentals in Arizona are still taxable, and the rules vary by city. Get licensed, know what your platform pays for you, and keep your books so the numbers match.
+If you'd like help setting up or cleaning up your rental books, see our rental property bookkeeping service or book a free call. Plans start at $250 per month.

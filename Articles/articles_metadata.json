@@ -118,5 +118,15 @@
     "mins": "5 min",
     "image": "Articles/Article_Images/qbo_setup.png",
     "safe_title": "How_to_Set_Up_QuickBooks_Online_for_Your_Business"
+  },
+  {
+    "title": "Arizona Short-Term Rental Sales Tax - Do You Owe TPT on Your Airbnb",
+    "summary": "If you rent a home in Arizona for less than 30 days at a time, you owe Arizona's transaction privilege tax (TPT), even after the 2025 change that ended the rental tax on long-term leases. Here is what short-term rental owners in Scottsdale, Phoenix, Gilbert and across Arizona need to know about licenses, what Airbnb and VRBO pay for you, and how to set up your books so nothing falls through the cracks.",
+    "author": "Matthew Jacob",
+    "date": "November 12, 2026",
+    "parsed_date": "2026-11-12T00:00:00",
+    "mins": "7 min",
+    "image": "Articles/Article_Images/short_term_rental_tpt.jpg",
+    "safe_title": "Arizona_Short-Term_Rental_Sales_Tax_-_Do_You_Owe_TPT_on_Your_Airbnb"
   }
 ]
