@@ -162,3 +162,30 @@ header {
     font-size: 14px;
   }
 }
+
+/* Wider header on desktop so the logo and all menu items fit on one line */
+@media (min-width: 769px) {
+  .header-container {
+    max-width: 1600px;
+    gap: 32px;
+    padding-left: 32px;
+    padding-right: 32px;
+  }
+  .logo span,
+  .nav-menu a,
+  .nav-menu .has-dropdown {
+    white-space: nowrap;
+  }
+  .nav-menu {
+    align-items: center;
+  }
+}
+@media (min-width: 769px) and (max-width: 1366px) {
+  .logo span {
+    font-size: 20px;
+  }
+  .logo img {
+    width: 34px;
+    height: 34px;
+  }
+}
