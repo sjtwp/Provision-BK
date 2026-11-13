@@ -1,0 +1,23 @@
+Article cover photos from Unsplash (Unsplash License: free to use commercially, no attribution required)
+bk_communication.jpg | https://unsplash.com/photos/smiling-woman-talking-on-phone-in-modern-office-iw7gOkFLNI0 | 1200x630
+bk_behind.jpg | https://unsplash.com/photos/stacks-of-paper-documents-and-file-folders-snNHKZ-mGfE | 1200x630
+bk_bill.jpg | https://unsplash.com/photos/a-calculator-sitting-on-top-of-a-wooden-table-0rHxkbcvQAE | 1200x630
+bk_doing_work.jpg | https://unsplash.com/photos/nighttime-desk-setup-with-laptop-lamp-and-city-view-odyglVvZv18 | 1200x630
+bk_penalty.jpg | https://unsplash.com/photos/white-paper-and-brown-envelope-xmddEHyCisc | 1200x630
+bk_reports.jpg | https://unsplash.com/photos/person-in-black-suit-jacket-holding-white-tablet-computer-nApaSgkzaxg | 1200x630
+bk_mess.jpg | https://unsplash.com/photos/office-table-with-pile-of-papers-6jA6eVsRJ6Q | 1200x630
+bk_right.jpg | https://unsplash.com/photos/magnifying-glass-on-white-table-afW1hht0NSs | 1200x630
+bookkeeper_frustrations.jpg | https://unsplash.com/photos/stressed-woman-with-head-in-hands-at-laptop-yjHh4JpZQT8 | 1200x630
+bookkeeping_cost.jpg | https://unsplash.com/photos/person-using-calculator-at-desk-with-coffee-mug-JhevWHCbVyw | 1200x630
+cash_vs_accrual.jpg | https://unsplash.com/photos/multiple-cash-registers-with-computer-monitors-at-a-checkout-counter-UaMMROu5fq0 | 1200x630
+records_receipts.jpg | https://unsplash.com/photos/payment-terminal-with-white-receipt-xkArbdUcUeE | 1200x630
+separate_account.jpg | https://unsplash.com/photos/black-business-credit-card-ahjzVINkuCs | 1200x630
+processor_fees.jpg | https://unsplash.com/photos/credit-card-payment-on-wooden-counter-rVzu-sZzZcg | 1200x630
+software_choice.jpg | https://unsplash.com/photos/person-working-on-a-laptop-with-a-spreadsheet-outdoors-RbQ4j2ggOmY | 1200x630
+estimated_taxes.jpg | https://unsplash.com/photos/hands-holding-tax-forms-with-calculator-and-laptop-8XrYtOYQDRU | 1200x630
+owner_draws.jpg | https://unsplash.com/photos/one-hundred-dollar-bills-scattered-on-a-surface-wt8LQV7kpgg | 1200x630
+desktop_online.jpg | https://unsplash.com/photos/3d-render-of-cloud-computing-concept-Am6pBe2FpJw | 1200x630
+loans_transfers.jpg | https://unsplash.com/photos/modern-office-buildings-in-a-bustling-city-square-Js1SSug0Dpg | 1200x630
+online_sellers_tpt.jpg | https://unsplash.com/photos/a-large-pile-of-brown-cardboard-boxes-with-blue-tape-qO2ztAz5g7A | 1200x630
+diy_vs_hire.jpg | https://unsplash.com/photos/home-office-with-green-walls-UUsQk_9bdR8 | 1200x630
+closing_business.jpg | https://unsplash.com/photos/sorry-were-closed-signage-hanged-on-glass-door-C8jNJslQM3A | 1200x630
