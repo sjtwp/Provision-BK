@@ -238,5 +238,125 @@
     "mins": "7 min",
     "image": "Articles/Article_Images/bk_right.jpg",
     "safe_title": "Not_Sure_Your_Books_Are_Right_-_7_Ways_to_Check_Your_Bookkeeping"
+  },
+  {
+    "title": "Cash vs. Accrual Accounting - Which Method Is Right for Your Small Business",
+    "summary": "One of the first bookkeeping questions owners ask is whether to use cash or accrual accounting. The method you pick changes when income and expenses show up in your books, what your Profit and Loss says each month, and sometimes how much tax you owe in a given year.",
+    "author": "Matthew Jacob",
+    "date": "December 30, 2025",
+    "parsed_date": "2025-12-30T00:00:00",
+    "mins": "6 min",
+    "image": "Articles/Article_Images/cash_vs_accrual.jpg",
+    "safe_title": "Cash_vs._Accrual_Accounting_-_Which_Method_Is_Right_for_Your_Small_Business"
+  },
+  {
+    "title": "How Long to Keep Business Receipts and Records - And What to Do About Lost Receipts",
+    "summary": "Tax season always brings the same questions: Do I need to keep paper receipts? How many years back do I keep records? What if I lost a receipt? Good recordkeeping protects your deductions and makes an audit or a lender's questions far less stressful. Here's what to keep, for how long, and what to do when a receipt goes missing.",
+    "author": "Matthew Jacob",
+    "date": "January 20, 2026",
+    "parsed_date": "2026-01-20T00:00:00",
+    "mins": "6 min",
+    "image": "Articles/Article_Images/records_receipts.jpg",
+    "safe_title": "How_Long_to_Keep_Business_Receipts_and_Records_-_And_What_to_Do_About_Lost_Receipts"
+  },
+  {
+    "title": "Mixing Personal and Business Expenses - Why You Need a Separate Business Bank Account",
+    "summary": "Ask any bookkeeper the most common mistake they see and you'll hear the same answer: mixing personal and business money. Paying for groceries with the business card, running business sales through a personal account, or using one account for everything.",
+    "author": "Matthew Jacob",
+    "date": "February 10, 2026",
+    "parsed_date": "2026-02-10T00:00:00",
+    "mins": "6 min",
+    "image": "Articles/Article_Images/separate_account.jpg",
+    "safe_title": "Mixing_Personal_and_Business_Expenses_-_Why_You_Need_a_Separate_Business_Bank_Account"
+  },
+  {
+    "title": "Stripe, Square and PayPal Deposits - How to Record Payment Processing Fees Correctly",
+    "summary": "If you take cards through Stripe, Square, PayPal or Shopify, the deposits that hit your bank are smaller than your sales. The processor keeps its fee first.",
+    "author": "Matthew Jacob",
+    "date": "March 3, 2026",
+    "parsed_date": "2026-03-03T00:00:00",
+    "mins": "5 min",
+    "image": "Articles/Article_Images/processor_fees.jpg",
+    "safe_title": "Stripe,_Square_and_PayPal_Deposits_-_How_to_Record_Payment_Processing_Fees_Correctly"
+  },
+  {
+    "title": "QuickBooks Online vs. Xero vs. Spreadsheets - Choosing Bookkeeping Software for a Small Business",
+    "summary": "\"What accounting software should I use?\" might be the most asked bookkeeping question online. The honest answer: the best software is the one your bookkeeper and CPA know well and that fits how your business works.",
+    "author": "Matthew Jacob",
+    "date": "March 24, 2026",
+    "parsed_date": "2026-03-24T00:00:00",
+    "mins": "7 min",
+    "image": "Articles/Article_Images/software_choice.jpg",
+    "safe_title": "QuickBooks_Online_vs._Xero_vs._Spreadsheets_-_Choosing_Bookkeeping_Software_for_a_Small_Business"
+  },
+  {
+    "title": "How Much to Set Aside for Taxes - Estimated Tax Payments for Arizona Small Business Owners",
+    "summary": "Many first-year business owners get a painful surprise in April: a big tax bill and a penalty for not paying during the year. When you're self-employed, nobody withholds taxes from your income, so it's on you to set money aside and make estimated payments.",
+    "author": "Matthew Jacob",
+    "date": "April 14, 2026",
+    "parsed_date": "2026-04-14T00:00:00",
+    "mins": "7 min",
+    "image": "Articles/Article_Images/estimated_taxes.jpg",
+    "safe_title": "How_Much_to_Set_Aside_for_Taxes_-_Estimated_Tax_Payments_for_Arizona_Small_Business_Owners"
+  },
+  {
+    "title": "Owner Draws vs. Payroll - How to Pay Yourself From Your Small Business",
+    "summary": "\"How do I pay myself?\" is one of the most common questions new business owners ask. The answer depends on how your business is taxed, and getting it wrong can cause tax problems or messy books.",
+    "author": "Matthew Jacob",
+    "date": "May 5, 2026",
+    "parsed_date": "2026-05-05T00:00:00",
+    "mins": "7 min",
+    "image": "Articles/Article_Images/owner_draws.jpg",
+    "safe_title": "Owner_Draws_vs._Payroll_-_How_to_Pay_Yourself_From_Your_Small_Business"
+  },
+  {
+    "title": "Moving From QuickBooks Desktop to QuickBooks Online - What to Know Before You Switch",
+    "summary": "If you've used QuickBooks Desktop for years, you've probably heard that it's time to move to QuickBooks Online. Intuit has been pushing users to the cloud version, has stopped selling most Desktop versions to new US customers and regularly retires support for older releases.",
+    "author": "Matthew Jacob",
+    "date": "May 26, 2026",
+    "parsed_date": "2026-05-26T00:00:00",
+    "mins": "7 min",
+    "image": "Articles/Article_Images/desktop_online.jpg",
+    "safe_title": "Moving_From_QuickBooks_Desktop_to_QuickBooks_Online_-_What_to_Know_Before_You_Switch"
+  },
+  {
+    "title": "Loan Payments, Credit Card Payments and Transfers - How to Record Them Correctly in QuickBooks",
+    "summary": "Some of the biggest errors in small business books come from transactions that aren't income or expenses at all: loan payments, credit card payments and transfers between your own accounts. Recorded wrong, they can double your expenses, inflate your revenue or leave a loan balance that never goes down.",
+    "author": "Matthew Jacob",
+    "date": "June 16, 2026",
+    "parsed_date": "2026-06-16T00:00:00",
+    "mins": "6 min",
+    "image": "Articles/Article_Images/loans_transfers.jpg",
+    "safe_title": "Loan_Payments,_Credit_Card_Payments_and_Transfers_-_How_to_Record_Them_Correctly_in_QuickBooks"
+  },
+  {
+    "title": "Arizona Sales Tax for Online Sellers - TPT on Shopify, Etsy and Amazon Sales",
+    "summary": "Selling online from Arizona raises a lot of sales tax questions. Do Etsy and Amazon collect it for you? What about sales on your own Shopify site? Do you need a license? Arizona's version of sales tax, the transaction privilege tax or TPT, has its own rules.",
+    "author": "Matthew Jacob",
+    "date": "July 7, 2026",
+    "parsed_date": "2026-07-07T00:00:00",
+    "mins": "7 min",
+    "image": "Articles/Article_Images/online_sellers_tpt.jpg",
+    "safe_title": "Arizona_Sales_Tax_for_Online_Sellers_-_TPT_on_Shopify,_Etsy_and_Amazon_Sales"
+  },
+  {
+    "title": "DIY Bookkeeping vs. Hiring a Bookkeeper - When a Side Business Needs Help",
+    "summary": "A common question online goes like this: \"My business made $5,000 last year. Do I need a bookkeeper?\" Often the honest answer is no, not yet.",
+    "author": "Matthew Jacob",
+    "date": "July 28, 2026",
+    "parsed_date": "2026-07-28T00:00:00",
+    "mins": "6 min",
+    "image": "Articles/Article_Images/diy_vs_hire.jpg",
+    "safe_title": "DIY_Bookkeeping_vs._Hiring_a_Bookkeeper_-_When_a_Side_Business_Needs_Help"
+  },
+  {
+    "title": "Closing Your Business - Final Bookkeeping Steps and What to Do With Your QuickBooks File",
+    "summary": "Closing a business involves more than locking the door. There are final payroll and tax filings, accounts to close, and records you still need to keep for years.",
+    "author": "Matthew Jacob",
+    "date": "August 18, 2026",
+    "parsed_date": "2026-08-18T00:00:00",
+    "mins": "6 min",
+    "image": "Articles/Article_Images/closing_business.jpg",
+    "safe_title": "Closing_Your_Business_-_Final_Bookkeeping_Steps_and_What_to_Do_With_Your_QuickBooks_File"
   }
 ]

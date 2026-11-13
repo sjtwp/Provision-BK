@@ -1,0 +1,38 @@
+Title: Arizona Sales Tax for Online Sellers - TPT on Shopify, Etsy and Amazon Sales
+Author: Matthew Jacob
+Date: July 7, 2026
+ReadTime: 7 min
+Image: online_sellers_tpt.jpg
+
+
+Summary:
+Selling online from Arizona raises a lot of sales tax questions. Do Etsy and Amazon collect it for you? What about sales on your own Shopify site? Do you need a license? Arizona's version of sales tax, the transaction privilege tax or TPT, has its own rules. Here's an overview for Arizona-based online sellers and how to keep your books in line with your returns.
+
+Section:What TPT Is
+Arizona doesn't technically have a sales tax. It has a transaction privilege tax, a tax on the privilege of doing business in the state, which most businesses pass on to customers like a sales tax. Retail sales are generally taxable. Many cities have their own TPT rates on top of the state and county rates, and the Arizona Department of Revenue administers most of them.
+
+Section:Marketplace Sales: Etsy, Amazon and Similar
+Arizona has marketplace facilitator rules. Large marketplaces like Amazon, Etsy and eBay generally collect and remit Arizona TPT on sales made through their platforms. That means you usually aren't collecting tax on those sales yourself, but you should still track them, and you may still need a TPT license and to report them, depending on your situation. Check with ADOR or your tax preparer.
+
+Section:Your Own Website: Shopify, Squarespace and Others
+Sales through your own site are different. If you're based in Arizona and sell taxable products to Arizona customers, you're generally responsible for collecting and remitting TPT yourself. Shopify and similar platforms can calculate tax at checkout, but only if you set it up. Out-of-state sales may be subject to other states' rules once you pass their economic thresholds.
+
+Section:Licensing and Filing
+Arizona businesses making taxable sales generally need a TPT license from ADOR. Returns are filed monthly, quarterly or annually depending on your tax liability, and are typically due the month after the reporting period. Filing late brings penalties and interest, so put the dates on a calendar.
+
+Section:Keeping Your Books in Line With Your Returns
+1.  Record sales at gross, with sales tax collected in a liability account, not income.
+2.  Separate marketplace sales from your own website sales.
+3.  Record platform fees as expenses. See <a href="/Articles/Article_HTMLs/Stripe,_Square_and_PayPal_Deposits_-_How_to_Record_Payment_Processing_Fees_Correctly">how to record processing fees</a>.
+4.  Reconcile the tax you collected to what you filed every period.
+For short-term rental hosts, see our separate guide to <a href="/Articles/Article_HTMLs/Arizona_Short-Term_Rental_Sales_Tax_-_Do_You_Owe_TPT_on_Your_Airbnb">Arizona TPT on Airbnb rentals</a>.
+
+Section:Related Reading
+<a href="/Articles/Article_HTMLs/Arizona_Short-Term_Rental_Sales_Tax_-_Do_You_Owe_TPT_on_Your_Airbnb">Arizona Short-Term Rental Sales Tax - Do You Owe TPT on Your Airbnb</a>
+<a href="/Articles/Article_HTMLs/Stripe,_Square_and_PayPal_Deposits_-_How_to_Record_Payment_Processing_Fees_Correctly">Stripe, Square and PayPal Deposits - How to Record Payment Processing Fees Correctly</a>
+<a href="/Articles/Article_HTMLs/I_Got_an_IRS_or_Arizona_Penalty_Notice_From_a_Bookkeeping_Mistake_-_What_to_Do_Next">I Got an IRS or Arizona Penalty Notice From a Bookkeeping Mistake - What to Do Next</a>
+<a href="/ecommerce-bookkeeping">E-Commerce Bookkeeping</a>
+<a href="/free-resources#coa-general">Free Chart of Accounts template</a>
+
+Final: Marketplaces usually handle TPT on their own sales. Your own website is on you. Either way, your books should show sales, tax collected and fees separately so your returns match.
+Provision Bookkeeping sets up e-commerce books that tie out to your Arizona TPT returns. See our <a href="/ecommerce-bookkeeping">e-commerce bookkeeping</a> or <a href="/contact-us">book a quick call</a>. This article is general information; confirm your specific obligations with ADOR or your tax professional.

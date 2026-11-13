@@ -1,0 +1,46 @@
+Title: Cash vs. Accrual Accounting - Which Method Is Right for Your Small Business
+Author: Matthew Jacob
+Date: December 30, 2025
+ReadTime: 6 min
+Image: cash_vs_accrual.jpg
+
+
+Summary:
+One of the first bookkeeping questions owners ask is whether to use cash or accrual accounting. The method you pick changes when income and expenses show up in your books, what your Profit and Loss says each month, and sometimes how much tax you owe in a given year. Here's the difference in plain English, who can use each method, and how to choose.
+
+Section:The Difference in One Sentence
+Cash accounting records income when the money arrives and expenses when you pay them. Accrual accounting records income when you earn it and expenses when you incur them, whether or not cash has moved yet.
+
+Section:A Simple Example
+Say you finish a $5,000 job on December 20 and the customer pays you on January 10. On the cash method, that $5,000 is January income. On the accrual method, it's December income, and the unpaid invoice sits in accounts receivable until it's paid.
+The same goes for bills. A supply invoice dated in December but paid in January is a January expense on cash and a December expense on accrual.
+
+Section:Pros and Cons of Cash Accounting
+Pros: simple, matches your bank account, and gives you some control over timing at year-end.
+Cons: your monthly profit can swing based on when customers happen to pay, so it can hide how the business is really doing.
+
+Section:Pros and Cons of Accrual Accounting
+Pros: shows true profitability by matching revenue with the costs of earning it. Lenders and investors often prefer it.
+Cons: more work, and you can show a profit while your bank account is empty because customers haven't paid yet. You'll want to watch cash flow separately.
+
+Section:Who Can Use the Cash Method
+Most small businesses can use the cash method for taxes. The IRS allows it for businesses under an average gross receipts threshold, which is in the tens of millions of dollars and adjusts for inflation each year. Businesses with inventory have special rules, and some industries have their own. Ask your CPA before you change methods, because switching for tax purposes can require IRS approval.
+
+Section:Can You Use Both
+Yes, in a practical sense. Many small businesses file taxes on the cash basis but look at accrual-style reports for management. QuickBooks Online lets you run most reports on either basis with one setting, so you can see both views. Learn more about reading those reports in our guide to <a href="/Articles/Article_HTMLs/Financial_Statements_guide">understanding financial statements</a>.
+
+Section:How to Choose
+1.  Mostly paid at the time of sale, like a salon, restaurant or retail shop: cash is usually fine.
+2.  Invoice customers and wait 30 to 60 days, like contractors or professional services: accrual reports give you a truer picture.
+3.  Applying for a loan or bringing in investors: expect to be asked for accrual-basis statements.
+4.  Holding inventory: talk to your CPA, because inventory changes the rules.
+
+Section:Related Reading
+<a href="/Articles/Article_HTMLs/Financial_Statements_guide">Understanding Financial Statements</a>
+<a href="/Articles/Article_HTMLs/I_Get_Financial_Reports_but_Never_Understand_Them_-_How_to_Read_Your_Profit_and_Loss_and_Balance_Sheet">I Get Financial Reports but Never Understand Them - How to Read Your Profit and Loss and Balance Sheet</a>
+<a href="/Articles/Article_HTMLs/Stripe,_Square_and_PayPal_Deposits_-_How_to_Record_Payment_Processing_Fees_Correctly">Stripe, Square and PayPal Deposits - How to Record Payment Processing Fees Correctly</a>
+<a href="/Articles/Article_HTMLs/What_I_Need_to_Do_Before_the_End_of_the_Tax_Year">What I Need to Do Before the End of the Tax Year</a>
+<a href="/free-resources#coa-general">Free Chart of Accounts template</a>
+
+Final: Cash vs. accrual isn't about right or wrong. It's about which view helps you run the business and what your tax situation allows.
+Provision Bookkeeping sets up your books on the right basis from day one and can show you both views each month. See our <a href="/monthly-bookkeeping">monthly bookkeeping</a> or <a href="/contact-us">book a quick call</a>.

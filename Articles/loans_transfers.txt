@@ -1,0 +1,41 @@
+Title: Loan Payments, Credit Card Payments and Transfers - How to Record Them Correctly in QuickBooks
+Author: Matthew Jacob
+Date: June 16, 2026
+ReadTime: 6 min
+Image: loans_transfers.jpg
+
+
+Summary:
+Some of the biggest errors in small business books come from transactions that aren't income or expenses at all: loan payments, credit card payments and transfers between your own accounts. Recorded wrong, they can double your expenses, inflate your revenue or leave a loan balance that never goes down. Here's how each one should be recorded.
+
+Section:Credit Card Payments
+When you pay off your business credit card from checking, that payment is a transfer, not an expense. The expenses were already recorded when you made each purchase on the card. If you also record the payment as an expense, you've counted those costs twice. In QuickBooks Online, the credit card should be set up as its own account, with the payment recorded as a transfer or credit card payment from checking.
+
+Section:Loan Payments
+A loan payment has two parts. Interest is an expense. Principal reduces what you owe and is not an expense. Many books record the whole payment as an expense, which overstates expenses and leaves the loan balance stuck at its original amount. Use the lender's amortization schedule or statement to split each payment. Your loan balance in QuickBooks should match the lender's statement.
+
+Section:Loan Proceeds
+When a loan is funded, the deposit is not income. It increases your cash and your loan liability. Recording it as income makes your profit and your tax bill look much larger than they are.
+
+Section:Transfers Between Your Own Accounts
+Moving money from checking to savings, or between two business accounts, is a transfer. Neither side is income or an expense. When both accounts are connected to bank feeds, match the two sides as one transfer, so you don't end up with income on one side and an expense on the other.
+
+Section:Owner Money In and Out
+Money you put into the business is an owner contribution, and money you take out is an owner draw. Neither is income or an expense. See <a href="/Articles/Article_HTMLs/Owner_Draws_vs._Payroll_-_How_to_Pay_Yourself_From_Your_Small_Business">owner draws vs. payroll</a>.
+
+Section:How to Spot These Errors
+1.  Credit card payments showing as an expense on your Profit and Loss.
+2.  Revenue higher than your actual sales.
+3.  A loan balance that hasn't changed in months.
+4.  Equal amounts showing as both income and expense in the same month.
+For more self-checks, see <a href="/Articles/Article_HTMLs/Not_Sure_Your_Books_Are_Right_-_7_Ways_to_Check_Your_Bookkeeping">7 ways to check your bookkeeping</a>.
+
+Section:Related Reading
+<a href="/Articles/Article_HTMLs/Not_Sure_Your_Books_Are_Right_-_7_Ways_to_Check_Your_Bookkeeping">Not Sure Your Books Are Right - 7 Ways to Check Your Bookkeeping</a>
+<a href="/Articles/Article_HTMLs/My_Last_Bookkeeper_Left_Me_a_Mess_-_How_Bookkeeping_Cleanup_Works">My Last Bookkeeper Left Me a Mess - How Bookkeeping Cleanup Works</a>
+<a href="/Articles/Article_HTMLs/Owner_Draws_vs._Payroll_-_How_to_Pay_Yourself_From_Your_Small_Business">Owner Draws vs. Payroll - How to Pay Yourself From Your Small Business</a>
+<a href="/Articles/Article_HTMLs/Commercial_Real_Estate_Owners_with_Multiple_LLCs,_One_QuickBooks_Account_or_Many">Commercial Real Estate Owners with Multiple LLCs, One QuickBooks Account or Many</a>
+<a href="/free-resources#monthly-checklist">Free Monthly Bookkeeping Close Checklist</a>
+
+Final: Payments and transfers move money around. They don't create income or expenses. Recording them correctly keeps your profit, your taxes and your loan balances accurate.
+Provision Bookkeeping reconciles every loan, card and bank account monthly, so these errors never pile up. <a href="/contact-us">Book a quick call</a>.

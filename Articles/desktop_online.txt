@@ -1,0 +1,41 @@
+Title: Moving From QuickBooks Desktop to QuickBooks Online - What to Know Before You Switch
+Author: Matthew Jacob
+Date: May 26, 2026
+ReadTime: 7 min
+Image: desktop_online.jpg
+
+
+Summary:
+If you've used QuickBooks Desktop for years, you've probably heard that it's time to move to QuickBooks Online. Intuit has been pushing users to the cloud version, has stopped selling most Desktop versions to new US customers and regularly retires support for older releases. Here's what changes when you switch, what does and doesn't convert, and how to make the move without losing your history.
+
+Section:Why Owners Are Switching
+1.  Older Desktop versions lose support, which can mean losing bank feeds, payroll and security updates.
+2.  Access from anywhere, without remote desktop software or a single office computer.
+3.  Automatic bank feeds and app connections.
+4.  Your bookkeeper and CPA can work in the file at the same time without passing backups around.
+
+Section:What Converts and What Doesn't
+Most lists and transactions move over: customers, vendors, the chart of accounts, invoices, bills and payments. Some things don't convert cleanly or at all, such as certain reports and customizations, some inventory settings, payroll history in some cases, and reconciliation reports. Always save copies of your Desktop reports, especially past reconciliations, before converting.
+
+Section:Before You Convert
+1.  Reconcile every bank and credit card account through the most recent month.
+2.  Clean up old, uncleared items and unused accounts.
+3.  Run and save key reports: Profit and Loss, Balance Sheet, aging reports and the general ledger.
+4.  Make a backup of the Desktop file and keep it.
+5.  Pick a cutover date, ideally the start of a month or quarter.
+
+Section:Convert or Start Fresh
+If your Desktop file is clean, converting keeps your full history in one place. If the file is large, old or messy, it may be better to start a fresh QuickBooks Online file with opening balances as of a cutover date and keep the Desktop file for history. A bookkeeper can tell you which is faster after looking at the file. If there's a lot to fix, see <a href="/Articles/Article_HTMLs/My_Last_Bookkeeper_Left_Me_a_Mess_-_How_Bookkeeping_Cleanup_Works">how bookkeeping cleanup works</a>.
+
+Section:After You Convert
+Compare the Balance Sheet in both systems as of the conversion date, reconnect bank feeds carefully to avoid duplicate transactions, set up bank rules, and train everyone who uses the file. Our <a href="/Articles/Article_HTMLs/How_to_Set_Up_QuickBooks_Online_for_Your_Business">QuickBooks Online setup guide</a> covers the settings to check.
+
+Section:Related Reading
+<a href="/Articles/Article_HTMLs/How_to_Set_Up_QuickBooks_Online_for_Your_Business">How to Set Up QuickBooks Online for Your Business</a>
+<a href="/Articles/Article_HTMLs/QuickBooks_Online_vs._Xero_vs._Spreadsheets_-_Choosing_Bookkeeping_Software_for_a_Small_Business">QuickBooks Online vs. Xero vs. Spreadsheets - Choosing Bookkeeping Software for a Small Business</a>
+<a href="/Articles/Article_HTMLs/My_Last_Bookkeeper_Left_Me_a_Mess_-_How_Bookkeeping_Cleanup_Works">My Last Bookkeeper Left Me a Mess - How Bookkeeping Cleanup Works</a>
+<a href="/Articles/Article_HTMLs/Commercial_Real_Estate_Owners_with_Multiple_LLCs,_One_QuickBooks_Account_or_Many">Commercial Real Estate Owners with Multiple LLCs, One QuickBooks Account or Many</a>
+<a href="/free-resources#setup-checklist">Free QBO Setup and Catch-Up Checklist</a>
+
+Final: Moving from Desktop to Online is worth it for most small businesses. Clean up first, save your reports, and verify the balances after.
+Provision Bookkeeping handles conversions and fresh setups in QuickBooks Online, then keeps your books current. See our <a href="/quickbooks-online-setup">QuickBooks Online setup</a> or <a href="/contact-us">book a quick call</a>.

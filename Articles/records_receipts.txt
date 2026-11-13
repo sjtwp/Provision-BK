@@ -1,0 +1,44 @@
+Title: How Long to Keep Business Receipts and Records - And What to Do About Lost Receipts
+Author: Matthew Jacob
+Date: January 20, 2026
+ReadTime: 6 min
+Image: records_receipts.jpg
+
+
+Summary:
+Tax season always brings the same questions: Do I need to keep paper receipts? How many years back do I keep records? What if I lost a receipt? Good recordkeeping protects your deductions and makes an audit or a lender's questions far less stressful. Here's what to keep, for how long, and what to do when a receipt goes missing.
+
+Section:How Long to Keep Business Records
+The IRS generally ties recordkeeping to how long it can review your return. Common guidelines:
+1.  Three years from the date you filed for most records supporting income and deductions.
+2.  Six years if income was underreported by more than 25 percent.
+3.  Four years for employment tax records after the tax is due or paid.
+4.  Seven years for a claim involving a bad debt or worthless securities.
+5.  As long as you own an asset, plus the years above after you sell it, for records showing what you paid for property and equipment.
+Many owners simply keep seven years of records to be safe. Arizona generally follows similar timeframes for state returns, and your CPA can confirm anything specific to your situation.
+
+Section:What Counts as a Good Receipt
+A useful receipt shows the vendor, date, amount and what was purchased. A bank or credit card statement proves you paid, but not what you bought, so it's weaker on its own. For meals, note who attended and the business purpose. For vehicle use, keep a mileage log.
+
+Section:Digital Receipts Are Fine
+You don't need a shoebox. The IRS accepts electronic copies as long as they're legible and complete. Snap a photo in the QuickBooks Online app or forward email receipts, and the receipt attaches to the transaction in your books. That beats a pile of faded thermal paper in April.
+
+Section:What to Do About a Lost Receipt
+1.  Ask the vendor for a copy. Many can reprint or email a receipt or invoice.
+2.  Pull the bank or credit card statement showing the charge.
+3.  Write a short note with the date, amount, vendor, what you bought and why it was for the business, and keep it with the statement.
+4.  Look for supporting evidence like an order confirmation, calendar entry or delivery record.
+One missing receipt isn't the end of the world. A pattern of missing receipts is what causes problems in an audit.
+
+Section:Records Besides Receipts
+Keep bank and credit card statements, loan documents, payroll reports, 1099s and W-9s, sales tax returns, prior tax returns, and the closing statements for any property you buy or sell. If you're an Arizona business collecting TPT, keep your sales records and returns too.
+
+Section:Related Reading
+<a href="/Articles/Article_HTMLs/What_I_Need_to_Do_Before_the_End_of_the_Tax_Year">What I Need to Do Before the End of the Tax Year</a>
+<a href="/Articles/Article_HTMLs/Still_Doing_Half_the_Bookkeeping_Myself_-_What_Your_Bookkeeper_Should_Actually_Handle">Still Doing Half the Bookkeeping Myself - What Your Bookkeeper Should Actually Handle</a>
+<a href="/Articles/Article_HTMLs/Mixing_Personal_and_Business_Expenses_-_Why_You_Need_a_Separate_Business_Bank_Account">Mixing Personal and Business Expenses - Why You Need a Separate Business Bank Account</a>
+<a href="/Articles/Article_HTMLs/How_to_Set_Up_QuickBooks_Online_for_Your_Business">How to Set Up QuickBooks Online for Your Business</a>
+<a href="/free-resources#forms">Free W-9, W-4, I-9 and Arizona A-4 forms</a>
+
+Final: Keep records long enough to cover the IRS review window, store them digitally, and capture receipts when you spend, not in April.
+Provision Bookkeeping sets up receipt capture in QuickBooks Online so your records are attached to your books automatically. See our <a href="/year-end-tax-ready-books">year-end and tax-ready books</a> service or <a href="/contact-us">book a quick call</a>.

@@ -1,0 +1,38 @@
+Title: Stripe, Square and PayPal Deposits - How to Record Payment Processing Fees Correctly
+Author: Matthew Jacob
+Date: March 3, 2026
+ReadTime: 5 min
+Image: processor_fees.jpg
+
+
+Summary:
+If you take cards through Stripe, Square, PayPal or Shopify, the deposits that hit your bank are smaller than your sales. The processor keeps its fee first. Recording just the deposit is one of the most common bookkeeping mistakes, and it understates both your revenue and your expenses. Here's how to record processor deposits correctly, and why it matters for taxes and sales tax.
+
+Section:The Problem With Recording the Deposit Only
+Say you sell $1,000 and the processor deposits $970 after a $30 fee. If you record $970 as income, your sales are understated by $30 and your fees disappear. That might look harmless, but over a year it adds up, your gross sales won't match the 1099-K the processor reports to the IRS, and your Arizona TPT returns, which are based on gross sales, won't tie to your books.
+
+Section:The Right Way: Gross Sales, Fees, Net Deposit
+Each deposit should show three things:
+1.  Gross sales of $1,000 recorded as income.
+2.  The $30 fee recorded as a merchant or processing fee expense.
+3.  The net $970 matching what actually landed in the bank.
+In QuickBooks Online you can do this right in the deposit by adding a negative line for the fee, or by using an app that syncs your processor's payouts with the fee detail.
+
+Section:Refunds, Chargebacks and Payouts That Combine Days
+Processors often bundle several days of sales into one payout, net of refunds and chargebacks. Use the processor's payout report, not the bank line, to record what happened. Refunds reduce sales, chargeback fees are an expense, and a reserve held back by the processor is still your money until it's released.
+
+Section:Why Sales Tax Makes This Matter More
+If you collect sales tax, the amount you collected is part of the gross payment but isn't your income. It belongs in a sales tax liability account until you file. Mixing it into sales overstates revenue and makes your TPT return harder to prepare. See our guide to <a href="/Articles/Article_HTMLs/Arizona_Sales_Tax_for_Online_Sellers_-_TPT_on_Shopify,_Etsy_and_Amazon_Sales">Arizona sales tax for online sellers</a>.
+
+Section:Quick Monthly Check
+Compare total gross sales in your books to the processor's monthly summary. If they match, and your fee expense matches the processor's fee total, your deposits are being recorded correctly.
+
+Section:Related Reading
+<a href="/Articles/Article_HTMLs/Arizona_Sales_Tax_for_Online_Sellers_-_TPT_on_Shopify,_Etsy_and_Amazon_Sales">Arizona Sales Tax for Online Sellers - TPT on Shopify, Etsy and Amazon Sales</a>
+<a href="/Articles/Article_HTMLs/I_Got_an_IRS_or_Arizona_Penalty_Notice_From_a_Bookkeeping_Mistake_-_What_to_Do_Next">I Got an IRS or Arizona Penalty Notice From a Bookkeeping Mistake - What to Do Next</a>
+<a href="/Articles/Article_HTMLs/Cash_vs._Accrual_Accounting_-_Which_Method_Is_Right_for_Your_Small_Business">Cash vs. Accrual Accounting - Which Method Is Right for Your Small Business</a>
+<a href="/Articles/Article_HTMLs/How_to_Set_Up_QuickBooks_Online_for_Your_Business">How to Set Up QuickBooks Online for Your Business</a>
+<a href="/salon-spa-bookkeeping">Bookkeeping for Salons, Spas and Fitness</a>
+
+Final: Record processor deposits at gross, with fees as an expense, and your sales will match your 1099-K and your sales tax returns.
+Provision Bookkeeping connects Stripe, Square, PayPal and Shopify to QuickBooks Online so fees and payouts are recorded right. See our <a href="/ecommerce-bookkeeping">e-commerce bookkeeping</a> or <a href="/contact-us">book a quick call</a>.

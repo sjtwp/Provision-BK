@@ -1,0 +1,39 @@
+Title: Closing Your Business - Final Bookkeeping Steps and What to Do With Your QuickBooks File
+Author: Matthew Jacob
+Date: August 18, 2026
+ReadTime: 6 min
+Image: closing_business.jpg
+
+
+Summary:
+Closing a business involves more than locking the door. There are final payroll and tax filings, accounts to close, and records you still need to keep for years. And many owners ask what to do with their QuickBooks subscription once the business is done. Here's a checklist of the bookkeeping side of closing a business.
+
+Section:Finish the Books Through the Final Date
+1.  Record every last sale, expense and payment.
+2.  Collect or write off remaining customer balances.
+3.  Pay or settle remaining vendor bills.
+4.  Reconcile every bank, credit card and loan account through the final statement.
+5.  Record the sale or disposal of equipment and other assets.
+6.  Record final owner draws or distributions of remaining cash.
+
+Section:Final Tax and Payroll Filings
+Your final federal return is marked as final. If you had employees, final payroll returns and W-2s are due, and contractors you paid may need 1099s. In Arizona, file final TPT returns and close your TPT license with ADOR, and close your Arizona withholding and unemployment accounts if you had them. An LLC or corporation should also be formally dissolved with the Arizona Corporation Commission. Work with your CPA on the timing.
+
+Section:Close Accounts in the Right Order
+Keep the business bank account open until every final check has cleared and every refund or final bill is settled. Then close the bank accounts, cancel the business credit card, and cancel subscriptions and merchant accounts.
+
+Section:What to Do With Your QuickBooks File
+Before you cancel QuickBooks Online, save your records. Run and download a Profit and Loss and Balance Sheet for each year, the general ledger, reconciliation reports, and customer and vendor lists. QuickBooks Online lets you export reports to Excel or PDF, and attachments should be downloaded separately. Once canceled, access is limited after a period of time, so export before you cancel. Store the files somewhere you'll be able to find them for at least seven years.
+
+Section:Keep Records After You Close
+The recordkeeping rules don't end when the business does. See <a href="/Articles/Article_HTMLs/How_Long_to_Keep_Business_Receipts_and_Records_-_And_What_to_Do_About_Lost_Receipts">how long to keep business records</a>. Keep tax returns, payroll records, asset records and dissolution paperwork.
+
+Section:Related Reading
+<a href="/Articles/Article_HTMLs/How_Long_to_Keep_Business_Receipts_and_Records_-_And_What_to_Do_About_Lost_Receipts">How Long to Keep Business Receipts and Records - And What to Do About Lost Receipts</a>
+<a href="/Articles/Article_HTMLs/What_I_Need_to_Do_Before_the_End_of_the_Tax_Year">What I Need to Do Before the End of the Tax Year</a>
+<a href="/Articles/Article_HTMLs/Employee_vs._Contractor_Understanding_the_Difference">Employee vs. Contractor: Understanding the Difference</a>
+<a href="/catch-up-bookkeeping">Catch-Up and Cleanup Bookkeeping</a>
+<a href="/free-resources#forms">Free W-9, W-4, I-9 and Arizona A-4 forms</a>
+
+Final: Closing a business cleanly means finishing the books, filing final returns, closing accounts in order and saving your records before you cancel your software.
+Provision Bookkeeping can wrap up your final books and export everything you need to keep. See our <a href="/year-end-tax-ready-books">year-end and tax-ready books</a> service or <a href="/contact-us">book a quick call</a>.

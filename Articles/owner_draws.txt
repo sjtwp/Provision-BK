@@ -1,0 +1,43 @@
+Title: Owner Draws vs. Payroll - How to Pay Yourself From Your Small Business
+Author: Matthew Jacob
+Date: May 5, 2026
+ReadTime: 7 min
+Image: owner_draws.jpg
+
+
+Summary:
+"How do I pay myself?" is one of the most common questions new business owners ask. The answer depends on how your business is taxed, and getting it wrong can cause tax problems or messy books. Here's how owner draws and payroll work, which one applies to you, and how to record them correctly.
+
+Section:It Depends on How Your Business Is Taxed
+Sole proprietors and single-member LLCs: you take owner draws. You don't pay yourself a W-2 salary.
+Partnerships and multi-member LLCs: partners take draws, and may receive guaranteed payments for services.
+S corporations: owners who work in the business must take a reasonable salary through payroll, and can take additional distributions.
+C corporations: owners who work in the business are paid through payroll, and profits come out as dividends.
+
+Section:How Owner Draws Work
+An owner draw is simply moving money from the business account to your personal account. It's not an expense and doesn't reduce your taxable profit. You're taxed on the business's profit whether you take it out or leave it in. In QuickBooks Online, record draws to an equity account called Owner Draws, not to a wage or expense account.
+
+Section:How Payroll for Owners Works
+If you're an S-corp owner, you run yourself through payroll like any employee, with tax withholding and payroll filings. The salary is an expense to the business. Taking only distributions and no salary is a red flag for the IRS. Our article on <a href="/Articles/Article_HTMLs/LLC_vs._S-Corp_in_Arizona_-_When_Does_the_Election_Actually_Save_You_Money">LLC vs. S-Corp in Arizona</a> explains when the election makes sense.
+
+Section:How Much Should You Take
+1.  Start with your true monthly profit from current books, not your bank balance.
+2.  Leave enough in the business for upcoming bills, slow months and taxes.
+3.  Set aside money for taxes first. See <a href="/Articles/Article_HTMLs/How_Much_to_Set_Aside_for_Taxes_-_Estimated_Tax_Payments_for_Arizona_Small_Business_Owners">how much to set aside for taxes</a>.
+4.  Pick a regular amount and schedule, like twice a month, instead of pulling cash whenever you need it.
+
+Section:Common Mistakes
+Recording draws as wages or expenses, which understates profit.
+Paying personal bills directly from the business account without recording them as draws.
+S-corp owners skipping payroll entirely.
+Taking more in draws than the business earns, then being surprised when cash runs short.
+
+Section:Related Reading
+<a href="/Articles/Article_HTMLs/LLC_vs._S-Corp_in_Arizona_-_When_Does_the_Election_Actually_Save_You_Money">LLC vs. S-Corp in Arizona - When Does the Election Actually Save You Money</a>
+<a href="/Articles/Article_HTMLs/How_Much_to_Set_Aside_for_Taxes_-_Estimated_Tax_Payments_for_Arizona_Small_Business_Owners">How Much to Set Aside for Taxes - Estimated Tax Payments for Arizona Small Business Owners</a>
+<a href="/Articles/Article_HTMLs/Mixing_Personal_and_Business_Expenses_-_Why_You_Need_a_Separate_Business_Bank_Account">Mixing Personal and Business Expenses - Why You Need a Separate Business Bank Account</a>
+<a href="/Articles/Article_HTMLs/Why_Smart_Business_Owners_Reinvest_in_Their_Business_and_Hire_Out_the_Rest">Why Smart Business Owners Reinvest in Their Business and Hire Out the Rest</a>
+<a href="/free-resources#s-corp-calculator">Free LLC to S-Corp Calculator</a>
+
+Final: Draws for sole proprietors and partners, payroll for S-corp owners, and a regular, planned amount for everyone.
+Provision Bookkeeping records draws and owner payroll correctly and shows you each month what the business can afford to pay you. See our <a href="/payroll-services">payroll services</a> or <a href="/contact-us">book a quick call</a>.

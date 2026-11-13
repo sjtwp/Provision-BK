@@ -1,0 +1,41 @@
+Title: Mixing Personal and Business Expenses - Why You Need a Separate Business Bank Account
+Author: Matthew Jacob
+Date: February 10, 2026
+ReadTime: 6 min
+Image: separate_account.jpg
+
+
+Summary:
+Ask any bookkeeper the most common mistake they see and you'll hear the same answer: mixing personal and business money. Paying for groceries with the business card, running business sales through a personal account, or using one account for everything. It feels simpler, but it makes your books harder, your taxes riskier and, for an LLC, can weaken your liability protection. Here's why to separate and how to clean it up.
+
+Section:Why Mixing Money Causes Problems
+1.  Every transaction has to be sorted. Your bookkeeper spends time, and you spend money, figuring out what's business and what isn't.
+2.  Deductions get missed or challenged. In an audit, mixed accounts make it harder to prove what was a business expense.
+3.  Profit is hard to see. Personal spending buried in your books hides what the business really earns.
+4.  LLC protection can suffer. Treating the company's money as your own is one of the factors courts look at when deciding whether to hold owners personally liable.
+5.  Lenders notice. Clean business statements make financing much easier.
+
+Section:What Separation Looks Like
+One business checking account for all business deposits and expenses.
+One business credit card used only for business.
+A set way to pay yourself, like a regular transfer to your personal account. See our article on <a href="/Articles/Article_HTMLs/Owner_Draws_vs._Payroll_-_How_to_Pay_Yourself_From_Your_Small_Business">owner draws vs. payroll</a>.
+Optional savings sub-accounts for taxes or equipment, so you're not tempted to spend them.
+
+Section:What to Do When It Happens Anyway
+Everyone grabs the wrong card occasionally. The fix is simple: record a personal purchase on the business card as an owner draw, not an expense. If you pay a business expense personally, record it as an owner contribution or reimburse yourself from the business account with a note. Don't just leave it uncategorized.
+
+Section:Cleaning Up Past Mixing
+If you've been running everything through one account, start by opening a business account now and moving all business activity to it. For the past, your bookkeeper can go through the statements, mark personal items as draws or contributions, and make sure only real business expenses are deducted. If it's been a while, that may be part of a <a href="/catch-up-bookkeeping">catch-up project</a>.
+
+Section:Do Sole Proprietors Need a Separate Account
+Legally, a sole proprietor isn't always required to have one, but it's strongly recommended for the same reasons above. If you've formed an LLC, a separate account is essential. Many banks and online banks offer free or low-fee small business checking.
+
+Section:Related Reading
+<a href="/Articles/Article_HTMLs/Owner_Draws_vs._Payroll_-_How_to_Pay_Yourself_From_Your_Small_Business">Owner Draws vs. Payroll - How to Pay Yourself From Your Small Business</a>
+<a href="/Articles/Article_HTMLs/Not_Sure_Your_Books_Are_Right_-_7_Ways_to_Check_Your_Bookkeeping">Not Sure Your Books Are Right - 7 Ways to Check Your Bookkeeping</a>
+<a href="/Articles/Article_HTMLs/How_to_Set_Up_QuickBooks_Online_for_Your_Business">How to Set Up QuickBooks Online for Your Business</a>
+<a href="/Articles/Article_HTMLs/LLC_vs._S-Corp_in_Arizona_-_When_Does_the_Election_Actually_Save_You_Money">LLC vs. S-Corp in Arizona - When Does the Election Actually Save You Money</a>
+<a href="/free-resources#setup-checklist">Free QBO Setup and Catch-Up Checklist</a>
+
+Final: A separate business account and card is the cheapest, easiest bookkeeping improvement you can make.
+Provision Bookkeeping can help you set up clean accounts, connect them to QuickBooks Online and sort out any past mixing. See our <a href="/quickbooks-online-setup">QuickBooks Online setup</a> or <a href="/contact-us">book a quick call</a>.

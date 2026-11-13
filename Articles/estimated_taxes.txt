@@ -1,0 +1,38 @@
+Title: How Much to Set Aside for Taxes - Estimated Tax Payments for Arizona Small Business Owners
+Author: Matthew Jacob
+Date: April 14, 2026
+ReadTime: 7 min
+Image: estimated_taxes.jpg
+
+
+Summary:
+Many first-year business owners get a painful surprise in April: a big tax bill and a penalty for not paying during the year. When you're self-employed, nobody withholds taxes from your income, so it's on you to set money aside and make estimated payments. Here's how much to save, when payments are due, and how your bookkeeping makes it easier.
+
+Section:Why Business Owners Owe More Than They Expect
+Sole proprietors, single-member LLCs and partners pay income tax plus self-employment tax, which covers Social Security and Medicare. Self-employment tax alone is 15.3 percent on most net earnings, on top of federal income tax and Arizona's flat income tax of 2.5 percent. S-corp owners pay through payroll on their salary, but may still owe estimates on their share of profit.
+
+Section:A Simple Rule of Thumb
+Many owners set aside 25 to 30 percent of their net profit, not their revenue. Higher earners may need more. It's a starting point, not a substitute for a projection from your tax preparer. The key is that it's based on profit, which means you need current books to know what that number is.
+
+Section:When Federal Estimated Payments Are Due
+Federal estimated payments are generally due four times a year: April 15, June 15, September 15 and January 15 of the following year. When a date falls on a weekend or holiday, it moves to the next business day. Arizona has its own estimated payment rules, so ask your tax preparer whether you need to make state estimates too.
+
+Section:Avoiding the Underpayment Penalty
+The IRS generally won't charge an underpayment penalty if you paid in at least 100 percent of last year's total tax through withholding and estimates, or 110 percent if your adjusted gross income was over $150,000, or at least 90 percent of this year's tax. Paying based on last year is the easiest safe harbor for a growing business. If you also have a W-2 job, increasing your withholding there can cover some or all of it.
+
+Section:How Bookkeeping Makes This Easy
+1.  Open a separate savings account just for taxes.
+2.  Move your set-aside percentage of profit there every month, or every time you get paid.
+3.  Review your year-to-date profit each quarter and adjust.
+4.  Send your tax preparer current numbers before each due date if your income is changing a lot.
+If your books are behind, you're guessing. That's one reason we close books every month. Thinking about an S-corp election? Read <a href="/Articles/Article_HTMLs/LLC_vs._S-Corp_in_Arizona_-_When_Does_the_Election_Actually_Save_You_Money">LLC vs. S-Corp in Arizona</a>.
+
+Section:Related Reading
+<a href="/Articles/Article_HTMLs/LLC_vs._S-Corp_in_Arizona_-_When_Does_the_Election_Actually_Save_You_Money">LLC vs. S-Corp in Arizona - When Does the Election Actually Save You Money</a>
+<a href="/Articles/Article_HTMLs/What_I_Need_to_Do_Before_the_End_of_the_Tax_Year">What I Need to Do Before the End of the Tax Year</a>
+<a href="/Articles/Article_HTMLs/Owner_Draws_vs._Payroll_-_How_to_Pay_Yourself_From_Your_Small_Business">Owner Draws vs. Payroll - How to Pay Yourself From Your Small Business</a>
+<a href="/Articles/Article_HTMLs/I_Got_an_IRS_or_Arizona_Penalty_Notice_From_a_Bookkeeping_Mistake_-_What_to_Do_Next">I Got an IRS or Arizona Penalty Notice From a Bookkeeping Mistake - What to Do Next</a>
+<a href="/free-resources#s-corp-calculator">Free LLC to S-Corp Calculator</a>
+
+Final: Set aside a share of your profit every month, make quarterly payments, and use last year's tax as your safe harbor. Current books make all of it easier.
+Provision Bookkeeping delivers monthly profit numbers so you always know what to set aside. Plans start at $250 per month. <a href="/contact-us">Book a quick call</a>.
