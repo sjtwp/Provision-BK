@@ -128,5 +128,15 @@
     "mins": "7 min",
     "image": "Articles/Article_Images/short_term_rental_tpt.jpg",
     "safe_title": "Arizona_Short-Term_Rental_Sales_Tax_-_Do_You_Owe_TPT_on_Your_Airbnb"
+  },
+  {
+    "title": "LLC vs. S-Corp in Arizona - When Does the Election Actually Save You Money",
+    "summary": "Electing S-corp status is one of the most talked-about tax moves for small business owners, but it doesn't save everyone money. Here is how the S-corp election works for Arizona LLC owners, what it really costs, why the QBI deduction changes the math, and how to tell whether your profit is high enough for it to pay off.",
+    "author": "Matthew Jacob",
+    "date": "November 13, 2026",
+    "parsed_date": "2026-11-13T00:00:00",
+    "mins": "8 min",
+    "image": "Articles/Article_Images/llc_vs_s_corp.jpg",
+    "safe_title": "LLC_vs._S-Corp_in_Arizona_-_When_Does_the_Election_Actually_Save_You_Money"
   }
 ]

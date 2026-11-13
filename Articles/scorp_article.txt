@@ -1,0 +1,58 @@
+Title: LLC vs. S-Corp in Arizona - When Does the Election Actually Save You Money
+Author: Matthew Jacob
+Date: November 13, 2026
+ReadTime: 8 min
+Image: llc_vs_s_corp.jpg
+
+
+Summary:
+Electing S-corp status is one of the most talked-about tax moves for small business owners, but it doesn't save everyone money. Here is how the S-corp election works for Arizona LLC owners, what it really costs, why the QBI deduction changes the math, and how to tell whether your profit is high enough for it to pay off.
+
+Section:What an S-Corp Election Actually Is
+An S-corp isn't a new business. It's a tax election. Your LLC stays an LLC with the Arizona Corporation Commission; you file Form 2553 with the IRS asking to be taxed as an S corporation instead of as a sole proprietorship (single-member LLC) or partnership.
+Arizona follows the federal election, so there's no separate state election. You do file an Arizona S-corp return (Form 120S) each year in addition to the federal Form 1120-S.
+
+Section:Where the Savings Come From
+As a single-member LLC, all of your profit is subject to self-employment tax: 15.3% on the first $184,500 of earnings in 2026, plus 2.9% Medicare above that. On $100,000 of profit, that's about $14,100.
+As an S-corp, you split your profit into two pieces:
+•  A reasonable salary, paid through payroll on a W-2. Social Security and Medicare apply to this part.
+•  Distributions of the remaining profit. Distributions are not subject to Social Security or Medicare tax.
+The savings come from the distribution piece. That's all. An S-corp doesn't lower your income tax rate, and it doesn't make personal expenses deductible.
+
+Section:The Catch: Reasonable Salary
+The IRS requires S-corp owners who work in the business to pay themselves a reasonable salary before taking distributions. "Reasonable" means roughly what you'd have to pay someone else to do the work you do: the hours you put in, your role, your experience and what similar businesses pay.
+Paying yourself a tiny salary (or none) to maximize distributions is the most common S-corp mistake, and the one the IRS looks for. If they decide your salary was too low, they can reclassify distributions as wages and charge back payroll taxes, penalties and interest.
+The higher your reasonable salary, the smaller your savings. If the salary you can justify is close to your total profit, there's nothing left to save on.
+
+Section:The Costs Most People Leave Out
+Running an S-corp isn't free. Before you elect, add up:
+•  Payroll service: about $600 to $1,000 a year for a one-person payroll with full tax filing.
+•  A business tax return: Form 1120-S plus Arizona Form 120S, usually $800 to $2,000 more than a Schedule C.
+•  Employer payroll taxes: federal unemployment (about $42 a year) and Arizona unemployment (2.0% of the first $8,000 for new employers, or $160).
+•  Quarterly payroll filings (Form 941 and Arizona Form UC-018), year-end W-2s, and tracking your shareholder basis every year.
+
+Section:The QBI Deduction Changes the Math
+Owners of LLCs and S-corps can deduct up to 20% of their qualified business income (QBI) when they figure federal income tax. As an S-corp, the salary you pay yourself doesn't count as QBI; only the profit left after salary does.
+So the S-corp saves payroll tax but shrinks your QBI deduction, which raises your income tax. Many online calculators skip this step, which is why they make the S-corp look better than it is.
+
+Section:Example: Three Arizona LLC Owners
+Here's what our calculator shows for three married owners filing jointly in Arizona (22% federal bracket, 2026 rates, about $1,900 a year in extra S-corp costs):
+•  $60,000 profit, $40,000 salary: the S-corp costs about $600 a year MORE than staying a single-member LLC.
+•  $100,000 profit, $55,000 salary: the S-corp saves about $1,050 a year. Real, but smaller than most people expect.
+•  $150,000 profit, $70,000 salary: the S-corp saves about $4,700 a year.
+The pattern: the election starts to pay off somewhere around $80,000 to $100,000 of steady profit, depending on the salary you can justify and your tax bracket. Below that, the extra costs and the smaller QBI deduction usually eat the savings.
+
+Section:When an S-Corp Is Usually a Bad Idea
+•  Your profit is low or swings a lot from year to year.
+•  The salary you can justify is close to your total profit.
+•  Your justified salary is already near the Social Security wage base ($184,500 in 2026). Above that, you're only saving the 2.9% Medicare tax.
+•  The business holds rental property or other appreciating assets bought with a loan. S-corp owners don't get basis for the company's debt, which can trap depreciation losses and make distributions taxable. Keep property in a separate LLC.
+•  You have a partner who contributes money while you contribute labor and you want to split profits differently than ownership. S-corps can only have one class of stock, so distributions must follow ownership.
+•  You aren't ready to run real payroll every month and keep clean books.
+
+Section:Run Your Own Numbers
+We built a free <a href="/free-resources#s-corp-calculator">LLC to S-Corp Calculator</a> that does this math for you. It estimates a reasonable salary from the hours you work in each role, compares payroll and income tax side by side (including the QBI deduction and Arizona tax), and walks you through a checklist to see if you qualify. The tax rates update automatically every time you open it.
+If the numbers say yes, the election deadline is March 15 for the S-corp to apply to the whole calendar year.
+
+Final: An S-corp can save real money, but only when your profit comfortably exceeds a defensible salary plus the extra costs. Run the numbers before you file Form 2553, and look at them again every year.
+If you'd like help deciding, setting up owner payroll, or keeping S-corp books clean, see our <a href="/payroll-services">payroll services</a> or <a href="/contact-us">book a free call</a>. Plans start at $250 per month.
