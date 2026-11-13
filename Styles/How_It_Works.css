@@ -234,3 +234,17 @@ body {
     max-width: 260px;
   }
 }
+
+/* Readable How It Works title on phones (matches the other title boxes) */
+@media (max-width: 768px) {
+  .how-it-works-container {
+    padding: 18px 10px;
+    font-size: 1.1rem;
+  }
+}
+@media (max-width: 480px) {
+  .how-it-works-container {
+    padding: 14px 8px;
+    font-size: 1rem;
+  }
+}

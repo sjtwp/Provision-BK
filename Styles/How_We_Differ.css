@@ -432,3 +432,57 @@ tr:first-child th:first-child {
     border-bottom-left-radius: 30px;
   }
 }
+
+/* Tighter How We're Different on tablets and phones */
+@media (max-width: 1100px) {
+  .how-we-differ {
+    padding-top: 100px;
+    padding-bottom: 60px;
+  }
+}
+@media (max-width: 768px) {
+  .how-we-differ {
+    padding: 50px 16px 16px 16px;
+  }
+  .how-we-differ-title {
+    padding: 18px 10px;
+    font-size: 1.1rem;
+  }
+  .container {
+    padding: 0 10px 10px 10px;
+  }
+  th,
+  td {
+    font-size: 13px;
+    padding: 6px 4px;
+  }
+  th:nth-child(3),
+  th:nth-child(4),
+  td:nth-child(3),
+  td:nth-child(4) {
+    font-size: 11px;
+    padding: 4px 2px;
+  }
+  tr > td:nth-child(1) {
+    padding-left: 12px !important;
+  }
+}
+@media (max-width: 480px) {
+  .how-we-differ {
+    padding-top: 36px;
+  }
+  .how-we-differ-title {
+    padding: 14px 8px;
+    font-size: 1rem;
+  }
+  th,
+  td {
+    font-size: 12px;
+  }
+  th:nth-child(3),
+  th:nth-child(4),
+  td:nth-child(3),
+  td:nth-child(4) {
+    font-size: 10px;
+  }
+}

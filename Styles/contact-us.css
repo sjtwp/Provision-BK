@@ -194,3 +194,28 @@
 
       
 
+/* Tighter Contact Us title on tablets and phones */
+@media (max-width: 1100px) {
+  .contact-us-main {
+    padding-top: 80px;
+    padding-bottom: 30px;
+  }
+}
+@media (max-width: 768px) {
+  .contact-us-main {
+    padding: 50px 16px 16px 16px;
+  }
+  .contact-us-title {
+    padding: 18px 10px;
+    font-size: 1.1rem;
+  }
+}
+@media (max-width: 480px) {
+  .contact-us-main {
+    padding-top: 36px;
+  }
+  .contact-us-title {
+    padding: 14px 8px;
+    font-size: 1rem;
+  }
+}
