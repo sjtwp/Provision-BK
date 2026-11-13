@@ -138,5 +138,15 @@
     "mins": "8 min",
     "image": "Articles/Article_Images/llc_vs_s_corp.jpg",
     "safe_title": "LLC_vs._S-Corp_in_Arizona_-_When_Does_the_Election_Actually_Save_You_Money"
+  },
+  {
+    "title": "Frustrated With Your Bookkeeper - 8 Common Problems and How to Fix Them",
+    "summary": "Unanswered emails, books that are months behind, surprise bills and penalty notices from the IRS. If any of that sounds familiar, you're not alone.",
+    "author": "Matthew Jacob",
+    "date": "November 13, 2026",
+    "parsed_date": "2026-11-13T00:00:00",
+    "mins": "7 min",
+    "image": "Articles/Article_Images/bookkeeper_frustrations.jpg",
+    "safe_title": "Frustrated_With_Your_Bookkeeper_-_8_Common_Problems_and_How_to_Fix_Them"
   }
 ]

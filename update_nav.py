@@ -25,6 +25,7 @@ SERVICES = [
     ("payroll-services", "Payroll & 1099s"),
     ("financial-statements", "Monthly Financial Statements"),
     ("year-end-tax-ready-books", "Year-End & Tax-Ready Books"),
+    ("switch-bookkeepers", "Switching Bookkeepers"),
 ]
 
 INDUSTRIES = [
@@ -45,7 +46,7 @@ PHONE_DISPLAY, PHONE_TEL = "(602) 767-3829", "+16027673829"
 EMAIL = "contact@provisionbk.com"
 
 START, END = "<!-- NAV START -->", "<!-- NAV END -->"
-CSS_LINK = '<link rel="stylesheet" href="/Styles/Nav_Dropdown.css?v=202611130222">'
+CSS_LINK = '<link rel="stylesheet" href="/Styles/Nav_Dropdown.css?v=202611132119">'
 
 
 def recent_articles(n=5):

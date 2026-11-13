@@ -15,7 +15,7 @@ HTML_DIR         = os.path.join(PROJECT_ROOT, "Articles", "Article_HTMLs")
 
 # Static pages
 STATIC_PAGES = [
-    "/", "/about-us", "/services", "/monthly-bookkeeping", "/catch-up-bookkeeping", "/quickbooks-online-setup", "/payroll-services", "/financial-statements", "/year-end-tax-ready-books", "/industries", "/bookkeeping-for-contractors", "/real-estate-agent-bookkeeping", "/rental-property-bookkeeping", "/fix-and-flip-bookkeeping", "/medical-practice-bookkeeping", "/dental-practice-bookkeeping", "/restaurant-bookkeeping", "/ecommerce-bookkeeping", "/professional-services-bookkeeping", "/salon-spa-bookkeeping", "/service-areas", "/contact-us", "/blog", "/free-resources",
+    "/", "/about-us", "/services", "/monthly-bookkeeping", "/catch-up-bookkeeping", "/quickbooks-online-setup", "/payroll-services", "/financial-statements", "/year-end-tax-ready-books", "/switch-bookkeepers", "/industries", "/bookkeeping-for-contractors", "/real-estate-agent-bookkeeping", "/rental-property-bookkeeping", "/fix-and-flip-bookkeeping", "/medical-practice-bookkeeping", "/dental-practice-bookkeeping", "/restaurant-bookkeeping", "/ecommerce-bookkeeping", "/professional-services-bookkeeping", "/salon-spa-bookkeeping", "/service-areas", "/contact-us", "/blog", "/free-resources",
     "/privacy-policy", "/terms-of-service", "/sitemap"
 ]
 
