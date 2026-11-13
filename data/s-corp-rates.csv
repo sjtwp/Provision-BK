@@ -1,0 +1,91 @@
+Key,Number,Text,Description,Source URL
+as_of,,2026-11-13,Date these rates were last verified,
+ss_cap,184500,,Social Security wage base,https://www.ssa.gov/oact/cola/cbb.html
+ss,0.124,,"Social Security rate (employer + employee, or SE)",https://www.irs.gov/businesses/small-businesses-self-employed/self-employment-tax-social-security-and-medicare-taxes
+med,0.029,,"Medicare rate (employer + employee, or SE)",https://www.irs.gov/businesses/small-businesses-self-employed/self-employment-tax-social-security-and-medicare-taxes
+addmed,0.009,,Additional Medicare tax rate,https://www.irs.gov/taxtopics/tc560
+se,0.9235,,Self-employment earnings factor,https://www.irs.gov/businesses/small-businesses-self-employed/self-employment-tax-social-security-and-medicare-taxes
+futa,0.006,,FUTA rate (after state credit),https://www.irs.gov/taxtopics/tc759
+futa_base,7000,,FUTA wage base,https://www.irs.gov/taxtopics/tc759
+suta,0.02,,Arizona SUTA rate (new employer),https://des.az.gov/services/employment/unemployment-individual/unemployment-insurance-tax-employer-resources
+suta_base,8000,,Arizona SUTA wage base,https://des.az.gov/services/employment/unemployment-individual/unemployment-insurance-tax-employer-resources
+az,0.025,,Arizona individual income tax rate (flat),https://azdor.gov/
+qbi,0.2,,QBI deduction rate (Sec. 199A),https://www.irs.gov/newsroom/qualified-business-income-deduction
+qbi_w2,0.5,,QBI W-2 wage limit (% of W-2 wages),https://www.irs.gov/newsroom/qualified-business-income-deduction
+qbi_min,400,,QBI minimum deduction (active business),https://www.irs.gov/newsroom/qualified-business-income-deduction
+qbi_min_req,1000,,QBI minimum - required QBI,https://www.irs.gov/newsroom/qualified-business-income-deduction
+std_MFJ,32200,,Standard deduction - Married Filing Jointly,https://www.irs.gov/pub/irs-drop/rp-25-32.pdf
+std_Single,16100,,Standard deduction - Single,https://www.irs.gov/pub/irs-drop/rp-25-32.pdf
+std_HOH,24150,,Standard deduction - Head of Household,https://www.irs.gov/pub/irs-drop/rp-25-32.pdf
+std_MFS,16100,,Standard deduction - Married Filing Separately,https://www.irs.gov/pub/irs-drop/rp-25-32.pdf
+qbi_thr_MFJ,403500,,QBI threshold (limits start) - Married Filing Jointly,https://www.irs.gov/pub/irs-drop/rp-25-32.pdf
+qbi_thr_Single,201750,,QBI threshold (limits start) - Single,https://www.irs.gov/pub/irs-drop/rp-25-32.pdf
+qbi_thr_HOH,201750,,QBI threshold (limits start) - Head of Household,https://www.irs.gov/pub/irs-drop/rp-25-32.pdf
+qbi_thr_MFS,201775,,QBI threshold (limits start) - Married Filing Separately,https://www.irs.gov/pub/irs-drop/rp-25-32.pdf
+qbi_rng_MFJ,150000,,QBI phase-in range - Married Filing Jointly,https://www.irs.gov/newsroom/qualified-business-income-deduction
+qbi_rng_Single,75000,,QBI phase-in range - Single,https://www.irs.gov/newsroom/qualified-business-income-deduction
+qbi_rng_HOH,75000,,QBI phase-in range - Head of Household,https://www.irs.gov/newsroom/qualified-business-income-deduction
+qbi_rng_MFS,75000,,QBI phase-in range - Married Filing Separately,https://www.irs.gov/newsroom/qualified-business-income-deduction
+addmed_thr_MFJ,250000,,Additional Medicare threshold - Married Filing Jointly,https://www.irs.gov/taxtopics/tc560
+addmed_thr_Single,200000,,Additional Medicare threshold - Single,https://www.irs.gov/taxtopics/tc560
+addmed_thr_HOH,200000,,Additional Medicare threshold - Head of Household,https://www.irs.gov/taxtopics/tc560
+addmed_thr_MFS,125000,,Additional Medicare threshold - Married Filing Separately,https://www.irs.gov/taxtopics/tc560
+br1_rate,0.1,,Federal bracket 1 rate,https://www.irs.gov/pub/irs-drop/rp-25-32.pdf
+br1_MFJ,0,,Federal bracket 1 start - MFJ,https://www.irs.gov/pub/irs-drop/rp-25-32.pdf
+br1_Single,0,,Federal bracket 1 start - Single,https://www.irs.gov/pub/irs-drop/rp-25-32.pdf
+br1_HOH,0,,Federal bracket 1 start - HOH,https://www.irs.gov/pub/irs-drop/rp-25-32.pdf
+br1_MFS,0,,Federal bracket 1 start - MFS,https://www.irs.gov/pub/irs-drop/rp-25-32.pdf
+br2_rate,0.12,,Federal bracket 2 rate,https://www.irs.gov/pub/irs-drop/rp-25-32.pdf
+br2_MFJ,24800,,Federal bracket 2 start - MFJ,https://www.irs.gov/pub/irs-drop/rp-25-32.pdf
+br2_Single,12400,,Federal bracket 2 start - Single,https://www.irs.gov/pub/irs-drop/rp-25-32.pdf
+br2_HOH,17700,,Federal bracket 2 start - HOH,https://www.irs.gov/pub/irs-drop/rp-25-32.pdf
+br2_MFS,12400,,Federal bracket 2 start - MFS,https://www.irs.gov/pub/irs-drop/rp-25-32.pdf
+br3_rate,0.22,,Federal bracket 3 rate,https://www.irs.gov/pub/irs-drop/rp-25-32.pdf
+br3_MFJ,100800,,Federal bracket 3 start - MFJ,https://www.irs.gov/pub/irs-drop/rp-25-32.pdf
+br3_Single,50400,,Federal bracket 3 start - Single,https://www.irs.gov/pub/irs-drop/rp-25-32.pdf
+br3_HOH,67450,,Federal bracket 3 start - HOH,https://www.irs.gov/pub/irs-drop/rp-25-32.pdf
+br3_MFS,50400,,Federal bracket 3 start - MFS,https://www.irs.gov/pub/irs-drop/rp-25-32.pdf
+br4_rate,0.24,,Federal bracket 4 rate,https://www.irs.gov/pub/irs-drop/rp-25-32.pdf
+br4_MFJ,211400,,Federal bracket 4 start - MFJ,https://www.irs.gov/pub/irs-drop/rp-25-32.pdf
+br4_Single,105700,,Federal bracket 4 start - Single,https://www.irs.gov/pub/irs-drop/rp-25-32.pdf
+br4_HOH,105700,,Federal bracket 4 start - HOH,https://www.irs.gov/pub/irs-drop/rp-25-32.pdf
+br4_MFS,105700,,Federal bracket 4 start - MFS,https://www.irs.gov/pub/irs-drop/rp-25-32.pdf
+br5_rate,0.32,,Federal bracket 5 rate,https://www.irs.gov/pub/irs-drop/rp-25-32.pdf
+br5_MFJ,403550,,Federal bracket 5 start - MFJ,https://www.irs.gov/pub/irs-drop/rp-25-32.pdf
+br5_Single,201775,,Federal bracket 5 start - Single,https://www.irs.gov/pub/irs-drop/rp-25-32.pdf
+br5_HOH,201750,,Federal bracket 5 start - HOH,https://www.irs.gov/pub/irs-drop/rp-25-32.pdf
+br5_MFS,201775,,Federal bracket 5 start - MFS,https://www.irs.gov/pub/irs-drop/rp-25-32.pdf
+br6_rate,0.35,,Federal bracket 6 rate,https://www.irs.gov/pub/irs-drop/rp-25-32.pdf
+br6_MFJ,512450,,Federal bracket 6 start - MFJ,https://www.irs.gov/pub/irs-drop/rp-25-32.pdf
+br6_Single,256225,,Federal bracket 6 start - Single,https://www.irs.gov/pub/irs-drop/rp-25-32.pdf
+br6_HOH,256200,,Federal bracket 6 start - HOH,https://www.irs.gov/pub/irs-drop/rp-25-32.pdf
+br6_MFS,256225,,Federal bracket 6 start - MFS,https://www.irs.gov/pub/irs-drop/rp-25-32.pdf
+br7_rate,0.37,,Federal bracket 7 rate,https://www.irs.gov/pub/irs-drop/rp-25-32.pdf
+br7_MFJ,768700,,Federal bracket 7 start - MFJ,https://www.irs.gov/pub/irs-drop/rp-25-32.pdf
+br7_Single,640600,,Federal bracket 7 start - Single,https://www.irs.gov/pub/irs-drop/rp-25-32.pdf
+br7_HOH,640600,,Federal bracket 7 start - HOH,https://www.irs.gov/pub/irs-drop/rp-25-32.pdf
+br7_MFS,384350,,Federal bracket 7 start - MFS,https://www.irs.gov/pub/irs-drop/rp-25-32.pdf
+prov1_name,,QuickBooks Workforce Payroll (Core),Payroll provider 1 name,https://quickbooks.intuit.com/payroll/pricing/
+prov1_base,50,,QuickBooks Workforce Payroll (Core) - monthly base,https://quickbooks.intuit.com/payroll/pricing/
+prov1_pp,7,,QuickBooks Workforce Payroll (Core) - per person per month,https://quickbooks.intuit.com/payroll/pricing/
+prov2_name,,QuickBooks Workforce Premium,Payroll provider 2 name,https://quickbooks.intuit.com/payroll/pricing/
+prov2_base,88,,QuickBooks Workforce Premium - monthly base,https://quickbooks.intuit.com/payroll/pricing/
+prov2_pp,13,,QuickBooks Workforce Premium - per person per month,https://quickbooks.intuit.com/payroll/pricing/
+prov3_name,,Gusto Solo (owner-only payroll),Payroll provider 3 name,https://gusto.com/product/pricing
+prov3_base,49,,Gusto Solo (owner-only payroll) - monthly base,https://gusto.com/product/pricing
+prov3_pp,6,,Gusto Solo (owner-only payroll) - per person per month,https://gusto.com/product/pricing
+prov4_name,,Gusto Simple,Payroll provider 4 name,https://gusto.com/product/pricing
+prov4_base,49,,Gusto Simple - monthly base,https://gusto.com/product/pricing
+prov4_pp,6,,Gusto Simple - per person per month,https://gusto.com/product/pricing
+prov5_name,,OnPay Payroll Essentials,Payroll provider 5 name,https://onpay.com/payroll/software/costs-pricing/
+prov5_base,49,,OnPay Payroll Essentials - monthly base,https://onpay.com/payroll/software/costs-pricing/
+prov5_pp,6,,OnPay Payroll Essentials - per person per month,https://onpay.com/payroll/software/costs-pricing/
+prov6_name,,Patriot Full Service Payroll,Payroll provider 6 name,https://www.patriotsoftware.com/
+prov6_base,37,,Patriot Full Service Payroll - monthly base,https://www.patriotsoftware.com/
+prov6_pp,5,,Patriot Full Service Payroll - per person per month,https://www.patriotsoftware.com/
+prov7_name,,ADP RUN Essential (quote only - estimate),Payroll provider 7 name,https://www.adp.com/
+prov7_base,79,,ADP RUN Essential (quote only - estimate) - monthly base,https://www.adp.com/
+prov7_pp,4,,ADP RUN Essential (quote only - estimate) - per person per month,https://www.adp.com/
+prov8_name,,Custom / other provider,Payroll provider 8 name,
+prov8_base,0,,Custom / other provider - monthly base,
+prov8_pp,0,,Custom / other provider - per person per month,
