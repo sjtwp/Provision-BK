@@ -1,0 +1,43 @@
+Title: I Get Financial Reports but Never Understand Them - How to Read Your Profit and Loss and Balance Sheet
+Author: Matthew Jacob
+Date: October 9, 2026
+ReadTime: 8 min
+Image: bk_reports.jpg
+
+
+Summary:
+Every month a Profit and Loss and a Balance Sheet land in your inbox, and every month you close them without really knowing what they say. You're not alone. Reports are only useful if someone helps you read them. Here's a plain-English guide to the five numbers worth checking each month, the questions to ask, and what to expect from a bookkeeper who explains your numbers instead of just sending them.
+
+Section:The Two Reports That Matter Most
+The Profit and Loss, also called the P&L or income statement, shows what you earned and spent over a period, like last month or year to date. The bottom line is net income, your profit before income taxes.
+The Balance Sheet is a snapshot on one day. It shows what you own (assets like cash and equipment), what you owe (liabilities like credit cards and loans) and what's left over (equity). If you want a deeper walk-through, see our guide to <a href="/Articles/Article_HTMLs/Financial_Statements_guide">understanding financial statements</a>.
+
+Section:Five Numbers to Check Every Month
+1.  Revenue compared to the same month last year. Comparing to last month can mislead in seasonal businesses.
+2.  Gross margin. Revenue minus the direct cost of delivering your product or service, divided by revenue. If it's shrinking, your prices or job costs need attention.
+3.  Your three biggest expenses. Are any growing faster than revenue?
+4.  Net income. Is the business actually profitable, or just busy?
+5.  Cash and credit card balances on the Balance Sheet. Profit and cash are not the same thing, and this is where you see the difference.
+
+Section:Why Profit and Cash Don't Match
+Owners often ask why the P&L shows a profit but the bank account feels empty. Common reasons: loan principal payments, owner draws and equipment purchases reduce cash but don't show up as expenses on the P&L. Customers who haven't paid yet count as income but not as cash. A good monthly review explains this gap in a sentence or two.
+
+Section:Questions to Ask Your Bookkeeper
+1.  What changed the most from last month, and why?
+2.  Is anything in these reports unusual or estimated?
+3.  Which customers or jobs are most profitable?
+4.  Where could I save money?
+5.  How much should I be setting aside for taxes?
+If your bookkeeper can't answer these, you're getting reports, not insight.
+
+Section:From Reports to Decisions
+The real value of bookkeeping shows up when numbers turn into decisions: raising a price that's too low, cutting a subscription nobody uses, hiring when the margins support it, or timing a big purchase. That's the role of a light fractional CFO, and it doesn't require a big-company budget. Learn about our <a href="/financial-statements">monthly financial statements and review</a>.
+
+Section:Related Reading
+<a href="/Articles/Article_HTMLs/Frustrated_With_Your_Bookkeeper_-_8_Common_Problems_and_How_to_Fix_Them">Frustrated With Your Bookkeeper - 8 Common Problems and How to Fix Them</a>
+<a href="/Articles/Article_HTMLs/Financial_Statements_guide">Understanding Financial Statements</a>
+<a href="/Articles/Article_HTMLs/Not_Sure_Your_Books_Are_Right_-_7_Ways_to_Check_Your_Bookkeeping">Not Sure Your Books Are Right - 7 Ways to Check Your Bookkeeping</a>
+<a href="/free-resources#coa-general">Free Chart of Accounts template</a>
+
+Final: You don't need an accounting degree to use your financial statements. You need five numbers, a few good questions and someone who explains them in plain English.
+Every Provision Bookkeeping client gets monthly statements plus a review of what changed and why, with ideas to make and save money. Plans start at $250 per month. <a href="/contact-us">Book a quick call</a>.

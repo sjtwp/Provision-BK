@@ -1,0 +1,42 @@
+Title: Not Sure Your Books Are Right - 7 Ways to Check Your Bookkeeping
+Author: Matthew Jacob
+Date: October 23, 2026
+ReadTime: 7 min
+Image: bk_right.jpg
+
+
+Summary:
+You can't use numbers you don't trust. If you've ever wondered whether your books are actually right, you can check a lot yourself without being an accountant. Here are seven quick tests any owner can run in QuickBooks Online, what each one tells you, and what to do if something doesn't add up.
+
+Section:1. Does the Bank Balance Match
+Compare the balance in QuickBooks for each bank and credit card account to the ending balance on that month's statement. If they don't match, the account isn't reconciled or something was entered twice or missed.
+
+Section:2. Are the Reconciliations Current
+In QuickBooks Online, the Reconcile page shows the last statement date reconciled for each account. Every account should be reconciled through the most recent month-end. Ask your bookkeeper for the reconciliation reports if you can't see them.
+
+Section:3. Is Anything Uncategorized
+Run a Profit and Loss and look for Uncategorized Income, Uncategorized Expense or Ask My Accountant. A small amount mid-month is normal. Large or old balances mean work wasn't finished.
+
+Section:4. Does Revenue Look Right
+Compare total income on your P&L to what you know you sold, or to your deposits from customers. Revenue that's too high often means transfers between your own accounts or loan proceeds were counted as income. Too low can mean deposits were never recorded.
+
+Section:5. Do Loans Match the Lender
+Your loan balances on the Balance Sheet should match your lender's statements. If the balance never goes down, payments are probably being recorded as expenses instead of reducing principal.
+
+Section:6. Does Payroll Tie Out
+Total wages and payroll taxes on your P&L should match the reports from your payroll provider for the same period. Differences are a common source of tax notices.
+
+Section:7. Do Taxes Match What You Filed
+The sales tax you collected should match what you reported on your Arizona TPT returns, and contractor payments in your books should match the 1099s you sent. If they don't, see what to do about <a href="/Articles/Article_HTMLs/I_Got_an_IRS_or_Arizona_Penalty_Notice_From_a_Bookkeeping_Mistake_-_What_to_Do_Next">penalty notices from bookkeeping mistakes</a>.
+
+Section:What to Do If Something's Off
+Make a list of what didn't match and ask your bookkeeper to explain each item. A good bookkeeper will walk you through it and fix what's wrong. If the list is long or the answers are vague, it may be time for a second opinion or a cleanup. Our <a href="/free-resources#monthly-checklist">Monthly Bookkeeping Close Checklist</a> shows what should happen each month.
+
+Section:Related Reading
+<a href="/Articles/Article_HTMLs/Frustrated_With_Your_Bookkeeper_-_8_Common_Problems_and_How_to_Fix_Them">Frustrated With Your Bookkeeper - 8 Common Problems and How to Fix Them</a>
+<a href="/Articles/Article_HTMLs/My_Last_Bookkeeper_Left_Me_a_Mess_-_How_Bookkeeping_Cleanup_Works">My Last Bookkeeper Left Me a Mess - How Bookkeeping Cleanup Works</a>
+<a href="/Articles/Article_HTMLs/I_Get_Financial_Reports_but_Never_Understand_Them_-_How_to_Read_Your_Profit_and_Loss_and_Balance_Sheet">I Get Financial Reports but Never Understand Them - How to Read Your Profit and Loss and Balance Sheet</a>
+<a href="/free-resources#monthly-checklist">Free Monthly Bookkeeping Close Checklist</a>
+
+Final: Trustworthy books aren't a mystery. Matching balances, current reconciliations, nothing left uncategorized and taxes that tie out are the signs your numbers are right.
+At Provision Bookkeeping, every account is reconciled monthly and we explain what we did and why. Plans start at $250 per month with a 60-day money-back guarantee. <a href="/contact-us">Book a quick call</a>.

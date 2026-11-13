@@ -1,0 +1,42 @@
+Title: I Got an IRS or Arizona Penalty Notice From a Bookkeeping Mistake - What to Do Next
+Author: Matthew Jacob
+Date: October 2, 2026
+ReadTime: 8 min
+Image: bk_penalty.jpg
+
+
+Summary:
+Few things are as stressful as opening a letter from the IRS or the Arizona Department of Revenue. Many of these notices trace back to bookkeeping: payroll filed late, a 1099 that never went out, or a sales tax return that doesn't match your sales. Here's what to do when a notice arrives, the most common bookkeeping-related penalties, and how to keep it from happening again.
+
+Section:First, Don't Ignore It
+Notices have response deadlines, and penalties and interest keep growing while a letter sits unopened. Read it the day it arrives. Note the tax type, the period it covers, the amount and the response date. Most notices are letters asking for payment or information, not audits.
+
+Section:What to Do When a Notice Arrives
+1.  Confirm it's real. Check that it came by mail from the IRS or ADOR and matches a tax account you actually have. Be wary of calls, texts or emails claiming to be the IRS.
+2.  Match it to your records. Pull the return, payroll report or sales report for that period and compare it to what the notice says.
+3.  Decide whether you agree. Notices are sometimes wrong, for example when a payment was applied to the wrong period.
+4.  Bring in your CPA or tax professional before you respond, especially if the amount is large or the notice proposes changes to a return.
+5.  Respond by the deadline, by paying, sending documentation or requesting penalty relief if you qualify. The IRS offers first-time penalty relief for some taxpayers with a clean history.
+
+Section:Common Penalties That Start in the Books
+Payroll tax deposits. Federal payroll taxes have strict deposit schedules, and late or missed deposits carry penalties on top of interest. Arizona withholding is reported quarterly to ADOR.
+Missing 1099s. Contractors paid $600 or more in a year generally need a Form 1099-NEC, due January 31. If contractor payments aren't tracked during the year, January turns into a scramble. Our article on <a href="/Articles/Article_HTMLs/Employee_vs._Contractor_Understanding_the_Difference">employee vs. contractor rules</a> explains who counts.
+Arizona TPT. Transaction privilege tax returns must match your taxable sales. Mixing taxable and non-taxable revenue in one account, or missing city taxes, leads to notices. Contractors and short-term rental owners see this often. See our guide to <a href="/Articles/Article_HTMLs/Arizona_Short-Term_Rental_Sales_Tax_-_Do_You_Owe_TPT_on_Your_Airbnb">Arizona TPT on short-term rentals</a>.
+Estimated taxes. If your books are behind, you can't tell what you owe each quarter, which leads to underpayment penalties at filing time.
+
+Section:How to Prevent the Next One
+1.  Reconcile your books monthly so what you file is based on real numbers.
+2.  Tie out payroll in your books to your payroll provider's reports every quarter.
+3.  Track contractor payments all year, with a W-9 on file before the first payment.
+4.  Set up separate income accounts for taxable and non-taxable sales so TPT returns match.
+5.  Keep a filing calendar for every federal, state and city deadline.
+Free W-9, W-4 and Arizona A-4 forms are available on our <a href="/free-resources#forms">free resources page</a>.
+
+Section:Related Reading
+<a href="/Articles/Article_HTMLs/Frustrated_With_Your_Bookkeeper_-_8_Common_Problems_and_How_to_Fix_Them">Frustrated With Your Bookkeeper - 8 Common Problems and How to Fix Them</a>
+<a href="/Articles/Article_HTMLs/Not_Sure_Your_Books_Are_Right_-_7_Ways_to_Check_Your_Bookkeeping">Not Sure Your Books Are Right - 7 Ways to Check Your Bookkeeping</a>
+<a href="/Articles/Article_HTMLs/My_Books_Are_Always_Months_Behind_-_How_to_Get_Caught_Up_and_Stay_Current">My Books Are Always Months Behind - How to Get Caught Up and Stay Current</a>
+<a href="/free-resources#forms">Free W-9, W-4 and Arizona A-4 forms</a>
+
+Final: A penalty notice is stressful, but it's usually fixable. Respond on time, get help from your tax professional, and fix the bookkeeping process that caused it.
+Provision Bookkeeping ties out payroll, 1099s and Arizona TPT to your books every month so what you file matches what happened. See our <a href="/payroll-services">payroll and 1099 services</a> or <a href="/contact-us">book a quick call</a>.

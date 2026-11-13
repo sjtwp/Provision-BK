@@ -1,0 +1,48 @@
+Title: My Last Bookkeeper Left Me a Mess - How Bookkeeping Cleanup Works
+Author: Matthew Jacob
+Date: October 16, 2026
+ReadTime: 7 min
+Image: bk_mess.jpg
+
+
+Summary:
+Your bookkeeper quit, disappeared or got let go, and now you're looking at a QuickBooks file you don't trust. Duplicate transactions, accounts that were never reconciled, a year that was never entered. It's more common than you'd think, and it's fixable. Here's how to tell how bad it is, what a cleanup involves, and how to protect yourself so it doesn't happen again.
+
+Section:Common Problems Left Behind
+1.  Unreconciled accounts, sometimes for months or years.
+2.  Duplicate transactions from bank feeds and manual entry both being used.
+3.  Transfers between your own accounts recorded as income or expenses.
+4.  Loan payments recorded entirely as expense instead of principal and interest.
+5.  Uncategorized or "Ask My Accountant" balances in the thousands.
+6.  Opening balances that never matched the bank.
+7.  Personal and business spending mixed together.
+
+Section:A Quick Self-Check
+You can get a rough sense of the damage in ten minutes. In QuickBooks Online, compare the bank balance in QuickBooks to your actual bank statement for the last month-end. Run a Profit and Loss for last year and look for revenue that seems too high, which often means transfers counted as income. Check for an Uncategorized Expense or Uncategorized Income balance. If any of these look off, a cleanup is worth it.
+
+Section:Cleanup vs. Starting Over
+Sometimes fixing the existing file is faster. Other times, especially when there are years of problems, it makes sense to start a fresh file from a clean date and bring in correct opening balances. A good bookkeeper will tell you which option costs less after looking at your file, not before.
+
+Section:What a Bookkeeping Cleanup Involves
+Assessment. Review the file, list every problem and estimate the work.
+Written plan and fixed quote, so you know the cost before work starts.
+Fix the foundation: chart of accounts, opening balances and bank connections.
+Remove duplicates and reclassify miscategorized transactions.
+Reconcile every account through the most recent statement.
+Deliver clean financial statements and a summary of what was changed, so your CPA can rely on them.
+See our <a href="/catch-up-bookkeeping">catch-up and cleanup service</a> for details.
+
+Section:How to Protect Yourself Next Time
+1.  Always own your QuickBooks Online subscription and keep admin access yourself. The file is yours.
+2.  Ask for reconciliation reports, not just a P&L, each month or quarter.
+3.  Keep your bank and credit card statements somewhere you control.
+4.  Get a written description of what your bookkeeper does each month.
+
+Section:Related Reading
+<a href="/Articles/Article_HTMLs/Frustrated_With_Your_Bookkeeper_-_8_Common_Problems_and_How_to_Fix_Them">Frustrated With Your Bookkeeper - 8 Common Problems and How to Fix Them</a>
+<a href="/Articles/Article_HTMLs/My_Books_Are_Always_Months_Behind_-_How_to_Get_Caught_Up_and_Stay_Current">My Books Are Always Months Behind - How to Get Caught Up and Stay Current</a>
+<a href="/Articles/Article_HTMLs/Not_Sure_Your_Books_Are_Right_-_7_Ways_to_Check_Your_Bookkeeping">Not Sure Your Books Are Right - 7 Ways to Check Your Bookkeeping</a>
+<a href="/free-resources#setup-checklist">Free QBO Setup and Catch-Up Checklist</a>
+
+Final: A messy file isn't the end of the world. With an honest assessment, a written plan and a fixed quote, it can be cleaned up and kept clean.
+Provision Bookkeeping reviews your file, quotes the cleanup up front and then keeps you current with monthly bookkeeping. Thinking of switching? See <a href="/switch-bookkeepers">how switching bookkeepers works</a> or <a href="/contact-us">book a quick call</a>.

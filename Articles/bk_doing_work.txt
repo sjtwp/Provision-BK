@@ -1,0 +1,44 @@
+Title: Still Doing Half the Bookkeeping Myself - What Your Bookkeeper Should Actually Handle
+Author: Matthew Jacob
+Date: September 25, 2026
+ReadTime: 7 min
+Image: bk_doing_work.jpg
+
+
+Summary:
+You hired a bookkeeper so you could stop doing bookkeeping. Yet you're still downloading statements, forwarding receipts, typing in transactions and guessing at categories. If that sounds familiar, the split of work between you and your bookkeeper is off. Here's what you should and shouldn't be doing, and how automation in QuickBooks Online shrinks your part to a few minutes a month.
+
+Section:Your Job vs. Your Bookkeeper's Job
+Your part as the owner should be small and specific:
+1.  Snap or forward receipts when you make a purchase.
+2.  Answer a short list of questions each month about transactions only you would know.
+3.  Tell your bookkeeper about big changes, like a new loan, a new location or a new employee.
+4.  Review your financial statements and ask questions.
+Your bookkeeper's part is everything else: categorizing transactions, reconciling accounts, recording loans and transfers correctly, preparing financial statements and flagging anything unusual.
+
+Section:Signs You're Doing Too Much
+1.  You download bank statements and email them every month.
+2.  You enter transactions or invoices into QuickBooks yourself.
+3.  You get dozens of questions a month instead of a handful.
+4.  You keep a separate spreadsheet because you don't trust the books.
+5.  You fix categories after the bookkeeper is done.
+
+Section:How Automation Takes Work Off Your Plate
+Most of the busywork disappears when QuickBooks Online is set up properly:
+Bank feeds pull every bank and credit card transaction in automatically, so nobody types them.
+Bank rules categorize repeat vendors like rent, utilities and software the same way every time.
+Receipt capture lets you snap a photo in the QuickBooks app or forward an email, and it matches the receipt to the transaction.
+Connected apps send sales from Square, Shopify, Stripe or your payroll provider into your books without re-entry.
+If your file was never set up this way, our guide on <a href="/Articles/Article_HTMLs/How_to_Set_Up_QuickBooks_Online_for_Your_Business">how to set up QuickBooks Online</a> covers the basics, and our <a href="/quickbooks-online-setup">QuickBooks Online setup service</a> can do it for you.
+
+Section:What to Ask Your Bookkeeper For
+If you're stuck doing the work, ask your bookkeeper three things: connect every account to bank feeds, set up bank rules for your recurring vendors, and send questions once a month in one list with a suggested answer next to each. A good bookkeeper will be glad to, because it saves them time too.
+
+Section:Related Reading
+<a href="/Articles/Article_HTMLs/Frustrated_With_Your_Bookkeeper_-_8_Common_Problems_and_How_to_Fix_Them">Frustrated With Your Bookkeeper - 8 Common Problems and How to Fix Them</a>
+<a href="/Articles/Article_HTMLs/I_Can_Never_Get_a_Straight_Answer_From_My_Bookkeeper_-_How_to_Fix_Bookkeeper_Communication">I Can Never Get a Straight Answer From My Bookkeeper - How to Fix Bookkeeper Communication</a>
+<a href="/Articles/Article_HTMLs/My_Books_Are_Always_Months_Behind_-_How_to_Get_Caught_Up_and_Stay_Current">My Books Are Always Months Behind - How to Get Caught Up and Stay Current</a>
+<a href="/free-resources#guides">Free guide: How to Set Up QuickBooks Online</a>
+
+Final: Bookkeeping help should give you your time back. If you're still doing the data entry, it's time to fix the setup or the arrangement.
+With Provision Bookkeeping, your part shrinks to a few answers a month and a quick look at your numbers. Plans start at $250 per month. <a href="/contact-us">Book a quick call</a> to see how it would work for your business.
