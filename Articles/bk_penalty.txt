@@ -20,7 +20,7 @@ Section:What to Do When a Notice Arrives
 
 Section:Common Penalties That Start in the Books
 Payroll tax deposits. Federal payroll taxes have strict deposit schedules, and late or missed deposits carry penalties on top of interest. Arizona withholding is reported quarterly to ADOR.
-Missing 1099s. Contractors paid $600 or more in a year generally need a Form 1099-NEC, due January 31. If contractor payments aren't tracked during the year, January turns into a scramble. Our article on <a href="/Articles/Article_HTMLs/Employee_vs._Contractor_Understanding_the_Difference">employee vs. contractor rules</a> explains who counts.
+Missing 1099s. Contractors paid $2,000 or more in a year (for payments made in 2026; $600 for 2025 and earlier) generally need a Form 1099-NEC, due January 31. See <a href="/Articles/Article_HTMLs/Getting_Ready_for_1099_Season_-_What_Changed_for_2026_and_How_to_Prepare_Before_January">what changed for 1099s in 2026</a>. If contractor payments aren't tracked during the year, January turns into a scramble. Our article on <a href="/Articles/Article_HTMLs/Employee_vs._Contractor_Understanding_the_Difference">employee vs. contractor rules</a> explains who counts.
 Arizona TPT. Transaction privilege tax returns must match your taxable sales. Mixing taxable and non-taxable revenue in one account, or missing city taxes, leads to notices. Contractors and short-term rental owners see this often. See our guide to <a href="/Articles/Article_HTMLs/Arizona_Short-Term_Rental_Sales_Tax_-_Do_You_Owe_TPT_on_Your_Airbnb">Arizona TPT on short-term rentals</a>.
 Estimated taxes. If your books are behind, you can't tell what you owe each quarter, which leads to underpayment penalties at filing time.
 

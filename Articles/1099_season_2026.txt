@@ -1,0 +1,46 @@
+Title: Getting Ready for 1099 Season - What Changed for 2026 and How to Prepare Before January
+Author: Matthew Jacob
+Date: November 14, 2026
+ReadTime: 7 min
+Image: 1099_season_2026.jpg
+
+
+Summary:
+If you pay contractors, January brings 1099 season, and this year the rules changed. For payments made in 2026, the reporting threshold for Forms 1099-NEC and 1099-MISC jumped from $600 to $2,000, the IRS is moving e-filing to a new system, and the deadline still comes fast. Here's what changed, who still needs a 1099, and the steps to take in November and December so January is easy.
+
+Section:What Changed for 2026
+1.  The threshold went up. For payments made after December 31, 2025, you generally file a Form 1099-NEC for each contractor you paid $2,000 or more during the year, up from $600. The change came from the One Big Beautiful Bill Act, signed in July 2025, and the $2,000 amount may be adjusted for inflation starting in 2027.
+2.  2025 payments still used $600. The new threshold applies to payments made in 2026, reported in early 2027. Payment date matters: an invoice dated December 2025 but paid in January 2026 counts as a 2026 payment.
+3.  E-filing is changing. The IRS is retiring its older FIRE e-filing system at the end of 2026 and moving to IRIS for tax year 2026 forms. If you or your software file electronically, make sure it's ready.
+4.  The deadline is still tight. Form 1099-NEC is due to both contractors and the IRS by January 31. Because January 31, 2027 falls on a Sunday, the deadline moves to Monday, February 1, 2027.
+
+Section:Who Gets a 1099-NEC
+Generally, you send a 1099-NEC to an unincorporated individual or business, like a sole proprietor, single-member LLC or partnership, that you paid $2,000 or more for services during 2026. Most payments to corporations don't need one, with exceptions like attorneys. If you're not sure whether someone is a contractor or an employee, read <a href="/Articles/Article_HTMLs/Employee_vs._Contractor_Understanding_the_Difference">employee vs. contractor: understanding the difference</a>.
+
+Section:Card Payments Don't Count Toward Your Total
+Payments you made by credit card, debit card or through payment apps like PayPal for goods and services are generally reported by the card company or payment network on Form 1099-K, not by you. When you total each contractor's payments, leave those out and count checks, ACH, bank transfers, Zelle and cash. Tracking the payment method all year makes this easy.
+
+Section:Your November and December Checklist
+1.  Pull a list of every vendor you paid in 2026 and mark which ones are contractors.
+2.  Get a Form W-9 from every contractor who doesn't have one on file. It gives you their legal name, tax ID and entity type. A free W-9 is on our <a href="/free-resources#forms">free resources page</a>.
+3.  In QuickBooks Online, mark contractors as eligible for 1099 and map their payments to the right box.
+4.  Run a contractor payment report and check totals against the $2,000 threshold.
+5.  Confirm addresses now, so forms don't bounce back in January.
+6.  Decide how you'll file: through QuickBooks Online, a filing service, or your CPA.
+7.  Make sure your books are reconciled through December so the totals are right. If they're behind, see <a href="/Articles/Article_HTMLs/My_Books_Are_Always_Months_Behind_-_How_to_Get_Caught_Up_and_Stay_Current">how to get caught up</a>.
+
+Section:What Happens If You Miss It
+Late or missing 1099s can bring IRS penalties per form, and the amount goes up the longer they're late. Missing W-9s can also create backup withholding requirements. For what to do if a notice arrives, read <a href="/Articles/Article_HTMLs/I_Got_an_IRS_or_Arizona_Penalty_Notice_From_a_Bookkeeping_Mistake_-_What_to_Do_Next">what to do after a penalty notice</a>.
+
+Section:Fewer Forms, Same Good Habits
+The higher threshold means many small businesses will file fewer 1099s this year. But you still need W-9s, accurate payment tracking and clean books, because you won't know who crossed $2,000 without them. State rules can also differ from federal rules, so check with your tax professional about any state filing requirements.
+
+Section:Related Reading
+<a href="/Articles/Article_HTMLs/Employee_vs._Contractor_Understanding_the_Difference">Employee vs. Contractor: Understanding the Difference</a>
+<a href="/Articles/Article_HTMLs/I_Got_an_IRS_or_Arizona_Penalty_Notice_From_a_Bookkeeping_Mistake_-_What_to_Do_Next">I Got an IRS or Arizona Penalty Notice From a Bookkeeping Mistake - What to Do Next</a>
+<a href="/Articles/Article_HTMLs/What_I_Need_to_Do_Before_the_End_of_the_Tax_Year">What I Need to Do Before the End of the Tax Year</a>
+<a href="/Articles/Article_HTMLs/How_Much_to_Set_Aside_for_Taxes_-_Estimated_Tax_Payments_for_Arizona_Small_Business_Owners">How Much to Set Aside for Taxes - Estimated Tax Payments for Arizona Small Business Owners</a>
+<a href="/free-resources#forms">Free W-9, W-4, I-9 and Arizona A-4 forms</a>
+
+Final: For 2026 payments, 1099-NEC forms are generally required only for contractors paid $2,000 or more, and they're due February 1, 2027. Collect W-9s and clean up your contractor totals now, and January will be easy.
+Provision Bookkeeping tracks contractor payments all year and prepares 1099s from reconciled books. See our <a href="/payroll-services">payroll and 1099 services</a> or <a href="/contact-us">book a quick call</a>. This article is general information, not tax advice; confirm your situation with your tax professional.

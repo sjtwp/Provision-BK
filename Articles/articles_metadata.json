@@ -358,5 +358,15 @@
     "mins": "6 min",
     "image": "Articles/Article_Images/closing_business.jpg",
     "safe_title": "Closing_Your_Business_-_Final_Bookkeeping_Steps_and_What_to_Do_With_Your_QuickBooks_File"
+  },
+  {
+    "title": "Getting Ready for 1099 Season - What Changed for 2026 and How to Prepare Before January",
+    "summary": "If you pay contractors, January brings 1099 season, and this year the rules changed. For payments made in 2026, the reporting threshold for Forms 1099-NEC and 1099-MISC jumped from $600 to $2,000, the IRS is moving e-filing to a new system, and the deadline still comes fast.",
+    "author": "Matthew Jacob",
+    "date": "November 14, 2026",
+    "parsed_date": "2026-11-14T00:00:00",
+    "mins": "7 min",
+    "image": "Articles/Article_Images/1099_season_2026.jpg",
+    "safe_title": "Getting_Ready_for_1099_Season_-_What_Changed_for_2026_and_How_to_Prepare_Before_January"
   }
 ]
