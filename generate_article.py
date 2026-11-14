@@ -182,7 +182,7 @@ def generate_article_html(txt_file):
     <meta property="og:title" content="{title}">
     <meta property="og:description" content="{summary}">
     <meta property="og:url" content="https://provisionbk.com/Articles/Article_HTMLs/{safe_title}">
-    <meta property="og:image" content="https://provisionbk.com/Articles/Article_Images/{image}">
+    <meta property="og:image" content="https://provisionbk.com/Articles/Article_Images/{image.replace(" ", "%20")}">
     <meta name="twitter:card" content="summary_large_image">
     <title>{title}</title>
     <link rel="stylesheet" href="../../Styles/Header.css?v=202611141428">
