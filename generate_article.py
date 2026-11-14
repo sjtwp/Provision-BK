@@ -177,6 +177,13 @@ def generate_article_html(txt_file):
     <meta name="description" content="{summary}">
     <meta name="keywords" content="bookkeeping, contractor vs employee, business finance, {author}">
     <link rel="canonical" href="https://provisionbk.com/Articles/Article_HTMLs/{safe_title}">
+    <meta property="og:type" content="article">
+    <meta property="og:site_name" content="Provision Bookkeeping">
+    <meta property="og:title" content="{title}">
+    <meta property="og:description" content="{summary}">
+    <meta property="og:url" content="https://provisionbk.com/Articles/Article_HTMLs/{safe_title}">
+    <meta property="og:image" content="https://provisionbk.com/Articles/Article_Images/{image}">
+    <meta name="twitter:card" content="summary_large_image">
     <title>{title}</title>
     <link rel="stylesheet" href="../../Styles/Header.css?v=202611141428">
     <link rel="stylesheet" href="/Styles/Nav_Dropdown.css?v=202611141428">
