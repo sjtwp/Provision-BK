@@ -22,3 +22,4 @@ online_sellers_tpt.jpg | https://unsplash.com/photos/a-large-pile-of-brown-cardb
 diy_vs_hire.jpg | https://unsplash.com/photos/home-office-with-green-walls-UUsQk_9bdR8 | 1200x630
 closing_business.jpg | https://unsplash.com/photos/sorry-were-closed-signage-hanged-on-glass-door-C8jNJslQM3A | 1200x630
 1099_season_2026.jpg | https://unsplash.com/photos/tax-forms-and-coffee-on-desk-8DEDp6S93Po | 1200x630
+undeposited_funds.jpg | https://unsplash.com/photos/drive-in-banking-signage-LeqCI5v81-c | 1200x630

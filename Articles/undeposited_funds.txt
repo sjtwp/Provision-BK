@@ -1,0 +1,57 @@
+Title: Undeposited Funds in QuickBooks Online - Why the Balance Keeps Growing and How to Fix It
+Author: Matthew Jacob
+Date: November 16, 2026
+ReadTime: 6 min
+Image: undeposited_funds.jpg
+
+
+Summary:
+Open your Balance Sheet in QuickBooks Online and look for an account called Undeposited Funds. If it shows thousands of dollars from payments you deposited months ago, your income is probably overstated and your bank reconciliations won't hold together. Here's what the account is for, why the balance gets stuck, and how to clean it up without making things worse.
+
+Section:What Undeposited Funds Is For
+Undeposited Funds is a holding account. When you receive a customer payment or create a sales receipt in QuickBooks Online, the money often goes there first instead of straight to your bank account. That matches how money actually moves: you might collect three checks this week and deposit them together, or Square might pay out a day's sales as one lump sum. When the deposit hits the bank, you group those payments into one bank deposit and the money moves out of Undeposited Funds and into your checking account. In some newer QuickBooks Online accounts this account is labeled Payments to deposit, but it works the same way.
+Used correctly, the balance should be small and only include payments you haven't taken to the bank yet. At month-end it's often zero.
+
+Section:Why the Balance Keeps Growing
+The most common cause is double-counting. You record the customer's payment against the invoice, which puts the money in Undeposited Funds. Then the deposit shows up in the bank feed and someone clicks Add and categorizes it as Sales or Income instead of matching it to the payment. Now the income is recorded twice, and the original payment sits in Undeposited Funds forever.
+Other common causes:
+1.  Sales receipts that default to Undeposited Funds when the money really went straight to the bank.
+2.  Card processor payouts from Stripe, Square or PayPal that were added as one income line instead of being matched to the individual sales. See <a href="/Articles/Article_HTMLs/Stripe,_Square_and_PayPal_Deposits_-_How_to_Record_Payment_Processing_Fees_Correctly">how to record payment processing fees correctly</a>.
+3.  Payments recorded twice, once by you and once by a bank rule or an app that syncs into QuickBooks.
+4.  Payments that were never actually deposited, like a lost or voided check.
+
+Section:Why It Matters
+A stuck Undeposited Funds balance isn't harmless. If income was recorded twice, your Profit and Loss overstates revenue, and that can mean paying tax on money you never earned twice. Your customer balances may look paid while your bank account tells a different story. And because the extra payments never land in the bank, reconciliations get forced or adjusted to make them balance, which hides other errors. If you're not sure your reports are right, read <a href="/Articles/Article_HTMLs/Not_Sure_Your_Books_Are_Right_-_7_Ways_to_Check_Your_Bookkeeping">7 ways to check your bookkeeping</a>.
+
+Section:How to Check Yours in Five Minutes
+1.  Run a Balance Sheet as of today and find Undeposited Funds (or Payments to deposit) under current assets.
+2.  If the balance is more than the payments you're holding right now, click the amount to see the transactions behind it.
+3.  Sort by date. Payments older than a few weeks are the ones to investigate.
+4.  Pick one old payment and search the bank feed or bank register for a deposit around the same date and amount. If you find it categorized as income instead of matched to the payment, you've found the pattern.
+
+Section:How to Fix It Going Forward
+1.  When a deposit appears in the bank feed, use Match, not Add. If QuickBooks doesn't suggest the match on its own, use the option to find other matches and select the customer payments that make up the deposit.
+2.  For deposits made of several payments, create a bank deposit from the + New menu, select the payments, and then match the bank feed line to that deposit.
+3.  Review your bank rules. A rule that automatically adds every deposit as Sales will keep recreating the problem.
+4.  If a sales receipt was paid straight to the bank, choose your checking account as the Deposit to account instead of Undeposited Funds.
+
+Section:How to Clean Up the Old Balance
+Don't just make one journal entry to zero it out. That makes the account look clean but leaves the double-counted income in your books. Work through it instead:
+1.  Start with the oldest items and confirm each payment was actually deposited by checking the bank statement.
+2.  If the bank deposit was recorded as income, edit that deposit so it pulls in the payment from Undeposited Funds instead of using an income category. This fixes both accounts at once.
+3.  If a payment was recorded twice, delete or void the duplicate, after checking it isn't tied to an invoice you need.
+4.  If a check was never deposited, reverse the payment and reopen the invoice or follow up with the customer.
+5.  Reconcile your bank account again afterward to make sure nothing in a closed period changed unexpectedly.
+If old entries fall in a year that's already been filed, talk with your CPA before you change them, because fixing the books may change reported income. A small number of very old, tiny items that can't be traced may be cleared with an adjusting entry, but your tax preparer should agree on how.
+
+Section:When to Get Help
+If the balance spans many months, involves hundreds of payments, or your reconciliations have been adjusted to force them to balance, it's usually faster to have someone untangle it once and set up the matching process correctly. That's a core part of our <a href="/quickbooks-cleanup">QuickBooks Online cleanup service</a>. If the problem started when a previous bookkeeper left, read <a href="/Articles/Article_HTMLs/My_Last_Bookkeeper_Left_Me_a_Mess_-_How_Bookkeeping_Cleanup_Works">how bookkeeping cleanup works</a>.
+
+Section:Related Reading
+<a href="/Articles/Article_HTMLs/Stripe,_Square_and_PayPal_Deposits_-_How_to_Record_Payment_Processing_Fees_Correctly">Stripe, Square and PayPal Deposits - How to Record Payment Processing Fees Correctly</a>
+<a href="/Articles/Article_HTMLs/Not_Sure_Your_Books_Are_Right_-_7_Ways_to_Check_Your_Bookkeeping">Not Sure Your Books Are Right - 7 Ways to Check Your Bookkeeping</a>
+<a href="/Articles/Article_HTMLs/Loan_Payments,_Credit_Card_Payments_and_Transfers_-_How_to_Record_Them_Correctly_in_QuickBooks">Loan Payments, Credit Card Payments and Transfers - How to Record Them Correctly in QuickBooks</a>
+<a href="/Articles/Article_HTMLs/My_Last_Bookkeeper_Left_Me_a_Mess_-_How_Bookkeeping_Cleanup_Works">My Last Bookkeeper Left Me a Mess - How Bookkeeping Cleanup Works</a>
+
+Final: Undeposited Funds should only hold payments you haven't deposited yet. If yours has a large, old balance, the usual cause is deposits added as income instead of matched to customer payments, which overstates your revenue. Match deposits going forward, then clean up the old items one by one.
+Provision Bookkeeping fixes Undeposited Funds, forced reconciliations and other QuickBooks Online problems as part of our <a href="/quickbooks-cleanup">QuickBooks Online cleanup service</a>, or keeps them from happening with <a href="/monthly-bookkeeping">monthly bookkeeping</a>. <a href="/contact-us">Book a quick call</a>. This article is general information, not tax advice; confirm your situation with your tax professional.
