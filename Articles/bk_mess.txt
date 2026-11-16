@@ -30,7 +30,7 @@ Fix the foundation: chart of accounts, opening balances and bank connections.
 Remove duplicates and reclassify miscategorized transactions.
 Reconcile every account through the most recent statement.
 Deliver clean financial statements and a summary of what was changed, so your CPA can rely on them.
-See our <a href="/catch-up-bookkeeping">catch-up and cleanup service</a> for details.
+See our <a href="/catch-up-bookkeeping">catch-up and cleanup service</a> or our <a href="/quickbooks-cleanup">QuickBooks Online cleanup service</a> for details.
 
 Section:How to Protect Yourself Next Time
 1.  Always own your QuickBooks Online subscription and keep admin access yourself. The file is yours.

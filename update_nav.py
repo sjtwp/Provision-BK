@@ -21,6 +21,7 @@ CITIES = [
 SERVICES = [
     ("monthly-bookkeeping", "Monthly Bookkeeping"),
     ("catch-up-bookkeeping", "Catch-Up & Cleanup"),
+    ("quickbooks-cleanup", "QuickBooks Online Cleanup"),
     ("quickbooks-online-setup", "QuickBooks Online Setup & Training"),
     ("payroll-services", "Payroll & 1099s"),
     ("financial-statements", "Monthly Financial Statements"),
