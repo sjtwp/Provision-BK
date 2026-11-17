@@ -126,4 +126,4 @@ def ping_search_engines():
 print(f"\nSitemap generated: {OUTPUT_PATH}")
 print(f"   {len(STATIC_PAGES)} static pages")
 print(f"   {len(SERVICE_AREAS)} service areas")
-print(f"   {len(blog_entries)} blog articles")
+print(f"   {len(blog_entries)} blog articles")

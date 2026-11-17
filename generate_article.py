@@ -740,4 +740,4 @@ if __name__ == "__main__":
     else:
         # Normalize path to handle different OS separators and spaces
         txt_file = os.path.normpath(sys.argv[1])
-        generate_article_from_txt(txt_file)
+        generate_article_from_txt(txt_file)
