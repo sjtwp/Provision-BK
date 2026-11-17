@@ -99,7 +99,7 @@
 .review-card .source {
   margin-top: 6px;
   font-size: 13px;
-  color: #777;
+  color: #6b6b6b;
 }
 
 .reviews-arrow {
@@ -174,3 +174,17 @@
     font-size: 15px;
   }
 }
+
+.reviews-pause {
+  display: block;
+  margin: 10px auto 0 auto;
+  background: #ffffff;
+  color: #00446f;
+  border: 2px solid #00446f;
+  border-radius: 6px;
+  padding: 4px 14px;
+  font: inherit;
+  font-size: 0.85rem;
+  cursor: pointer;
+}
+.reviews-pause:hover { background: #fad962; }

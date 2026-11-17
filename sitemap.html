@@ -37,17 +37,6 @@
 
   <style>
     /* Existing styles from provided format */
-    .no-cursor:focus {
-        caret-color: transparent;
-    }
-    input:focus,
-    textarea:focus,
-    [contenteditable]:focus {
-        caret-color: transparent;
-    }
-    *:focus {
-        outline: none;
-    }
     img {
         pointer-events: none;
     }
@@ -86,7 +75,7 @@
     }
     .sitemap-content ul li a {
       text-decoration: none;
-      color: #007bff;
+      color: #0062cc;
     }
     .sitemap-content ul li a:hover {
       text-decoration: underline;
@@ -112,7 +101,7 @@
     }
     footer a {
       text-decoration: none;
-      color: #007bff;
+      color: #0062cc;
     }
     footer a:hover {
       text-decoration: underline;
@@ -236,6 +225,7 @@
   </style>
 </head>
 <body>
+  <a class="skip-link" href="#main">Skip to main content</a>
 
       <header>
     <div class="header-container">
@@ -335,6 +325,7 @@
       <button class="menu-toggle" aria-label="Toggle navigation">☰</button>
     </div>
   </header>
+  <main id="main" class="page-main" tabindex="-1">
 
   <div class="sitemap-content">
     
@@ -446,9 +437,12 @@
       <ul>
         <li><a href="../privacy-policy">Privacy Policy</a></li>
         <li><a href="../terms-of-service">Terms of Service</a></li>
+        <li><a href="../accessibility">Accessibility Statement</a></li>
       </ul>
     </div>
   </div>
+
+  </main>
 
   <footer role="contentinfo">
   <div class="footer-content">
@@ -494,6 +488,7 @@
         <a href="../sitemap"style="flex: 1; maragin: 0 10px; padding: 0px 0px;">Sitemap</a>
         <a href="../privacy-policy"style="flex: 1; margin: 0 10px; padding: 0px 0px;">Privacy Policy</a>
         <a href="../terms-of-service"style="flex: 1; margin: 0 10px; padding: 0px 0px;">Terms of Service</a>
+        <a href="/accessibility" style="flex: 1; margin: 0 10px; padding: 0px 0px;">Accessibility</a>
 
     </nav>
     <div class="cta">
@@ -589,6 +584,6 @@
       document.querySelector('.nav-menu').classList.toggle('active');
     });
   </script>
-<a class="call-now-btn" href="tel:+16027673829" aria-label="Call Provision Bookkeeping at 602-767-3829"><svg viewBox="0 0 24 24" width="18" height="18" aria-hidden="true"><path fill="currentColor" d="M6.6 10.8a15.1 15.1 0 0 0 6.6 6.6l2.2-2.2a1 1 0 0 1 1-.25 11.4 11.4 0 0 0 3.6.57 1 1 0 0 1 1 1V20a1 1 0 0 1-1 1A17 17 0 0 1 3 4a1 1 0 0 1 1-1h3.5a1 1 0 0 1 1 1c0 1.25.2 2.45.57 3.57a1 1 0 0 1-.25 1z"/></svg><span>Call Now</span><span class="cn-num">602-767-3829</span></a>
+<a class="call-now-btn" href="tel:+16027673829"><svg viewBox="0 0 24 24" width="18" height="18" aria-hidden="true"><path fill="currentColor" d="M6.6 10.8a15.1 15.1 0 0 0 6.6 6.6l2.2-2.2a1 1 0 0 1 1-.25 11.4 11.4 0 0 0 3.6.57 1 1 0 0 1 1 1V20a1 1 0 0 1-1 1A17 17 0 0 1 3 4a1 1 0 0 1 1-1h3.5a1 1 0 0 1 1 1c0 1.25.2 2.45.57 3.57a1 1 0 0 1-.25 1z"/></svg><span>Call Now</span><span class="cn-num">602-767-3829</span></a>
 </body>
 </html>

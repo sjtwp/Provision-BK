@@ -115,27 +115,14 @@
   <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;800&display=swap" rel="stylesheet">
 
   <style>
-    /* Existing styles */
-    .no-cursor:focus {
-        caret-color: transparent;
-    }
-    /* New global styles to disable blinking cursor and focus outline */
-    input:focus,
-    textarea:focus,
-    [contenteditable]:focus {
-        caret-color: transparent;
-    }
-    *:focus {
-        outline: none;
-    }
     img {
         pointer-events: none;
     }
   </style>
 </head>
 <body>
+  <a class="skip-link" href="#main">Skip to main content</a>
 
-  <input type="text" class="no-cursor">
 
   <header>
     <div class="header-container">
@@ -235,6 +222,7 @@
       <button class="menu-toggle" aria-label="Toggle navigation">☰</button>
     </div>
   </header>
+  <main id="main" class="page-main" tabindex="-1">
 
   <!-- Parallax Section -->
   <div class="parallax">
@@ -426,7 +414,7 @@
               name="fname"
               value=""
               aria-labelledby="label-fname"
-              required
+              required autocomplete="given-name"
             />
             <label class="label" for="fname" id="label-fname">
               <div class="text">First Name</div>
@@ -441,7 +429,7 @@
               name="lname"
               value=""
               aria-labelledby="label-lname"
-              required
+              required autocomplete="family-name"
             />
             <label class="label" for="lname" id="label-lname">
               <div class="text">Last Name</div>
@@ -456,7 +444,7 @@
               name="email"
               value=""
               aria-labelledby="label-email"
-              required
+              required autocomplete="email"
             />
             <label class="label" for="email" id="label-email">
               <div class="text">Email</div>
@@ -471,7 +459,7 @@
               name="phone"
               value=""
               aria-labelledby="label-phone"
-              required
+              required autocomplete="tel"
             />
             <label class="label" for="phone" id="label-phone">
               <div class="text">Phone Number</div>
@@ -504,7 +492,7 @@
 
         <div class="contact-directly">Or contact us directly:</div>
         <div class="contact-info">
-          <p>Phone number: <a href="tel:602-767-3829">602-767-3829</a></p>
+          <p>Phone number: <a href="tel:602-767-3829" style="text-decoration: underline;">602-767-3829</a></p>
           <p>Email: <a href="mailto:contact@provisionbk.com">contact@provisionbk.com</a></p>
         </div>    
       </div>      
@@ -512,6 +500,8 @@
   </section>
 
   <script src="JS/Contact_Us.js?v=202611141428"></script>
+
+  </main>
 
   <footer role="contentinfo">
   <div class="footer-content">
@@ -557,6 +547,7 @@
         <a href="../sitemap"style="flex: 1; margin: 0 10px; padding: 0px 0px;">Sitemap</a>
         <a href="../privacy-policy"style="flex: 1; margin: 0 10px; padding: 0px 0px;">Privacy Policy</a>
         <a href="../terms-of-service"style="flex: 1; margin: 0 10px; padding: 0px 0px;">Terms of Service</a>
+        <a href="/accessibility" style="flex: 1; margin: 0 10px; padding: 0px 0px;">Accessibility</a>
 
     </nav>
     <div class="cta">
@@ -599,6 +590,6 @@ navLinks.forEach(link => {
 });
 
   </script>
-<a class="call-now-btn" href="tel:+16027673829" aria-label="Call Provision Bookkeeping at 602-767-3829"><svg viewBox="0 0 24 24" width="18" height="18" aria-hidden="true"><path fill="currentColor" d="M6.6 10.8a15.1 15.1 0 0 0 6.6 6.6l2.2-2.2a1 1 0 0 1 1-.25 11.4 11.4 0 0 0 3.6.57 1 1 0 0 1 1 1V20a1 1 0 0 1-1 1A17 17 0 0 1 3 4a1 1 0 0 1 1-1h3.5a1 1 0 0 1 1 1c0 1.25.2 2.45.57 3.57a1 1 0 0 1-.25 1z"/></svg><span>Call Now</span><span class="cn-num">602-767-3829</span></a>
+<a class="call-now-btn" href="tel:+16027673829"><svg viewBox="0 0 24 24" width="18" height="18" aria-hidden="true"><path fill="currentColor" d="M6.6 10.8a15.1 15.1 0 0 0 6.6 6.6l2.2-2.2a1 1 0 0 1 1-.25 11.4 11.4 0 0 0 3.6.57 1 1 0 0 1 1 1V20a1 1 0 0 1-1 1A17 17 0 0 1 3 4a1 1 0 0 1 1-1h3.5a1 1 0 0 1 1 1c0 1.25.2 2.45.57 3.57a1 1 0 0 1-.25 1z"/></svg><span>Call Now</span><span class="cn-num">602-767-3829</span></a>
 </body>
 </html>

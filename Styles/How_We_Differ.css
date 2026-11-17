@@ -25,7 +25,7 @@
   padding: 40px 5px;
   font-weight: 400;
   border-radius: 15px;
-  color: #00a9d2;
+  color: #006b87;
   width: clamp(50px, 100%, 1000px);  /* fluid width with min & max */
   margin: 0px auto 10px auto;
   transition: transform 0.3s ease;
@@ -52,7 +52,7 @@ table {
   width: 100%;
   border-collapse: collapse;
   background-color: #ffffff;
-  color: #595959;
+  color: #333333;
   overflow: hidden;
 }
 
@@ -113,7 +113,7 @@ tr:first-child th:nth-child(4) {
 
 /* Checkmark box */
 .check {
-  color: #4EA72E;
+  color: #2e7d1a;
   border: 2px solid #4EA72E;
   display: inline-block;
   width: 30px;
@@ -126,7 +126,7 @@ tr:first-child th:nth-child(4) {
 
 /* Rarely text */
 .rarely {
-  color: red;
+  color: #c00000;
 }
 
 /* Text alignments */
@@ -184,7 +184,7 @@ tr:first-child th:first-child {
 
 /* Checkmark box */
 .check {
-  color: #4EA72E;
+  color: #2e7d1a;
   border: 1.5px solid #4EA72E;
   display: inline-block;
   width: 30px;
@@ -265,49 +265,49 @@ tr:first-child th:first-child {
 
   tr:nth-child(2) td:nth-child(1) {
     border-top-left-radius: 30px;
-    background-color: #00a9d2 !important;
+    background-color: #00728f !important;
     color: #ffffff;
     padding-left: 20px; /* Adjust the pixel value for your desired indent */
   }
   
   tr:nth-child(3) td:nth-child(1) {
-    background-color: #00a9d2 !important;
+    background-color: #00728f !important;
     color: #ffffff;
     padding-left: 20px; /* Adjust the pixel value for your desired indent */
   }
   
   tr:nth-child(4) td:nth-child(1) {
-    background-color: #00a9d2 !important;
+    background-color: #00728f !important;
     color: #ffffff;
     padding-left: 20px; /* Adjust the pixel value for your desired indent */
   }
 
   tr:nth-child(5) td:nth-child(1) {
-    background-color: #00a9d2 !important;
+    background-color: #00728f !important;
     color: #ffffff;
     padding-left: 20px; /* Adjust the pixel value for your desired indent */
   }
 
   tr:nth-child(6) td:nth-child(1) {
-    background-color: #00a9d2 !important;
+    background-color: #00728f !important;
     color: #ffffff;
     padding-left: 20px; /* Adjust the pixel value for your desired indent */
   }
 
   tr:nth-child(7) td:nth-child(1) {
-    background-color: #00a9d2 !important;
+    background-color: #00728f !important;
     color: #ffffff;
     padding-left: 20px; /* Adjust the pixel value for your desired indent */
   }
 
   tr:nth-child(8) td:nth-child(1) {
-    background-color: #00a9d2 !important;
+    background-color: #00728f !important;
     color: #ffffff;
     padding-left: 20px; /* Adjust the pixel value for your desired indent */
   }
 
   tr:nth-child(9) td:nth-child(1) {
-    background-color: #00a9d2 !important;
+    background-color: #00728f !important;
     color: #ffffff;
     padding-left: 20px; /* Adjust the pixel value for your desired indent */
     border-bottom-left-radius: 30px;
@@ -384,49 +384,49 @@ tr:first-child th:first-child {
 
   tr:nth-child(2) td:nth-child(1) {
     border-top-left-radius: 30px;
-    background-color: #00a9d2 !important;
+    background-color: #00728f !important;
     color: #ffffff;
     padding-left: 20px; /* Adjust the pixel value for your desired indent */
   }
   
   tr:nth-child(3) td:nth-child(1) {
-    background-color: #00a9d2 !important;
+    background-color: #00728f !important;
     color: #ffffff;
     padding-left: 20px; /* Adjust the pixel value for your desired indent */
   }
   
   tr:nth-child(4) td:nth-child(1) {
-    background-color: #00a9d2 !important;
+    background-color: #00728f !important;
     color: #ffffff;
     padding-left: 20px; /* Adjust the pixel value for your desired indent */
   }
 
   tr:nth-child(5) td:nth-child(1) {
-    background-color: #00a9d2 !important;
+    background-color: #00728f !important;
     color: #ffffff;
     padding-left: 20px; /* Adjust the pixel value for your desired indent */
   }
 
   tr:nth-child(6) td:nth-child(1) {
-    background-color: #00a9d2 !important;
+    background-color: #00728f !important;
     color: #ffffff;
     padding-left: 20px; /* Adjust the pixel value for your desired indent */
   }
 
   tr:nth-child(7) td:nth-child(1) {
-    background-color: #00a9d2 !important;
+    background-color: #00728f !important;
     color: #ffffff;
     padding-left: 20px; /* Adjust the pixel value for your desired indent */
   }
 
   tr:nth-child(8) td:nth-child(1) {
-    background-color: #00a9d2 !important;
+    background-color: #00728f !important;
     color: #ffffff;
     padding-left: 20px; /* Adjust the pixel value for your desired indent */
   }
 
   tr:nth-child(9) td:nth-child(1) {
-    background-color: #00a9d2 !important;
+    background-color: #00728f !important;
     color: #ffffff;
     padding-left: 20px; /* Adjust the pixel value for your desired indent */
     border-bottom-left-radius: 30px;

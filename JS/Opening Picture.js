@@ -7,6 +7,7 @@ window.addEventListener("DOMContentLoaded", () => {
 
   // Use same image for both
   image.src = "../Images/minh-pham-IisDPFNUS4k-unsplash 3.JPG";
+  image.alt = "";
   image.classList.add("parallax-image");
   parallaxContainer.appendChild(image);
 

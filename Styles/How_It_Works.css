@@ -30,7 +30,7 @@ body {
   padding: 40px 5px;
   font-weight: 400;
   border-radius: 15px;
-  color: #f4a261;
+  color: #9a4512;
   width: clamp(50px, 100%, 1000px);  /* fluid width with min & max */
   margin: 0px auto 0px auto;
   transition: transform 0.3s ease;
@@ -82,7 +82,7 @@ body {
 .step {
   font-size: 40px; /* Larger step number */
   font-weight: bold;
-  color: #f4a261;
+  color: #9a4512;
   background-color: #ffffff; /* Matches page background */
   width: 90px; /* Larger box */
   height: 90px;
@@ -96,7 +96,7 @@ body {
 }
 
 .step:hover {
-  background-color: #f4a261;
+  background-color: #9a4512;
   color: #fff; /* White text on hover */
 }
 

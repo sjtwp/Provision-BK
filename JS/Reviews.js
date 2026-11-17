@@ -72,13 +72,35 @@
 
   function restart() {
     clearInterval(timer);
+    if (paused) return;
     timer = setInterval(function () { go(index + 1); }, 8000);
   }
 
   carousel.querySelector('.prev').addEventListener('click', function () { go(index - 1); restart(); });
   carousel.querySelector('.next').addEventListener('click', function () { go(index + 1); restart(); });
+  // Auto-advance can be paused (accessibility: WCAG 2.2.2). It never starts for
+  // visitors who ask their device for reduced motion.
+  const reduceMotion = window.matchMedia && window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+  let paused = reduceMotion;
+  const pauseBtn = document.createElement('button');
+  pauseBtn.type = 'button';
+  pauseBtn.className = 'reviews-pause';
+  function setPauseLabel() {
+    pauseBtn.textContent = paused ? 'Play' : 'Pause';
+    pauseBtn.setAttribute('aria-label', paused ? 'Play automatic review rotation' : 'Pause automatic review rotation');
+  }
+  pauseBtn.addEventListener('click', function () {
+    paused = !paused;
+    setPauseLabel();
+    if (paused) { clearInterval(timer); } else { restart(); }
+  });
+  setPauseLabel();
+  dotsBox.parentNode.insertBefore(pauseBtn, dotsBox.nextSibling);
+
   carousel.addEventListener('mouseenter', function () { clearInterval(timer); });
-  carousel.addEventListener('mouseleave', restart);
+  carousel.addEventListener('mouseleave', function () { if (!paused) restart(); });
+  carousel.addEventListener('focusin', function () { clearInterval(timer); });
+  carousel.addEventListener('focusout', function () { if (!paused) restart(); });
 
   // Swipe on phones
   let startX = null;

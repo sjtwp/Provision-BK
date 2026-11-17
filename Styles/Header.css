@@ -221,3 +221,43 @@ header {
     display: none;
   }
 }
+
+/* ---- Accessibility ---- */
+/* Skip link: hidden until a keyboard user tabs to it */
+.skip-link {
+  position: absolute;
+  left: -9999px;
+  top: 0;
+  z-index: 10000;
+  background: #00446f;
+  color: #ffffff;
+  padding: 10px 16px;
+  font-weight: 800;
+  text-decoration: none;
+}
+.skip-link:focus {
+  left: 10px;
+  top: 10px;
+}
+/* Visible focus outline for keyboard users */
+a:focus-visible,
+button:focus-visible,
+input:focus-visible,
+select:focus-visible,
+textarea:focus-visible,
+[tabindex]:focus-visible {
+  outline: 3px solid #00446f;
+  outline-offset: 2px;
+}
+main:focus { outline: none; }
+/* Links inside sentences are underlined so they don't rely on color alone */
+main p a:not([class]),
+main li a:not([class]) {
+  text-decoration: underline;
+}
+/* Pages wrapped in <main> for screen readers keep their full-width layout */
+main.page-main {
+  max-width: none;
+  margin: 0;
+  padding: 0;
+}

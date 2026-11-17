@@ -86,7 +86,7 @@
   
   .label .text {
       transition: all 0.15s ease-out;
-      color: #b1b1b1;
+      color: #6b6b6b;
       font-size: clamp(.75rem, 1vw, 1.5rem);
 
   }

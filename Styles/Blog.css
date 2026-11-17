@@ -15,7 +15,7 @@
   border: 4px solid #00a9d2;
   font-weight: 800;
   border-radius: 15px;
-  color: #00a9d2;
+  color: #006b87;
   width: clamp(50px, 100%, 1000px); /* Fluid width with min & max */
   margin: 50px auto 40px auto; /* Default margins */
   transition: transform 0.3s ease;
@@ -30,7 +30,7 @@
 
 /* Header box-end */
 .blog-container {
-  color: #00a9d2;
+  color: #006b87;
 }
 
 /* Article Styles */
@@ -96,7 +96,7 @@ padding: 25% 10px 50px 10px;
   border: 4px solid #00a9d2;
   font-weight: 800;
   border-radius: 15px;
-  color: #00a9d2;
+  color: #006b87;
   width: clamp(50px, 100%, 1000px); /* Fluid width with min & max */
   margin: 50px auto 40px auto; /* Default margins */
   transition: transform 0.3s ease;
