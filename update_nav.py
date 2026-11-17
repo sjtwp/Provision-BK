@@ -43,12 +43,12 @@ INDUSTRIES = [
     ("salon-spa-bookkeeping", "Salons, Spas & Fitness"),
 ]
 
-CALENDLY = "https://calendly.com/provisionbk/30min?hide_event_type_details=1&hide_gdpr_banner=1&text_color=00446f&primary_color=00446f"
+BOOKING_URL = "https://bookings.cloud.microsoft/book/ProvisionBookkeeping1@provisionbk.com/"
 PHONE_DISPLAY, PHONE_TEL = "(602) 767-3829", "+16027673829"
 EMAIL = "contact@provisionbk.com"
 
 START, END = "<!-- NAV START -->", "<!-- NAV END -->"
-CSS_LINK = '<link rel="stylesheet" href="/Styles/Nav_Dropdown.css?v=202611171557">'
+CSS_LINK = '<link rel="stylesheet" href="/Styles/Nav_Dropdown.css?v=202611171622">'
 
 
 def recent_articles(n=5):
@@ -101,9 +101,8 @@ def build_nav():
     ind_items.append(("/industries", "All industries &rarr;", ' class="dd-all"', True))
     sa_items = [(f"/{s}-az-bookkeeping", n, "", False) for s, n in CITIES]
     sa_items.append(("/service-areas", "All of Arizona &rarr;", ' class="dd-all"', True))
-    cal_onclick = ("if(window.Calendly){Calendly.initPopupWidget({url:'" + CALENDLY + "'});return false;}")
     contact_items = [
-        (CALENDLY, "Schedule a Meeting", f' target="_blank" rel="noopener" onclick="{cal_onclick}"', False),
+        (BOOKING_URL, "Schedule a Meeting", ' target="_blank" rel="noopener"', False),
         (f"tel:{PHONE_TEL}", f"Call {PHONE_DISPLAY}", "", False),
         (f"mailto:{EMAIL}", f"Email {EMAIL}", "", False),
         ("/contact-us", "Contact Form", "", False),
