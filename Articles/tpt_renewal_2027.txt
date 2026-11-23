@@ -1,0 +1,63 @@
+Title: Arizona TPT License Renewal for 2027 - Deadlines, City Fees and How to Renew
+Author: Matthew Jacob
+Date: November 23, 2026
+ReadTime: 6 min
+Image: tpt_renewal_2027.jpg
+
+
+Summary:
+Arizona TPT license renewal for 2027 is open now, and every licensed business has to renew by the end of January. Here's what's due, what the city fees look like, and how to renew on AZTaxes without paying a penalty. We also cover what to fix in your books before you renew, so your license, your locations and your returns all match.
+
+Section:Who Has to Renew an Arizona TPT License
+If you hold an Arizona transaction privilege tax (TPT) license, you renew it every year. Arizona TPT licenses run on the calendar year, January 1 through December 31, so every active license comes up for renewal at the same time, even one you opened in November or December.
+That includes retailers, restaurants, contractors, short-term rental owners and online sellers who hold a license. Remote sellers and marketplace facilitators that are licensed in Arizona renew too.
+One group no longer renews: owners whose license covered only long-term residential rentals (30 days or more). Arizona ended the city tax on those rentals starting January 1, 2025, and the Arizona Department of Revenue (ADOR) canceled those residential-rental-only licenses. If you also rent short-term, you still renew. Our article on <a href="/Articles/Article_HTMLs/Arizona_Short-Term_Rental_Sales_Tax_-_Do_You_Owe_TPT_on_Your_Airbnb">TPT on short-term rentals</a> explains the rest.
+
+Section:When Is the TPT License Renewal Deadline?
+ADOR says 2027 licenses are due for renewal on January 1, 2027, and the renewal season is already open. ADOR sends renewal notices each October and November. In practice, the renewal is considered delinquent if it isn't received by the last business day of January, so renewing by January 31, 2027 keeps you clear of extra fees.
+Don't wait until the last week. Renewing on AZTaxes asks for your e-signature PIN, payment details and current owner and location information. If any of that is out of date, you'll need to fix it first, and ADOR notes that account updates can take a few hours to show up.
+
+Section:How Much Does It Cost to Renew?
+Arizona doesn't charge a state renewal fee. The cost comes from the cities where you're licensed, and each city sets its own fee. The fee is charged per city, not per location, so two stores in the same city pay that city's fee once.
+A few examples from ADOR's current fee table:
+1.  Phoenix, Scottsdale, Tempe and Peoria: $50
+2.  Glendale: $35
+3.  Mesa, Tucson and Flagstaff: $20
+4.  Chandler and Apache Junction: $2
+Many cities charge no renewal fee at all, but you still have to complete the renewal for those locations. Renewal fees can't be paid by credit card on AZTaxes. Plan to pay by e-check or ACH debit.
+
+Section:What Happens If You Renew Late or Don't Renew
+Skipping the renewal does not cancel your license. ADOR renews it anyway and bills the renewal fee plus a penalty, which ADOR's renewal page describes as 50% of the city renewal fee. On a $50 city fee that's an extra $25, and it adds up quickly if you're licensed in several cities. Penalties and interest also follow if the bill goes unpaid.
+The bigger risk is the opposite situation: a business that closed or moved but never canceled its license. That license keeps renewing and keeps expecting returns. ADOR requires a return for every filing period, even when you had no sales and owe no tax, so a forgotten license can quietly pile up late-filing notices. If that has already happened, see <a href="/Articles/Article_HTMLs/I_Got_an_IRS_or_Arizona_Penalty_Notice_From_a_Bookkeeping_Mistake_-_What_to_Do_Next">what to do after an IRS or Arizona penalty notice</a>.
+
+Section:How to Renew Your TPT License on AZTaxes
+1.  Log in to your account at AZTaxes.gov.
+2.  Before renewing, review your locations. Add new locations, close ones you no longer use and correct any addresses.
+3.  Confirm your owner and officer information is current. If it isn't, update it first using ADOR's Business Account Update form (Form 10193).
+4.  Click License Renewal and follow the prompts.
+5.  Pay any city renewal fees by e-check or ACH debit.
+6.  Sign with your e-signature PIN, submit, and save the confirmation.
+Businesses with more than one location must renew electronically. Paper renewal forms are only mailed to paper filers, and ADOR doesn't provide blank renewal forms. Once the renewal is processed, you can check the license period on the Account Details screen in AZTaxes.
+
+Section:Bookkeeping Steps to Take Before You Renew
+Renewal season is a good time to make sure your books and your TPT account tell the same story. Here's what we check for clients:
+1.  Match locations to reality. Every business location on your license should be a place where you actually do business. If a location closed, close it on the license so it stops generating fees and filing requirements.
+2.  Compare your TPT returns to your books. Total the gross sales you reported for the year and compare them to the income on your Profit and Loss. Big gaps usually mean a missed return, a deduction reported wrong, or sales recorded in the wrong period.
+3.  Check your sales tax liability account. In QuickBooks Online, the balance should equal the tax you collected but haven't paid yet. A balance that never comes down often means payments were posted to an expense account instead.
+4.  Record the renewal fee correctly. City license fees are a business expense. Post them to an account such as Taxes and Licenses, not to your sales tax liability.
+5.  Confirm your filing frequency. ADOR assigns monthly, quarterly or annual filing based on your tax liability. If your business grew or shrank, make sure you're filing on the right schedule.
+If you sell online, also read <a href="/Articles/Article_HTMLs/Arizona_Sales_Tax_for_Online_Sellers_-_TPT_on_Shopify,_Etsy_and_Amazon_Sales">Arizona sales tax for online sellers</a> to see how marketplace sales should show up on your returns.
+
+Section:Closing a License Instead of Renewing
+If you stopped doing business in Arizona or in a particular city, don't just let the renewal lapse. Cancel the license or close the location on AZTaxes, or submit Form 10193 with the date you stopped doing business. ADOR says canceling properly keeps your account in good standing and helps you avoid penalties and interest. File your final return for the last period you had sales.
+Closing a business involves more than the TPT license. Our guide to <a href="/Articles/Article_HTMLs/Closing_Your_Business_-_Final_Bookkeeping_Steps_and_What_to_Do_With_Your_QuickBooks_File">final bookkeeping steps when closing a business</a> walks through the rest.
+
+Section:More From Provision Bookkeeping
+<a href="/">Provision Bookkeeping home</a>
+<a href="/blog">Bookkeeping blog</a>
+<a href="/free-resources">Free bookkeeping templates and checklists</a>
+<a href="/industries">Industries we serve</a>
+<a href="/service-areas">Bookkeeping services across Arizona</a>
+
+Final: Arizona TPT license renewal for 2027 is open now, and renewing by January 31, 2027 avoids a penalty of 50% of your city renewal fee. Update your locations and owner information first, renew on AZTaxes with e-check or ACH, and cancel any license or location you no longer use.
+Provision Bookkeeping keeps TPT returns, sales tax accounts and QuickBooks Online in sync for Arizona businesses as part of our <a href="/monthly-bookkeeping">monthly bookkeeping service</a>. <a href="/contact-us">Book a quick call</a>. This article is general information, not tax advice; confirm your situation with ADOR or your tax professional.
