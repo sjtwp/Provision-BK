@@ -273,3 +273,27 @@
 .parallax > .parallax-image {
   z-index: 0;
 }
+
+/* ---- Transparent hero: no white boxes, text sits on the photo ---- */
+.hero-services a {
+  background: transparent;
+  box-shadow: none;
+  border: 2px solid rgba(12, 68, 102, 0.35);
+  border-left: 5px solid #156E0B;
+}
+
+.hero-services a:hover {
+  border-color: rgba(12, 68, 102, 0.6);
+  border-left-color: #156E0B;
+}
+
+.hero-form {
+  background: transparent;
+  box-shadow: none;
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.hero-form .input-container input {
+  background: rgba(255, 255, 255, 0.92);
+}
