@@ -358,3 +358,52 @@
     transition: opacity 0.2s ease, transform 0.2s ease;
   }
 }
+
+/* ---- Quieter service cards: just the name and the price ---- */
+.hero-services {
+  max-width: 620px;
+}
+.hero-services a {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+  padding: 12px 16px;
+}
+.hero-services strong {
+  margin: 0;
+}
+.hero-services em {
+  margin: 0;
+  white-space: nowrap;
+}
+.overlay .hero-copy .hero-price {
+  font-size: 1rem;
+}
+@media (max-width: 600px) {
+  .hero-services a {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 6px;
+    padding: 8px 10px;
+  }
+  .hero-services em {
+    margin: 0;
+  }
+}
+.hero-services {
+  max-width: 680px;
+}
+.hero-services strong {
+  white-space: nowrap;
+  line-height: 1.2;
+}
+@media (max-width: 600px) {
+  .hero-services a {
+    align-items: center;
+    text-align: center;
+  }
+  .hero-services strong {
+    white-space: normal;
+  }
+}
