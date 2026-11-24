@@ -1,8 +1,5 @@
-// Array of input IDs
-const inputIds = ['fname', 'lname', 'email', 'phone'];
-
-inputIds.forEach(id => {
-    const input = document.getElementById(id);
+// Keep each input's value attribute in sync so the floating labels stay up once filled
+document.querySelectorAll('form .input-container input').forEach(input => {
     input.addEventListener('input', () => {
         input.setAttribute('value', input.value);
     });

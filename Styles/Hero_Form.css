@@ -1,0 +1,116 @@
+/* Contact form in the opening (hero) section of the home page */
+.overlay.hero-with-form {
+  padding: 0 20px;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-sizing: border-box;
+}
+
+.hero-grid {
+  display: grid;
+  grid-template-columns: minmax(0, 1.2fr) minmax(320px, 0.8fr);
+  gap: 48px;
+  align-items: center;
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding-top: 110px; /* clears the fixed header */
+}
+
+.hero-copy {
+  text-align: left;
+}
+
+.hero-form {
+  background: rgba(255, 255, 255, 0.96);
+  border: 4px solid #156E0B;
+  border-radius: 15px;
+  padding: 24px 22px 18px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.18);
+  text-align: center;
+  color: #0C4466;
+}
+
+.hero-form h2 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 800;
+  font-size: 1.5rem;
+  margin: 0 0 6px;
+  color: #156E0B;
+}
+
+.hero-form .hero-form-sub {
+  font-size: 0.95rem;
+  margin: 0 0 16px;
+  color: #0C4466;
+}
+
+.hero-fields {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 14px;
+  margin-bottom: 16px;
+}
+
+.hero-fields .input-container {
+  width: 100%;
+}
+
+.hero-form button {
+  width: 100%;
+  font-weight: 700;
+}
+
+.hero-form .hero-form-alt {
+  font-size: 0.9rem;
+  margin: 12px 0 0;
+}
+
+.hero-form .hero-form-alt a {
+  color: #0C4466;
+  text-decoration: underline;
+}
+
+/* Tablets: stack the form under the headline */
+@media (max-width: 1000px) {
+  .parallax {
+    height: auto !important;
+    min-height: 0;
+  }
+  .parallax-image {
+    height: 100% !important;
+  }
+  .overlay.hero-with-form {
+    min-height: 0;
+    padding: 0 16px 48px;
+  }
+  .hero-grid {
+    grid-template-columns: 1fr;
+    gap: 20px;
+    padding-top: 130px;
+  }
+  .hero-copy {
+    text-align: center;
+  }
+  .hero-copy .scroll-down {
+    display: none;
+  }
+  .hero-form {
+    max-width: 520px;
+    width: 100%;
+    margin: 0 auto;
+    box-sizing: border-box;
+  }
+}
+
+/* Phones */
+@media (max-width: 480px) {
+  .hero-fields {
+    grid-template-columns: 1fr;
+  }
+  .hero-grid {
+    padding-top: 112px;
+  }
+}
