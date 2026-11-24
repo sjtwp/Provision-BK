@@ -297,3 +297,64 @@
 .hero-form .input-container input {
   background: rgba(255, 255, 255, 0.92);
 }
+
+/* ---- Phones: whole hero fits on one screen, below the fixed header ---- */
+@media (max-width: 600px) {
+  .hero-grid {
+    /* --hdr is set from the real header height in JS/Hero_Mobile.js */
+    padding-top: calc(var(--hdr, 96px) + 14px);
+    gap: 10px;
+  }
+  .overlay.hero-with-form {
+    padding: 0 14px 20px;
+  }
+  .hero-copy h1 {
+    font-size: 1.45rem;
+    line-height: 1.2;
+    margin-bottom: 6px;
+  }
+  .overlay .hero-copy .hero-tagline {
+    font-size: 0.95rem;
+    line-height: 1.3;
+    margin-bottom: 10px;
+  }
+  .hero-services {
+    margin-bottom: 0;
+  }
+  .hero-services a {
+    padding: 8px 10px;
+  }
+  .hero-services span {
+    font-size: 0.76rem;
+    line-height: 1.3;
+  }
+  /* Prices are already on the cards; the phone number is on the Call Now button */
+  .overlay .hero-copy .hero-price,
+  .overlay .hero-form .hero-form-sub,
+  .overlay .hero-form .hero-form-alt {
+    display: none;
+  }
+  .hero-form {
+    padding-top: 4px;
+    padding-bottom: 0;
+  }
+  .hero-form h2 {
+    font-size: 1.1rem;
+    margin-bottom: 8px;
+  }
+  .hero-fields input {
+    height: 40px;
+  }
+  .hero-form button {
+    height: 44px;
+  }
+  /* Call Now button waits until the visitor scrolls past the quote form */
+  body.hero-in-view .call-now-btn {
+    opacity: 0;
+    pointer-events: none;
+    transform: translateY(20px);
+  }
+  .call-now-btn {
+    transition: opacity 0.2s ease, transform 0.2s ease;
+  }
+}
