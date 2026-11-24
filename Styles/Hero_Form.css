@@ -111,11 +111,147 @@
 }
 
 /* Phones */
-@media (max-width: 480px) {
-  .hero-fields {
-    grid-template-columns: 1fr;
+
+/* ---- Hero copy: headline + what we provide ---- */
+.hero-copy h1 {
+  font-size: clamp(2rem, 3.4vw, 3rem);
+  line-height: 1.15;
+  margin: 0 0 14px;
+}
+
+.overlay .hero-copy .hero-tagline {
+  font-size: 1.3rem;
+  line-height: 1.35;
+  margin: 0 0 18px;
+}
+
+.hero-services {
+  list-style: none;
+  padding: 0;
+  margin: 0 0 18px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 12px;
+}
+
+.hero-services a {
+  display: block;
+  height: 100%;
+  box-sizing: border-box;
+  background: rgba(255, 255, 255, 0.92);
+  border-left: 5px solid #156E0B;
+  border-radius: 10px;
+  padding: 12px 14px;
+  text-decoration: none;
+  color: #0C4466;
+  box-shadow: 0 4px 14px rgba(0, 0, 0, 0.08);
+  transition: transform 0.15s ease;
+}
+
+.hero-services a:hover {
+  transform: translateY(-2px);
+}
+
+.hero-services strong {
+  display: block;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 800;
+  font-size: 1.1rem;
+  color: #156E0B;
+  margin-bottom: 4px;
+}
+
+.hero-services span {
+  display: block;
+  font-size: 0.95rem;
+  line-height: 1.35;
+}
+
+.overlay .hero-copy .hero-price {
+  font-size: 1.1rem;
+  margin: 0;
+}
+
+.hero-copy .hero-price a {
+  color: #0C4466;
+}
+
+@media (max-width: 1000px) {
+  .hero-services {
+    max-width: 640px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: left;
   }
+}
+
+/* ---- Phones: compact so the form is on the first screen ---- */
+@media (max-width: 600px) {
   .hero-grid {
-    padding-top: 112px;
+    gap: 14px;
+    padding-top: 104px;
   }
+  .hero-copy h1 {
+    font-size: 1.55rem;
+    margin-bottom: 8px;
+  }
+  .overlay .hero-copy .hero-tagline {
+    font-size: 1rem;
+    margin-bottom: 10px;
+  }
+  .hero-services {
+    gap: 8px;
+    margin-bottom: 10px;
+  }
+  .hero-services a {
+    padding: 8px 10px;
+    border-left-width: 4px;
+  }
+  .hero-services strong {
+    font-size: 0.95rem;
+    margin-bottom: 2px;
+  }
+  .hero-services span {
+    font-size: 0.78rem;
+  }
+  .overlay .hero-copy .hero-price {
+    font-size: 0.95rem;
+  }
+  .hero-form {
+    padding: 14px 14px 12px;
+  }
+  .hero-form h2 {
+    font-size: 1.2rem;
+    margin-bottom: 2px;
+  }
+  .hero-form .hero-form-sub {
+    font-size: 0.85rem;
+    margin-bottom: 10px;
+  }
+  .hero-fields {
+    grid-template-columns: 1fr 1fr;
+    gap: 8px;
+    margin-bottom: 10px;
+  }
+  .hero-fields input {
+    height: 42px;
+    padding: 10px;
+  }
+  .hero-form .hero-form-alt {
+    margin-top: 8px;
+  }
+}
+
+/* Cards are links: no underlines; tighter text */
+.hero-services a,
+.hero-services a strong,
+.hero-services a span {
+  text-decoration: none !important;
+}
+.hero-services a:hover strong {
+  text-decoration: underline !important;
+}
+.overlay .hero-form .hero-form-sub,
+.overlay .hero-form .hero-form-alt {
+  line-height: 1.35;
 }
