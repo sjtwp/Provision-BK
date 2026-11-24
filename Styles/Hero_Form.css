@@ -407,3 +407,35 @@
     white-space: normal;
   }
 }
+
+/* ---- Phones & tablets: photo fills the whole first screen, content centered below the header ---- */
+@media (max-width: 1000px) {
+  .parallax {
+    min-height: 100vh;
+    min-height: 100svh;
+  }
+  .overlay.hero-with-form {
+    min-height: 100vh;
+    min-height: 100svh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: var(--hdr, 96px);
+    padding-bottom: 24px;
+  }
+  .hero-grid {
+    padding-top: 20px;
+  }
+}
+@media (max-width: 600px) {
+  .hero-grid {
+    padding-top: 16px;
+    gap: 16px;
+  }
+  .hero-copy h1 {
+    font-size: 1.6rem;
+  }
+  .overlay .hero-copy .hero-tagline {
+    margin-bottom: 14px;
+  }
+}
