@@ -1,6 +1,6 @@
-/* Contact form in the opening (hero) section of the home page */
+/* Home page hero: one centered column with a horizontal quote form */
 .overlay.hero-with-form {
-  padding: 0 20px;
+  padding: 0 20px 40px;
   min-height: 100vh;
   display: flex;
   align-items: center;
@@ -9,129 +9,46 @@
 }
 
 .hero-grid {
-  display: grid;
-  grid-template-columns: minmax(0, 1.2fr) minmax(320px, 0.8fr);
-  gap: 48px;
+  display: flex;
+  flex-direction: column;
   align-items: center;
+  gap: 22px;
   width: 100%;
-  max-width: 1200px;
+  max-width: 1100px;
   margin: 0 auto;
   padding-top: 110px; /* clears the fixed header */
+  text-align: center;
 }
 
 .hero-copy {
-  text-align: left;
-}
-
-.hero-form {
-  background: rgba(255, 255, 255, 0.96);
-  border: 4px solid #156E0B;
-  border-radius: 15px;
-  padding: 24px 22px 18px;
-  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.18);
   text-align: center;
-  color: #0C4466;
-}
-
-.hero-form h2 {
-  font-family: 'Montserrat', sans-serif;
-  font-weight: 800;
-  font-size: 1.5rem;
-  margin: 0 0 6px;
-  color: #156E0B;
-}
-
-.hero-form .hero-form-sub {
-  font-size: 0.95rem;
-  margin: 0 0 16px;
-  color: #0C4466;
-}
-
-.hero-fields {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 14px;
-  margin-bottom: 16px;
-}
-
-.hero-fields .input-container {
   width: 100%;
 }
 
-.hero-form button {
-  width: 100%;
-  font-weight: 700;
-}
-
-.hero-form .hero-form-alt {
-  font-size: 0.9rem;
-  margin: 12px 0 0;
-}
-
-.hero-form .hero-form-alt a {
-  color: #0C4466;
-  text-decoration: underline;
-}
-
-/* Keep field labels on one line */
-.hero-form .label .text {
-  white-space: nowrap;
-}
-
-/* Tablets: stack the form under the headline */
-@media (max-width: 1000px) {
-  .parallax {
-    height: auto !important;
-    min-height: 0;
-  }
-  .parallax-image {
-    height: 100% !important;
-  }
-  .overlay.hero-with-form {
-    min-height: 0;
-    padding: 0 16px 48px;
-  }
-  .hero-grid {
-    grid-template-columns: 1fr;
-    gap: 20px;
-    padding-top: 130px;
-  }
-  .hero-copy {
-    text-align: center;
-  }
-  .hero-copy .scroll-down {
-    display: none;
-  }
-  .hero-form {
-    max-width: 520px;
-    width: 100%;
-    margin: 0 auto;
-    box-sizing: border-box;
-  }
-}
-
-/* Phones */
-
-/* ---- Hero copy: headline + what we provide ---- */
+/* ---- Headline + what we provide ---- */
 .hero-copy h1 {
-  font-size: clamp(2rem, 3.4vw, 3rem);
+  font-size: clamp(2rem, 3.6vw, 3.1rem);
   line-height: 1.15;
-  margin: 0 0 14px;
+  margin: 0 0 12px;
+  text-wrap: balance;
 }
 
 .overlay .hero-copy .hero-tagline {
   font-size: 1.3rem;
   line-height: 1.35;
-  margin: 0 0 18px;
+  margin: 0 auto 18px;
+  max-width: 760px;
 }
 
 .hero-services {
   list-style: none;
   padding: 0;
-  margin: 0 0 18px;
+  margin: 0 auto 16px;
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 12px;
+  max-width: 760px;
+  text-align: left;
 }
 
 .hero-services a {
@@ -142,14 +59,23 @@
   border-left: 5px solid #156E0B;
   border-radius: 10px;
   padding: 12px 14px;
-  text-decoration: none;
   color: #0C4466;
   box-shadow: 0 4px 14px rgba(0, 0, 0, 0.08);
   transition: transform 0.15s ease;
 }
 
+.hero-services a,
+.hero-services a strong,
+.hero-services a span {
+  text-decoration: none !important;
+}
+
 .hero-services a:hover {
   transform: translateY(-2px);
+}
+
+.hero-services a:hover strong {
+  text-decoration: underline !important;
 }
 
 .hero-services strong {
@@ -168,7 +94,7 @@
 }
 
 .overlay .hero-copy .hero-price {
-  font-size: 1.1rem;
+  font-size: 1.15rem;
   margin: 0;
 }
 
@@ -176,19 +102,98 @@
   color: #0C4466;
 }
 
+/* ---- Horizontal quote form ---- */
+.hero-form {
+  width: 100%;
+  max-width: 1100px;
+  box-sizing: border-box;
+  background: rgba(255, 255, 255, 0.96);
+  border: 4px solid #156E0B;
+  border-radius: 15px;
+  padding: 16px 20px 12px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.18);
+  text-align: center;
+  color: #0C4466;
+}
+
+.hero-form h2 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 800;
+  font-size: 1.35rem;
+  margin: 0 0 2px;
+  color: #156E0B;
+}
+
+.overlay .hero-form .hero-form-sub {
+  font-size: 0.95rem;
+  line-height: 1.35;
+  margin: 0 0 12px;
+  color: #0C4466;
+}
+
+.hero-fields {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr)) auto;
+  gap: 10px;
+  align-items: stretch;
+}
+
+.hero-fields .input-container {
+  width: 100%;
+}
+
+.hero-form .label .text {
+  white-space: nowrap;
+}
+
+.hero-form button {
+  height: 48px;
+  margin: 0;
+  padding: 0 22px;
+  font-weight: 700;
+  white-space: nowrap;
+}
+
+.overlay .hero-form .hero-form-alt {
+  font-size: 0.9rem;
+  line-height: 1.35;
+  margin: 10px 0 0;
+}
+
+.hero-form .hero-form-alt a {
+  color: #0C4466;
+  text-decoration: underline;
+}
+
+/* ---- Tablets: two rows of fields ---- */
 @media (max-width: 1000px) {
-  .hero-services {
-    max-width: 640px;
-    margin-left: auto;
-    margin-right: auto;
-    text-align: left;
+  .parallax {
+    height: auto !important;
+    min-height: 0;
+  }
+  .parallax-image {
+    height: 100% !important;
+  }
+  .overlay.hero-with-form {
+    min-height: 0;
+    padding: 0 16px 48px;
+  }
+  .hero-grid {
+    padding-top: 130px;
+    gap: 18px;
+  }
+  .hero-fields {
+    grid-template-columns: 1fr 1fr;
+  }
+  .hero-fields button {
+    grid-column: 1 / -1;
   }
 }
 
 /* ---- Phones: compact so the form is on the first screen ---- */
 @media (max-width: 600px) {
   .hero-grid {
-    gap: 14px;
+    gap: 12px;
     padding-top: 104px;
   }
   .hero-copy h1 {
@@ -218,40 +223,26 @@
     font-size: 0.95rem;
   }
   .hero-form {
-    padding: 14px 14px 12px;
+    padding: 12px 12px 10px;
   }
   .hero-form h2 {
-    font-size: 1.2rem;
-    margin-bottom: 2px;
+    font-size: 1.15rem;
   }
-  .hero-form .hero-form-sub {
-    font-size: 0.85rem;
-    margin-bottom: 10px;
+  .overlay .hero-form .hero-form-sub {
+    font-size: 0.82rem;
+    margin-bottom: 8px;
   }
   .hero-fields {
-    grid-template-columns: 1fr 1fr;
     gap: 8px;
-    margin-bottom: 10px;
   }
   .hero-fields input {
     height: 42px;
     padding: 10px;
   }
-  .hero-form .hero-form-alt {
-    margin-top: 8px;
+  .hero-form button {
+    height: 44px;
   }
-}
-
-/* Cards are links: no underlines; tighter text */
-.hero-services a,
-.hero-services a strong,
-.hero-services a span {
-  text-decoration: none !important;
-}
-.hero-services a:hover strong {
-  text-decoration: underline !important;
-}
-.overlay .hero-form .hero-form-sub,
-.overlay .hero-form .hero-form-alt {
-  line-height: 1.35;
+  .overlay .hero-form .hero-form-alt {
+    margin-top: 6px;
+  }
 }
