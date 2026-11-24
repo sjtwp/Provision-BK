@@ -185,17 +185,17 @@ def generate_article_html(txt_file):
     <meta property="og:image" content="https://provisionbk.com/Articles/Article_Images/{image.replace(" ", "%20")}">
     <meta name="twitter:card" content="summary_large_image">
     <title>{title}</title>
-    <link rel="stylesheet" href="../../Styles/Header.css?v=202611242216">
-    <link rel="stylesheet" href="/Styles/Nav_Dropdown.css?v=202611242216">
-    <link rel="stylesheet" href="../../Styles/Opening Picture.css?v=202611242216">
-    <link rel="stylesheet" href="../../Styles/How_We_Differ.css?v=202611242216">
-    <link rel="stylesheet" href="../../Styles/Welcome.css?v=202611242216">
-    <link rel="stylesheet" href="../../Styles/How_It_Works.css?v=202611242216">
-    <link rel="stylesheet" href="../../Styles/contact-us.css?v=202611242216">
-    <link rel="stylesheet" href="../../Styles/Footer.css?v=202611242216">
-    <link rel="stylesheet" href="../../Styles/About_Us.css?v=202611242216">
-    <link rel="stylesheet" href="../../Styles/Blog.css?v=202611242216">
-    <link rel="stylesheet" href="../../Styles/Articles.css?v=202611242216">
+    <link rel="stylesheet" href="../../Styles/Header.css?v=202611242223">
+    <link rel="stylesheet" href="/Styles/Nav_Dropdown.css?v=202611242223">
+    <link rel="stylesheet" href="../../Styles/Opening Picture.css?v=202611242223">
+    <link rel="stylesheet" href="../../Styles/How_We_Differ.css?v=202611242223">
+    <link rel="stylesheet" href="../../Styles/Welcome.css?v=202611242223">
+    <link rel="stylesheet" href="../../Styles/How_It_Works.css?v=202611242223">
+    <link rel="stylesheet" href="../../Styles/contact-us.css?v=202611242223">
+    <link rel="stylesheet" href="../../Styles/Footer.css?v=202611242223">
+    <link rel="stylesheet" href="../../Styles/About_Us.css?v=202611242223">
+    <link rel="stylesheet" href="../../Styles/Blog.css?v=202611242223">
+    <link rel="stylesheet" href="../../Styles/Articles.css?v=202611242223">
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;800&display=swap" rel="stylesheet">
     <link href="https://fonts.g
 oogleapis.com/css2?family=Google+Sans+Code:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
@@ -227,7 +227,7 @@ oogleapis.com/css2?family=Google+Sans+Code:ital,wght@0,300..800;1,300..800&displ
         "name": "Provision Bookkeeping LLC",
         "logo": {{
           "@type": "ImageObject",
-          "url": "https://provisionbk.com/Images/Provision Bookkeeping Logo.png"
+          "url": "https://provisionbk.com/Provision%20Bookkeeping%20Logo.ico.png"
         }}
       }},
       "datePublished": "{date}",
@@ -240,7 +240,7 @@ oogleapis.com/css2?family=Google+Sans+Code:ital,wght@0,300..800;1,300..800&displ
     <header>
         <div class="header-container">
             <a href="/index" class="logo">
-                <img src="/Images/Provision Bookkeeping Logo.png" alt="Provision Bookkeeping LLC Logo">
+                <img src="/Provision Bookkeeping Logo.ico.png" alt="Provision Bookkeeping LLC Logo">
                 <span>PROVISION BOOKKEEPING</span>
             </a>
             <!-- NAV START -->
@@ -289,7 +289,7 @@ oogleapis.com/css2?family=Google+Sans+Code:ital,wght@0,300..800;1,300..800&displ
     </main>
     <footer role="contentinfo">
         <div class="footer-content">
-            <img src="/Images/Provision Bookkeeping Logo.png" alt="Provision Bookkeeping LLC Gilbert AZ" style="height: 20px;">
+            <img src="/Provision Bookkeeping Logo.ico.png" alt="Provision Bookkeeping LLC Gilbert AZ" style="height: 20px;">
             &copy; 2025 Provision Bookkeeping LLC
             <a href="https://www.google.com/maps/search/?api=1&query=865+East+Baseline+Rd+%231091,+Gilbert,+AZ+85233" target="_blank" rel="noopener noreferrer">
                 865 East Baseline Rd #1091, Gilbert, AZ 85233
@@ -495,7 +495,7 @@ def generate_blog_html(articles, output_dir):
       "@context": "https://schema.org",
       "@type": "LocalBusiness",
       "name": "Provision Bookkeeping LLC",
-      "image": "/Images/Provision Bookkeeping Logo.png",
+      "image": "/Provision Bookkeeping Logo.ico.png",
       "url": "https://provisionbk.com",
       "telephone": "+1-602-767-3829",
       "address": {{
@@ -539,18 +539,18 @@ def generate_blog_html(articles, output_dir):
     <meta name="description" content="About Provision Bookkeeping LLC in AZ. Trusted bookkeeping experts for family-owned businesses. Learn more!">
     <meta name="keywords" content="about bookkeeping, Chandler AZ bookkeeping, bookkeeping near me, family business financial services">
     <title>Blog{' - Page ' + str(page) if page > 1 else ''}</title>
-    <link rel="stylesheet" href="/Styles/Header.css?v=202611242216">
-    <link rel="stylesheet" href="/Styles/Nav_Dropdown.css?v=202611242216">
+    <link rel="stylesheet" href="/Styles/Header.css?v=202611242223">
+    <link rel="stylesheet" href="/Styles/Nav_Dropdown.css?v=202611242223">
     <link rel="icon" type="image/x-icon" href="/Provision Bookkeeping.ico">
-    <link rel="stylesheet" href="/Styles/Opening Picture.css?v=202611242216">
-    <link rel="stylesheet" href="/Styles/How_We_Differ.css?v=202611242216">
-    <link rel="stylesheet" href="/Styles/Welcome.css?v=202611242216">
-    <link rel="stylesheet" href="/Styles/How_It_Works.css?v=202611242216">
-    <link rel="stylesheet" href="/Styles/contact-us.css?v=202611242216">
-    <link rel="stylesheet" href="/Styles/Footer.css?v=202611242216">
-    <link rel="stylesheet" href="/Styles/About_Us.css?v=202611242216">
-    <link rel="stylesheet" href="/Styles/Blog.css?v=202611242216">
-    <link rel="stylesheet" href="/Styles/Articles.css?v=202611242216">
+    <link rel="stylesheet" href="/Styles/Opening Picture.css?v=202611242223">
+    <link rel="stylesheet" href="/Styles/How_We_Differ.css?v=202611242223">
+    <link rel="stylesheet" href="/Styles/Welcome.css?v=202611242223">
+    <link rel="stylesheet" href="/Styles/How_It_Works.css?v=202611242223">
+    <link rel="stylesheet" href="/Styles/contact-us.css?v=202611242223">
+    <link rel="stylesheet" href="/Styles/Footer.css?v=202611242223">
+    <link rel="stylesheet" href="/Styles/About_Us.css?v=202611242223">
+    <link rel="stylesheet" href="/Styles/Blog.css?v=202611242223">
+    <link rel="stylesheet" href="/Styles/Articles.css?v=202611242223">
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;800&display=swap" rel="stylesheet">
 </head>
 <body>
@@ -558,7 +558,7 @@ def generate_blog_html(articles, output_dir):
   <header>
     <div class="header-container">
       <a href="/index" class="logo">
-        <img src="/Images/Provision Bookkeeping Logo.png" alt="Provision Bookkeeping LLC Logo">
+        <img src="/Provision Bookkeeping Logo.ico.png" alt="Provision Bookkeeping LLC Logo">
         <span>PROVISION BOOKKEEPING</span>
       </a>
       <!-- NAV START -->
@@ -622,7 +622,7 @@ def generate_blog_html(articles, output_dir):
   </main>
   <footer role="contentinfo">
     <div class="footer-content">
-      <img src="/Images/Provision Bookkeeping Logo.png" alt="Provision Bookkeeping LLC Gilbert AZ" style="height: 20px;">
+      <img src="/Provision Bookkeeping Logo.ico.png" alt="Provision Bookkeeping LLC Gilbert AZ" style="height: 20px;">
       &copy; 2025 Provision Bookkeeping LLC
       <a href="https://www.google.com/maps/search/?api=1&query=865+East+Baseline+Rd+%231091,+Gilbert,+AZ+85233" target="_blank" rel="noopener noreferrer">
         865 East Baseline Rd #1091, Gilbert, AZ 85233

@@ -48,7 +48,7 @@ PHONE_DISPLAY, PHONE_TEL = "(602) 767-3829", "+16027673829"
 EMAIL = "contact@provisionbk.com"
 
 START, END = "<!-- NAV START -->", "<!-- NAV END -->"
-CSS_LINK = '<link rel="stylesheet" href="/Styles/Nav_Dropdown.css?v=202611242216">'
+CSS_LINK = '<link rel="stylesheet" href="/Styles/Nav_Dropdown.css?v=202611242223">'
 
 
 def recent_articles(n=5):
