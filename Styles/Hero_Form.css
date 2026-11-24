@@ -95,6 +95,7 @@
 
 .overlay .hero-copy .hero-price {
   font-size: 1.15rem;
+  line-height: 1.45;
   margin: 0;
 }
 
@@ -108,10 +109,10 @@
   max-width: 1100px;
   box-sizing: border-box;
   background: rgba(255, 255, 255, 0.96);
-  border: 4px solid #156E0B;
-  border-radius: 15px;
-  padding: 16px 20px 12px;
-  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.18);
+  border: none;
+  border-radius: 16px;
+  padding: 18px 22px 14px;
+  box-shadow: 0 12px 36px rgba(12, 68, 102, 0.16);
   text-align: center;
   color: #0C4466;
 }
@@ -245,4 +246,30 @@
   .overlay .hero-form .hero-form-alt {
     margin-top: 6px;
   }
+}
+
+/* Price tag on each service card */
+.hero-services em {
+  display: inline-block;
+  margin-top: 8px;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 0.95rem;
+  color: #0C4466;
+  background: #fff5cf;
+  border-radius: 999px;
+  padding: 3px 10px;
+}
+
+@media (max-width: 600px) {
+  .hero-services em {
+    margin-top: 5px;
+    font-size: 0.78rem;
+    padding: 2px 8px;
+  }
+}
+
+/* Hero image is in the page now: keep it covering the section */
+.parallax > .parallax-image {
+  z-index: 0;
 }
