@@ -73,6 +73,11 @@
   text-decoration: underline;
 }
 
+/* Keep field labels on one line */
+.hero-form .label .text {
+  white-space: nowrap;
+}
+
 /* Tablets: stack the form under the headline */
 @media (max-width: 1000px) {
   .parallax {
