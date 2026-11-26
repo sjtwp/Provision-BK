@@ -3,6 +3,8 @@ Author: Matthew Jacob
 Date: May 26, 2026
 ReadTime: 7 min
 Image: desktop_online.jpg
+SeoTitle: Moving From QuickBooks Desktop to Online: What to Know
+MetaDescription: Moving from QuickBooks Desktop to QuickBooks Online? What changes, what does and doesn't convert, and how to switch without losing your history.
 
 
 Summary:

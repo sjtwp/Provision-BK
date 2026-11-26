@@ -99,6 +99,8 @@ def generate_article_html(txt_file):
     date = ""
     mins = ""
     image = ""
+    seo_title = ""
+    meta_description = ""
     sections = []
     final = []
     current_section = None
@@ -131,6 +133,14 @@ def generate_article_html(txt_file):
             in_summary = False
             in_final = False
             image = line.replace("Image:", "").strip()
+        elif line.startswith("SeoTitle:"):
+            in_summary = False
+            in_final = False
+            seo_title = line.replace("SeoTitle:", "").strip()
+        elif line.startswith("MetaDescription:"):
+            in_summary = False
+            in_final = False
+            meta_description = line.replace("MetaDescription:", "").strip()
         elif line.startswith("Section:"):
             in_summary = False
             in_final = False
@@ -171,7 +181,17 @@ def generate_article_html(txt_file):
 
     # Escaped copies for HTML attributes and JSON-LD (summaries often contain quotes)
     summary = summary.strip()
-    summary_attr = html_lib.escape(summary, quote=False).replace('"', "&quot;")
+    # Meta description: MetaDescription field, else the summary cut at a sentence end (max ~160 chars)
+    if not meta_description:
+        meta_description = ""
+        for sentence in summary.replace("? ", "?|").replace(". ", ".|").replace("! ", "!|").split("|"):
+            if len((meta_description + " " + sentence).strip()) > 160:
+                break
+            meta_description = (meta_description + " " + sentence).strip()
+        if not meta_description:
+            meta_description = summary[:157].rsplit(" ", 1)[0] + "..."
+    summary_attr = html_lib.escape(meta_description, quote=False).replace('"', "&quot;")
+    page_title = html_lib.escape(seo_title or title, quote=False)
     summary_json = json.dumps(summary, ensure_ascii=False)[1:-1]
     title_json = json.dumps(title, ensure_ascii=False)[1:-1]
     try:
@@ -195,7 +215,7 @@ def generate_article_html(txt_file):
     <meta property="og:url" content="https://provisionbk.com/Articles/Article_HTMLs/{safe_title}">
     <meta property="og:image" content="https://provisionbk.com/Articles/Article_Images/{image.replace(" ", "%20")}">
     <meta name="twitter:card" content="summary_large_image">
-    <title>{title}</title>
+    <title>{page_title}</title>
     <link rel="stylesheet" href="../../Styles/Header.css?v=202611242223">
     <link rel="stylesheet" href="/Styles/Nav_Dropdown.css?v=202611242223">
     <link rel="stylesheet" href="../../Styles/Opening Picture.css?v=202611242223">

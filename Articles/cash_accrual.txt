@@ -3,6 +3,8 @@ Author: Matthew Jacob
 Date: December 30, 2025
 ReadTime: 6 min
 Image: cash_vs_accrual.jpg
+SeoTitle: Cash vs. Accrual Accounting: Which Is Right for You?
+MetaDescription: Cash vs. accrual accounting in plain English: how each method changes your P&L and taxes, who can use each one and how to choose.
 
 
 Summary:

@@ -3,6 +3,7 @@ Author: Matthew Jacob
 Date: November 11, 2026
 ReadTime: 5 min
 Image: qbo_setup.png
+MetaDescription: How to set up QuickBooks Online in the right order: build the setup first and categorize last, so the same money isn't recorded twice.
 
 
 Summary:
