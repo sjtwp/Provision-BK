@@ -571,6 +571,13 @@ def generate_blog_html(articles, output_dir):
     <meta name="keywords" content="about bookkeeping, Chandler AZ bookkeeping, bookkeeping near me, family business financial services">
     <link rel="canonical" href="https://provisionbk.com/{'blog' if page == 1 else 'blog_page_' + str(page)}">
     <title>Bookkeeping &amp; QuickBooks Blog{' - Page ' + str(page) if page > 1 else ''} | Provision Bookkeeping</title>
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="Provision Bookkeeping">
+    <meta property="og:title" content="Bookkeeping &amp; QuickBooks Blog{' - Page ' + str(page) if page > 1 else ''} | Provision Bookkeeping">
+    <meta property="og:description" content="Bookkeeping, QuickBooks Online and Arizona small business tax articles from Provision Bookkeeping in Gilbert, AZ{' - Page ' + str(page) if page > 1 else ''}.">
+    <meta property="og:url" content="https://provisionbk.com/{'blog' if page == 1 else 'blog_page_' + str(page)}">
+    <meta property="og:image" content="https://provisionbk.com/Provision%20Bookkeeping%20Logo.ico.png">
+    <meta name="twitter:card" content="summary">
     <link rel="stylesheet" href="/Styles/Header.css?v=202611242223">
     <link rel="stylesheet" href="/Styles/Nav_Dropdown.css?v=202611242223">
     <link rel="icon" type="image/x-icon" href="/Provision Bookkeeping.ico">
