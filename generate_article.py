@@ -290,7 +290,7 @@ oogleapis.com/css2?family=Google+Sans+Code:ital,wght@0,300..800;1,300..800&displ
     <footer role="contentinfo">
         <div class="footer-content">
             <img src="/Provision Bookkeeping Logo.ico.png" alt="Provision Bookkeeping LLC Gilbert AZ" style="height: 20px;">
-            &copy; 2025 Provision Bookkeeping LLC
+            &copy; 2026 Provision Bookkeeping LLC
             <a href="https://www.google.com/maps/search/?api=1&query=865+East+Baseline+Rd+%231091,+Gilbert,+AZ+85233" target="_blank" rel="noopener noreferrer">
                 865 East Baseline Rd #1091, Gilbert, AZ 85233
             </a><br>
@@ -536,9 +536,10 @@ def generate_blog_html(articles, output_dir):
    
 
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="About Provision Bookkeeping LLC in AZ. Trusted bookkeeping experts for family-owned businesses. Learn more!">
+    <meta name="description" content="Bookkeeping, QuickBooks Online and Arizona small business tax articles from Provision Bookkeeping in Gilbert, AZ{' - Page ' + str(page) if page > 1 else ''}.">
     <meta name="keywords" content="about bookkeeping, Chandler AZ bookkeeping, bookkeeping near me, family business financial services">
-    <title>Blog{' - Page ' + str(page) if page > 1 else ''}</title>
+    <link rel="canonical" href="https://provisionbk.com/{'blog' if page == 1 else 'blog_page_' + str(page)}">
+    <title>Bookkeeping &amp; QuickBooks Blog{' - Page ' + str(page) if page > 1 else ''} | Provision Bookkeeping</title>
     <link rel="stylesheet" href="/Styles/Header.css?v=202611242223">
     <link rel="stylesheet" href="/Styles/Nav_Dropdown.css?v=202611242223">
     <link rel="icon" type="image/x-icon" href="/Provision Bookkeeping.ico">
@@ -623,7 +624,7 @@ def generate_blog_html(articles, output_dir):
   <footer role="contentinfo">
     <div class="footer-content">
       <img src="/Provision Bookkeeping Logo.ico.png" alt="Provision Bookkeeping LLC Gilbert AZ" style="height: 20px;">
-      &copy; 2025 Provision Bookkeeping LLC
+      &copy; 2026 Provision Bookkeeping LLC
       <a href="https://www.google.com/maps/search/?api=1&query=865+East+Baseline+Rd+%231091,+Gilbert,+AZ+85233" target="_blank" rel="noopener noreferrer">
         865 East Baseline Rd #1091, Gilbert, AZ 85233
       </a><br>

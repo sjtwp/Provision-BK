@@ -13,6 +13,15 @@ OUTPUT_PATH      = os.path.join(PROJECT_ROOT, "sitemap.xml")
 META_PATH        = os.path.join(PROJECT_ROOT, "Articles", "articles_metadata.json")
 HTML_DIR         = os.path.join(PROJECT_ROOT, "Articles", "Article_HTMLs")
 
+# Last-modified date from git history (file mtimes reset on every checkout)
+import subprocess
+def git_date(rel_file, fallback):
+    try:
+        out = subprocess.run(["git", "log", "-1", "--format=%cs", "--", rel_file], cwd=PROJECT_ROOT, capture_output=True, text=True).stdout.strip()
+        return out or fallback
+    except Exception:
+        return fallback
+
 # Static pages
 STATIC_PAGES = [
     "/", "/about-us", "/services", "/monthly-bookkeeping", "/catch-up-bookkeeping", "/quickbooks-cleanup", "/quickbooks-online-setup", "/payroll-services", "/financial-statements", "/year-end-tax-ready-books", "/switch-bookkeepers", "/bookkeeping-pricing", "/industries", "/bookkeeping-for-contractors", "/real-estate-agent-bookkeeping", "/rental-property-bookkeeping", "/fix-and-flip-bookkeeping", "/medical-practice-bookkeeping", "/dental-practice-bookkeeping", "/restaurant-bookkeeping", "/ecommerce-bookkeeping", "/professional-services-bookkeeping", "/salon-spa-bookkeeping", "/service-areas", "/contact-us", "/blog", "/blog_page_2", "/blog_page_3", "/blog_page_4", "/blog_page_5", "/blog_page_6", "/blog_page_7", "/free-resources",
@@ -51,7 +60,7 @@ else:
 
             # Use file mod time if exists
             if os.path.isfile(html_path):
-                iso_date = datetime.fromtimestamp(os.path.getmtime(html_path)).date().isoformat()
+                iso_date = git_date(os.path.relpath(html_path, PROJECT_ROOT), datetime.fromtimestamp(os.path.getmtime(html_path)).date().isoformat())
             else:
                 # Fallback to JSON
                 parsed = art.get("parsed_date", "").split("T")[0]
@@ -90,15 +99,16 @@ with open(OUTPUT_PATH, "w", encoding="utf-8") as f:
 
     for page in STATIC_PAGES:
         prio = 1.0 if page == "/" else 0.9 if page in ("/service-areas", "/blog") else 0.5
-        write_url(f, f"{BASE_URL}{page}", today, "weekly", prio)
+        page_file = "index.html" if page == "/" else page.lstrip("/") + ".html"
+        write_url(f, f"{BASE_URL}{page}", git_date(page_file, today), "weekly", prio)
 
     for area in SERVICE_AREAS:
-        write_url(f, f"{BASE_URL}/{area}", today, "monthly", 0.8)
+        write_url(f, f"{BASE_URL}/{area}", git_date(area + ".html", today), "monthly", 0.8)
 
     for rel_path, mod_date in blog_entries:
         write_url(f, f"{BASE_URL}/{rel_path}", mod_date, "weekly", 0.9)
 
-    write_url(f, f"{BASE_URL}/sitemap.xml", today, "monthly", 0.3)
+    # (sitemap.xml no longer lists itself)
 
     f.write('</urlset>\n')
 
