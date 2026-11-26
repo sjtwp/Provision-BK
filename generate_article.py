@@ -6,6 +6,7 @@ import json
 import uuid
 from datetime import datetime
 import math
+import html as html_lib
 
 def parse_article_metadata(txt_file):
     """Parse metadata from a single article text file."""
@@ -168,19 +169,29 @@ def generate_article_html(txt_file):
     safe_title = title.replace(" ", "_").replace(":", "").replace("/", "_")
     output_file = os.path.join(output_folder, f"{safe_title}.html")  # File still needs .html
 
+    # Escaped copies for HTML attributes and JSON-LD (summaries often contain quotes)
+    summary = summary.strip()
+    summary_attr = html_lib.escape(summary, quote=False).replace('"', "&quot;")
+    summary_json = json.dumps(summary, ensure_ascii=False)[1:-1]
+    title_json = json.dumps(title, ensure_ascii=False)[1:-1]
+    try:
+        date_iso = datetime.strptime(date.strip(), "%B %d, %Y").date().isoformat()
+    except ValueError:
+        date_iso = date
+
     # HTML template for article
     html = f"""<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="{summary}">
+    <meta name="description" content="{summary_attr}">
     <meta name="keywords" content="bookkeeping, contractor vs employee, business finance, {author}">
     <link rel="canonical" href="https://provisionbk.com/Articles/Article_HTMLs/{safe_title}">
     <meta property="og:type" content="article">
     <meta property="og:site_name" content="Provision Bookkeeping">
     <meta property="og:title" content="{title}">
-    <meta property="og:description" content="{summary}">
+    <meta property="og:description" content="{summary_attr}">
     <meta property="og:url" content="https://provisionbk.com/Articles/Article_HTMLs/{safe_title}">
     <meta property="og:image" content="https://provisionbk.com/Articles/Article_Images/{image.replace(" ", "%20")}">
     <meta name="twitter:card" content="summary_large_image">
@@ -216,7 +227,7 @@ oogleapis.com/css2?family=Google+Sans+Code:ital,wght@0,300..800;1,300..800&displ
     {{
       "@context": "https://schema.org",
       "@type": "BlogPosting",
-      "headline": "{title}",
+      "headline": "{title_json}",
       "image": "https://provisionbk.com/Articles/Article_Images/{image}",
       "author": {{
         "@type": "Person",
@@ -230,8 +241,8 @@ oogleapis.com/css2?family=Google+Sans+Code:ital,wght@0,300..800;1,300..800&displ
           "url": "https://provisionbk.com/Provision%20Bookkeeping%20Logo.ico.png"
         }}
       }},
-      "datePublished": "{date}",
-      "description": "{summary}"
+      "datePublished": "{date_iso}",
+      "description": "{summary_json}"
     }}
     </script>
 </head>
